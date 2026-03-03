@@ -1,0 +1,901 @@
+prompt,intent
+Make wage type 7695 110 percent,PERCENT_INCREASE
+Set wage type 7695 to 90%,PERCENT_DECREASE
+Double wage type 7695,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 5095,PERCENT_INCREASE
+Apply 80% rate to wage type 5095,PERCENT_DECREASE
+Triple wage type 5095,PERCENT_MULTIPLIER
+Set wage type 9112 to 110% rate,PERCENT_INCREASE
+Apply 90% rate to wage type 9112,PERCENT_DECREASE
+Multiply wage type 9112 by 4,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 2713,PERCENT_INCREASE
+Decrease wage type 2713 by 80%,PERCENT_DECREASE
+Scale wage type 2713 by 3,PERCENT_MULTIPLIER
+Make wage type 6586 175 percent,PERCENT_INCREASE
+Apply 90% rate to wage type 6586,PERCENT_DECREASE
+Apply 1.5x to wage type 6586,PERCENT_MULTIPLIER
+Increase wage type 5302 by 110%,PERCENT_INCREASE
+Lower wage type 5302 by 70 percent,PERCENT_DECREASE
+Double wage type 5302,PERCENT_MULTIPLIER
+Set wage type 7549 to 130% rate,PERCENT_INCREASE
+Lower wage type 7549 by 70 percent,PERCENT_DECREASE
+Scale wage type 7549 by 1.5,PERCENT_MULTIPLIER
+Make wage type 9477 110 percent,PERCENT_INCREASE
+Lower wage type 9477 by 90 percent,PERCENT_DECREASE
+Multiply wage type 9477 by 3,PERCENT_MULTIPLIER
+Set wage type 7295 to 130% rate,PERCENT_INCREASE
+Apply 90% rate to wage type 7295,PERCENT_DECREASE
+Triple wage type 7295,PERCENT_MULTIPLIER
+Make wage type 5242 200 percent,PERCENT_INCREASE
+Apply 85% rate to wage type 5242,PERCENT_DECREASE
+Double wage type 5242,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 2174,PERCENT_INCREASE
+Apply 85% rate to wage type 2174,PERCENT_DECREASE
+Apply 3x to wage type 2174,PERCENT_MULTIPLIER
+Make wage type 2141 130 percent,PERCENT_INCREASE
+Apply 80% rate to wage type 2141,PERCENT_DECREASE
+Apply 2x to wage type 2141,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 7024,PERCENT_INCREASE
+Apply 80% rate to wage type 7024,PERCENT_DECREASE
+Apply 1.5x to wage type 7024,PERCENT_MULTIPLIER
+Calculate overtime at 130% for wage type 8264,PERCENT_INCREASE
+Decrease wage type 8264 by 80%,PERCENT_DECREASE
+Apply 1.5x to wage type 8264,PERCENT_MULTIPLIER
+Increase wage type 2384 by 175%,PERCENT_INCREASE
+Apply 75% rate to wage type 2384,PERCENT_DECREASE
+Double wage type 2384,PERCENT_MULTIPLIER
+Set wage type 4236 to 110% rate,PERCENT_INCREASE
+Set wage type 4236 to 90%,PERCENT_DECREASE
+Double wage type 4236,PERCENT_MULTIPLIER
+Make wage type 5685 130 percent,PERCENT_INCREASE
+Apply 75% rate to wage type 5685,PERCENT_DECREASE
+Multiply wage type 5685 by 2,PERCENT_MULTIPLIER
+Increase wage type 1980 by 110%,PERCENT_INCREASE
+Lower wage type 1980 by 85 percent,PERCENT_DECREASE
+Apply 3x to wage type 1980,PERCENT_MULTIPLIER
+Make wage type 4972 200 percent,PERCENT_INCREASE
+Set wage type 4972 to 70%,PERCENT_DECREASE
+Triple wage type 4972,PERCENT_MULTIPLIER
+Increase wage type 8098 by 120%,PERCENT_INCREASE
+Decrease wage type 8098 by 85%,PERCENT_DECREASE
+Triple wage type 8098,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 5746,PERCENT_INCREASE
+Reduce wage type 5746 to 90%,PERCENT_DECREASE
+Multiply wage type 5746 by 3,PERCENT_MULTIPLIER
+Increase wage type 3152 by 130%,PERCENT_INCREASE
+Decrease wage type 3152 by 90%,PERCENT_DECREASE
+Scale wage type 3152 by 1.5,PERCENT_MULTIPLIER
+Increase wage type 9943 by 200%,PERCENT_INCREASE
+Lower wage type 9943 by 90 percent,PERCENT_DECREASE
+Multiply wage type 9943 by 3,PERCENT_MULTIPLIER
+Set wage type 4100 to 110% rate,PERCENT_INCREASE
+Lower wage type 4100 by 70 percent,PERCENT_DECREASE
+Triple wage type 4100,PERCENT_MULTIPLIER
+Increase wage type 7291 by 200%,PERCENT_INCREASE
+Apply 70% rate to wage type 7291,PERCENT_DECREASE
+Apply 4x to wage type 7291,PERCENT_MULTIPLIER
+Calculate overtime at 175% for wage type 6273,PERCENT_INCREASE
+Apply 85% rate to wage type 6273,PERCENT_DECREASE
+Scale wage type 6273 by 1.5,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 4976,PERCENT_INCREASE
+Reduce wage type 4976 to 85%,PERCENT_DECREASE
+Triple wage type 4976,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 4789,PERCENT_INCREASE
+Apply 90% rate to wage type 4789,PERCENT_DECREASE
+Triple wage type 4789,PERCENT_MULTIPLIER
+Increase wage type 6175 by 130%,PERCENT_INCREASE
+Set wage type 6175 to 90%,PERCENT_DECREASE
+Apply 1.5x to wage type 6175,PERCENT_MULTIPLIER
+Set wage type 4137 to 120% rate,PERCENT_INCREASE
+Lower wage type 4137 by 75 percent,PERCENT_DECREASE
+Apply 4x to wage type 4137,PERCENT_MULTIPLIER
+Increase wage type 9689 by 175%,PERCENT_INCREASE
+Decrease wage type 9689 by 75%,PERCENT_DECREASE
+Scale wage type 9689 by 2,PERCENT_MULTIPLIER
+Set wage type 5414 to 120% rate,PERCENT_INCREASE
+Apply 75% rate to wage type 5414,PERCENT_DECREASE
+Multiply wage type 5414 by 3,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 9257,PERCENT_INCREASE
+Lower wage type 9257 by 80 percent,PERCENT_DECREASE
+Triple wage type 9257,PERCENT_MULTIPLIER
+Increase wage type 9773 by 120%,PERCENT_INCREASE
+Reduce wage type 9773 to 75%,PERCENT_DECREASE
+Triple wage type 9773,PERCENT_MULTIPLIER
+Increase wage type 4903 by 150%,PERCENT_INCREASE
+Lower wage type 4903 by 80 percent,PERCENT_DECREASE
+Double wage type 4903,PERCENT_MULTIPLIER
+Set wage type 5100 to 125% rate,PERCENT_INCREASE
+Set wage type 5100 to 70%,PERCENT_DECREASE
+Double wage type 5100,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 1210,PERCENT_INCREASE
+Decrease wage type 1210 by 80%,PERCENT_DECREASE
+Apply 1.5x to wage type 1210,PERCENT_MULTIPLIER
+Set wage type 7602 to 120% rate,PERCENT_INCREASE
+Apply 70% rate to wage type 7602,PERCENT_DECREASE
+Multiply wage type 7602 by 4,PERCENT_MULTIPLIER
+Set wage type 6821 to 120% rate,PERCENT_INCREASE
+Decrease wage type 6821 by 90%,PERCENT_DECREASE
+Scale wage type 6821 by 4,PERCENT_MULTIPLIER
+Apply 125% premium to wage type 3759,PERCENT_INCREASE
+Decrease wage type 3759 by 80%,PERCENT_DECREASE
+Apply 4x to wage type 3759,PERCENT_MULTIPLIER
+Apply 110% premium to wage type 6556,PERCENT_INCREASE
+Set wage type 6556 to 75%,PERCENT_DECREASE
+Multiply wage type 6556 by 4,PERCENT_MULTIPLIER
+Set wage type 2129 to 150% rate,PERCENT_INCREASE
+Decrease wage type 2129 by 80%,PERCENT_DECREASE
+Double wage type 2129,PERCENT_MULTIPLIER
+Apply 125% premium to wage type 4894,PERCENT_INCREASE
+Reduce wage type 4894 to 75%,PERCENT_DECREASE
+Apply 1.5x to wage type 4894,PERCENT_MULTIPLIER
+Make wage type 6513 150 percent,PERCENT_INCREASE
+Set wage type 6513 to 90%,PERCENT_DECREASE
+Apply 1.5x to wage type 6513,PERCENT_MULTIPLIER
+Apply 110% premium to wage type 9407,PERCENT_INCREASE
+Set wage type 9407 to 70%,PERCENT_DECREASE
+Apply 1.5x to wage type 9407,PERCENT_MULTIPLIER
+Set wage type 6993 to 125% rate,PERCENT_INCREASE
+Apply 80% rate to wage type 6993,PERCENT_DECREASE
+Triple wage type 6993,PERCENT_MULTIPLIER
+Make wage type 7302 200 percent,PERCENT_INCREASE
+Reduce wage type 7302 to 70%,PERCENT_DECREASE
+Multiply wage type 7302 by 2,PERCENT_MULTIPLIER
+Increase wage type 9537 by 150%,PERCENT_INCREASE
+Apply 75% rate to wage type 9537,PERCENT_DECREASE
+Triple wage type 9537,PERCENT_MULTIPLIER
+Make wage type 7382 200 percent,PERCENT_INCREASE
+Reduce wage type 7382 to 80%,PERCENT_DECREASE
+Apply 1.5x to wage type 7382,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 3272,PERCENT_INCREASE
+Decrease wage type 3272 by 75%,PERCENT_DECREASE
+Double wage type 3272,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 7125,PERCENT_INCREASE
+Reduce wage type 7125 to 85%,PERCENT_DECREASE
+Scale wage type 7125 by 3,PERCENT_MULTIPLIER
+Make wage type 5424 110 percent,PERCENT_INCREASE
+Apply 70% rate to wage type 5424,PERCENT_DECREASE
+Triple wage type 5424,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 9326,PERCENT_INCREASE
+Reduce wage type 9326 to 90%,PERCENT_DECREASE
+Scale wage type 9326 by 1.5,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 8835,PERCENT_INCREASE
+Set wage type 8835 to 75%,PERCENT_DECREASE
+Scale wage type 8835 by 1.5,PERCENT_MULTIPLIER
+Set wage type 7419 to 150% rate,PERCENT_INCREASE
+Decrease wage type 7419 by 85%,PERCENT_DECREASE
+Multiply wage type 7419 by 1.5,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 1632,PERCENT_INCREASE
+Decrease wage type 1632 by 85%,PERCENT_DECREASE
+Apply 3x to wage type 1632,PERCENT_MULTIPLIER
+Increase wage type 5517 by 200%,PERCENT_INCREASE
+Reduce wage type 5517 to 80%,PERCENT_DECREASE
+Multiply wage type 5517 by 4,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 6020,PERCENT_INCREASE
+Set wage type 6020 to 85%,PERCENT_DECREASE
+Triple wage type 6020,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 3192,PERCENT_INCREASE
+Reduce wage type 3192 to 80%,PERCENT_DECREASE
+Apply 3x to wage type 3192,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 8140,PERCENT_INCREASE
+Apply 75% rate to wage type 8140,PERCENT_DECREASE
+Triple wage type 8140,PERCENT_MULTIPLIER
+Calculate overtime at 175% for wage type 3533,PERCENT_INCREASE
+Decrease wage type 3533 by 75%,PERCENT_DECREASE
+Multiply wage type 3533 by 4,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 1868,PERCENT_INCREASE
+Apply 85% rate to wage type 1868,PERCENT_DECREASE
+Triple wage type 1868,PERCENT_MULTIPLIER
+Increase wage type 3047 by 130%,PERCENT_INCREASE
+Set wage type 3047 to 80%,PERCENT_DECREASE
+Scale wage type 3047 by 3,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 3145,PERCENT_INCREASE
+Reduce wage type 3145 to 85%,PERCENT_DECREASE
+Scale wage type 3145 by 4,PERCENT_MULTIPLIER
+Set wage type 1279 to 200% rate,PERCENT_INCREASE
+Apply 80% rate to wage type 1279,PERCENT_DECREASE
+Multiply wage type 1279 by 1.5,PERCENT_MULTIPLIER
+Make wage type 1041 125 percent,PERCENT_INCREASE
+Set wage type 1041 to 80%,PERCENT_DECREASE
+Apply 2x to wage type 1041,PERCENT_MULTIPLIER
+Apply 125% premium to wage type 4982,PERCENT_INCREASE
+Reduce wage type 4982 to 75%,PERCENT_DECREASE
+Apply 2x to wage type 4982,PERCENT_MULTIPLIER
+Set wage type 3027 to 200% rate,PERCENT_INCREASE
+Lower wage type 3027 by 70 percent,PERCENT_DECREASE
+Multiply wage type 3027 by 2,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 1587,PERCENT_INCREASE
+Lower wage type 1587 by 80 percent,PERCENT_DECREASE
+Scale wage type 1587 by 3,PERCENT_MULTIPLIER
+Calculate overtime at 120% for wage type 1244,PERCENT_INCREASE
+Decrease wage type 1244 by 90%,PERCENT_DECREASE
+Double wage type 1244,PERCENT_MULTIPLIER
+Apply 110% premium to wage type 1366,PERCENT_INCREASE
+Reduce wage type 1366 to 70%,PERCENT_DECREASE
+Apply 3x to wage type 1366,PERCENT_MULTIPLIER
+Make wage type 2229 200 percent,PERCENT_INCREASE
+Reduce wage type 2229 to 70%,PERCENT_DECREASE
+Double wage type 2229,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 1151,PERCENT_INCREASE
+Set wage type 1151 to 70%,PERCENT_DECREASE
+Multiply wage type 1151 by 1.5,PERCENT_MULTIPLIER
+Increase wage type 5713 by 125%,PERCENT_INCREASE
+Reduce wage type 5713 to 85%,PERCENT_DECREASE
+Multiply wage type 5713 by 3,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 3847,PERCENT_INCREASE
+Reduce wage type 3847 to 70%,PERCENT_DECREASE
+Triple wage type 3847,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 8059,PERCENT_INCREASE
+Reduce wage type 8059 to 75%,PERCENT_DECREASE
+Multiply wage type 8059 by 2,PERCENT_MULTIPLIER
+Apply 200% premium to wage type 4917,PERCENT_INCREASE
+Apply 85% rate to wage type 4917,PERCENT_DECREASE
+Double wage type 4917,PERCENT_MULTIPLIER
+Apply 110% premium to wage type 8271,PERCENT_INCREASE
+Reduce wage type 8271 to 80%,PERCENT_DECREASE
+Double wage type 8271,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 3108,PERCENT_INCREASE
+Apply 80% rate to wage type 3108,PERCENT_DECREASE
+Double wage type 3108,PERCENT_MULTIPLIER
+Increase wage type 9506 by 125%,PERCENT_INCREASE
+Decrease wage type 9506 by 80%,PERCENT_DECREASE
+Multiply wage type 9506 by 1.5,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 5261,PERCENT_INCREASE
+Set wage type 5261 to 70%,PERCENT_DECREASE
+Double wage type 5261,PERCENT_MULTIPLIER
+Increase wage type 5839 by 150%,PERCENT_INCREASE
+Apply 90% rate to wage type 5839,PERCENT_DECREASE
+Triple wage type 5839,PERCENT_MULTIPLIER
+Calculate overtime at 130% for wage type 1022,PERCENT_INCREASE
+Decrease wage type 1022 by 80%,PERCENT_DECREASE
+Multiply wage type 1022 by 2,PERCENT_MULTIPLIER
+Increase wage type 9383 by 130%,PERCENT_INCREASE
+Set wage type 9383 to 80%,PERCENT_DECREASE
+Apply 4x to wage type 9383,PERCENT_MULTIPLIER
+Set wage type 3468 to 175% rate,PERCENT_INCREASE
+Decrease wage type 3468 by 75%,PERCENT_DECREASE
+Apply 4x to wage type 3468,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 1050,PERCENT_INCREASE
+Lower wage type 1050 by 90 percent,PERCENT_DECREASE
+Triple wage type 1050,PERCENT_MULTIPLIER
+Calculate overtime at 120% for wage type 4941,PERCENT_INCREASE
+Reduce wage type 4941 to 90%,PERCENT_DECREASE
+Scale wage type 4941 by 4,PERCENT_MULTIPLIER
+Make wage type 3978 125 percent,PERCENT_INCREASE
+Set wage type 3978 to 90%,PERCENT_DECREASE
+Double wage type 3978,PERCENT_MULTIPLIER
+Make wage type 8758 125 percent,PERCENT_INCREASE
+Set wage type 8758 to 75%,PERCENT_DECREASE
+Scale wage type 8758 by 1.5,PERCENT_MULTIPLIER
+Set wage type 5677 to 125% rate,PERCENT_INCREASE
+Decrease wage type 5677 by 75%,PERCENT_DECREASE
+Double wage type 5677,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 5248,PERCENT_INCREASE
+Apply 75% rate to wage type 5248,PERCENT_DECREASE
+Double wage type 5248,PERCENT_MULTIPLIER
+Make wage type 8887 125 percent,PERCENT_INCREASE
+Decrease wage type 8887 by 70%,PERCENT_DECREASE
+Multiply wage type 8887 by 1.5,PERCENT_MULTIPLIER
+Set wage type 8214 to 200% rate,PERCENT_INCREASE
+Lower wage type 8214 by 85 percent,PERCENT_DECREASE
+Triple wage type 8214,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 9522,PERCENT_INCREASE
+Set wage type 9522 to 80%,PERCENT_DECREASE
+Scale wage type 9522 by 4,PERCENT_MULTIPLIER
+Make wage type 5108 150 percent,PERCENT_INCREASE
+Decrease wage type 5108 by 90%,PERCENT_DECREASE
+Triple wage type 5108,PERCENT_MULTIPLIER
+Make wage type 8901 110 percent,PERCENT_INCREASE
+Set wage type 8901 to 75%,PERCENT_DECREASE
+Multiply wage type 8901 by 4,PERCENT_MULTIPLIER
+Make wage type 8139 110 percent,PERCENT_INCREASE
+Decrease wage type 8139 by 80%,PERCENT_DECREASE
+Multiply wage type 8139 by 3,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 9403,PERCENT_INCREASE
+Decrease wage type 9403 by 80%,PERCENT_DECREASE
+Apply 2x to wage type 9403,PERCENT_MULTIPLIER
+Increase wage type 5975 by 130%,PERCENT_INCREASE
+Decrease wage type 5975 by 80%,PERCENT_DECREASE
+Scale wage type 5975 by 1.5,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 9254,PERCENT_INCREASE
+Apply 85% rate to wage type 9254,PERCENT_DECREASE
+Double wage type 9254,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 6097,PERCENT_INCREASE
+Apply 70% rate to wage type 6097,PERCENT_DECREASE
+Multiply wage type 6097 by 1.5,PERCENT_MULTIPLIER
+Set wage type 8638 to 125% rate,PERCENT_INCREASE
+Reduce wage type 8638 to 75%,PERCENT_DECREASE
+Scale wage type 8638 by 1.5,PERCENT_MULTIPLIER
+Increase wage type 1006 by 175%,PERCENT_INCREASE
+Reduce wage type 1006 to 90%,PERCENT_DECREASE
+Multiply wage type 1006 by 4,PERCENT_MULTIPLIER
+Set wage type 5506 to 125% rate,PERCENT_INCREASE
+Lower wage type 5506 by 90 percent,PERCENT_DECREASE
+Scale wage type 5506 by 2,PERCENT_MULTIPLIER
+Make wage type 9632 200 percent,PERCENT_INCREASE
+Lower wage type 9632 by 90 percent,PERCENT_DECREASE
+Multiply wage type 9632 by 2,PERCENT_MULTIPLIER
+Make wage type 6685 150 percent,PERCENT_INCREASE
+Lower wage type 6685 by 85 percent,PERCENT_DECREASE
+Double wage type 6685,PERCENT_MULTIPLIER
+Set wage type 2030 to 110% rate,PERCENT_INCREASE
+Lower wage type 2030 by 90 percent,PERCENT_DECREASE
+Multiply wage type 2030 by 2,PERCENT_MULTIPLIER
+Increase wage type 5472 by 125%,PERCENT_INCREASE
+Set wage type 5472 to 85%,PERCENT_DECREASE
+Multiply wage type 5472 by 4,PERCENT_MULTIPLIER
+Make wage type 8596 200 percent,PERCENT_INCREASE
+Apply 90% rate to wage type 8596,PERCENT_DECREASE
+Triple wage type 8596,PERCENT_MULTIPLIER
+Increase wage type 3944 by 150%,PERCENT_INCREASE
+Set wage type 3944 to 85%,PERCENT_DECREASE
+Triple wage type 3944,PERCENT_MULTIPLIER
+Increase wage type 7116 by 120%,PERCENT_INCREASE
+Lower wage type 7116 by 80 percent,PERCENT_DECREASE
+Triple wage type 7116,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 6021,PERCENT_INCREASE
+Reduce wage type 6021 to 75%,PERCENT_DECREASE
+Scale wage type 6021 by 1.5,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 5746,PERCENT_INCREASE
+Lower wage type 5746 by 80 percent,PERCENT_DECREASE
+Apply 1.5x to wage type 5746,PERCENT_MULTIPLIER
+Increase wage type 3493 by 200%,PERCENT_INCREASE
+Lower wage type 3493 by 90 percent,PERCENT_DECREASE
+Triple wage type 3493,PERCENT_MULTIPLIER
+Set wage type 8210 to 200% rate,PERCENT_INCREASE
+Apply 70% rate to wage type 8210,PERCENT_DECREASE
+Apply 3x to wage type 8210,PERCENT_MULTIPLIER
+Set wage type 9052 to 120% rate,PERCENT_INCREASE
+Apply 75% rate to wage type 9052,PERCENT_DECREASE
+Multiply wage type 9052 by 4,PERCENT_MULTIPLIER
+Apply 110% premium to wage type 1235,PERCENT_INCREASE
+Set wage type 1235 to 80%,PERCENT_DECREASE
+Triple wage type 1235,PERCENT_MULTIPLIER
+Increase wage type 2502 by 125%,PERCENT_INCREASE
+Lower wage type 2502 by 80 percent,PERCENT_DECREASE
+Apply 3x to wage type 2502,PERCENT_MULTIPLIER
+Set wage type 2711 to 120% rate,PERCENT_INCREASE
+Lower wage type 2711 by 85 percent,PERCENT_DECREASE
+Multiply wage type 2711 by 1.5,PERCENT_MULTIPLIER
+Set wage type 7203 to 150% rate,PERCENT_INCREASE
+Decrease wage type 7203 by 70%,PERCENT_DECREASE
+Double wage type 7203,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 7660,PERCENT_INCREASE
+Apply 90% rate to wage type 7660,PERCENT_DECREASE
+Apply 3x to wage type 7660,PERCENT_MULTIPLIER
+Make wage type 4907 130 percent,PERCENT_INCREASE
+Lower wage type 4907 by 90 percent,PERCENT_DECREASE
+Apply 4x to wage type 4907,PERCENT_MULTIPLIER
+Calculate overtime at 175% for wage type 7963,PERCENT_INCREASE
+Apply 90% rate to wage type 7963,PERCENT_DECREASE
+Multiply wage type 7963 by 2,PERCENT_MULTIPLIER
+Make wage type 3053 120 percent,PERCENT_INCREASE
+Lower wage type 3053 by 80 percent,PERCENT_DECREASE
+Apply 4x to wage type 3053,PERCENT_MULTIPLIER
+Calculate overtime at 130% for wage type 6525,PERCENT_INCREASE
+Apply 85% rate to wage type 6525,PERCENT_DECREASE
+Double wage type 6525,PERCENT_MULTIPLIER
+Set wage type 2908 to 110% rate,PERCENT_INCREASE
+Set wage type 2908 to 70%,PERCENT_DECREASE
+Triple wage type 2908,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 7271,PERCENT_INCREASE
+Apply 80% rate to wage type 7271,PERCENT_DECREASE
+Double wage type 7271,PERCENT_MULTIPLIER
+Make wage type 5922 200 percent,PERCENT_INCREASE
+Reduce wage type 5922 to 70%,PERCENT_DECREASE
+Multiply wage type 5922 by 4,PERCENT_MULTIPLIER
+Increase wage type 1693 by 175%,PERCENT_INCREASE
+Reduce wage type 1693 to 85%,PERCENT_DECREASE
+Double wage type 1693,PERCENT_MULTIPLIER
+Calculate overtime at 200% for wage type 1872,PERCENT_INCREASE
+Lower wage type 1872 by 90 percent,PERCENT_DECREASE
+Multiply wage type 1872 by 4,PERCENT_MULTIPLIER
+Apply 110% premium to wage type 1338,PERCENT_INCREASE
+Reduce wage type 1338 to 75%,PERCENT_DECREASE
+Double wage type 1338,PERCENT_MULTIPLIER
+Set wage type 4122 to 130% rate,PERCENT_INCREASE
+Apply 75% rate to wage type 4122,PERCENT_DECREASE
+Apply 1.5x to wage type 4122,PERCENT_MULTIPLIER
+Set wage type 3419 to 125% rate,PERCENT_INCREASE
+Apply 70% rate to wage type 3419,PERCENT_DECREASE
+Apply 2x to wage type 3419,PERCENT_MULTIPLIER
+Increase wage type 2533 by 120%,PERCENT_INCREASE
+Apply 70% rate to wage type 2533,PERCENT_DECREASE
+Apply 4x to wage type 2533,PERCENT_MULTIPLIER
+Increase wage type 5327 by 120%,PERCENT_INCREASE
+Apply 80% rate to wage type 5327,PERCENT_DECREASE
+Triple wage type 5327,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 4198,PERCENT_INCREASE
+Decrease wage type 4198 by 90%,PERCENT_DECREASE
+Triple wage type 4198,PERCENT_MULTIPLIER
+Make wage type 6003 130 percent,PERCENT_INCREASE
+Apply 80% rate to wage type 6003,PERCENT_DECREASE
+Triple wage type 6003,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 9844,PERCENT_INCREASE
+Lower wage type 9844 by 70 percent,PERCENT_DECREASE
+Apply 3x to wage type 9844,PERCENT_MULTIPLIER
+Apply 200% premium to wage type 9711,PERCENT_INCREASE
+Set wage type 9711 to 90%,PERCENT_DECREASE
+Scale wage type 9711 by 3,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 6071,PERCENT_INCREASE
+Set wage type 6071 to 80%,PERCENT_DECREASE
+Triple wage type 6071,PERCENT_MULTIPLIER
+Increase wage type 9788 by 125%,PERCENT_INCREASE
+Reduce wage type 9788 to 75%,PERCENT_DECREASE
+Multiply wage type 9788 by 4,PERCENT_MULTIPLIER
+Make wage type 9249 125 percent,PERCENT_INCREASE
+Reduce wage type 9249 to 80%,PERCENT_DECREASE
+Scale wage type 9249 by 2,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 4188,PERCENT_INCREASE
+Apply 90% rate to wage type 4188,PERCENT_DECREASE
+Triple wage type 4188,PERCENT_MULTIPLIER
+Set wage type 5174 to 125% rate,PERCENT_INCREASE
+Reduce wage type 5174 to 85%,PERCENT_DECREASE
+Triple wage type 5174,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 4271,PERCENT_INCREASE
+Set wage type 4271 to 85%,PERCENT_DECREASE
+Double wage type 4271,PERCENT_MULTIPLIER
+Set wage type 6510 to 175% rate,PERCENT_INCREASE
+Decrease wage type 6510 by 90%,PERCENT_DECREASE
+Multiply wage type 6510 by 2,PERCENT_MULTIPLIER
+Set wage type 3366 to 175% rate,PERCENT_INCREASE
+Reduce wage type 3366 to 85%,PERCENT_DECREASE
+Multiply wage type 3366 by 4,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 1438,PERCENT_INCREASE
+Apply 90% rate to wage type 1438,PERCENT_DECREASE
+Multiply wage type 1438 by 4,PERCENT_MULTIPLIER
+Set wage type 1117 to 110% rate,PERCENT_INCREASE
+Reduce wage type 1117 to 85%,PERCENT_DECREASE
+Multiply wage type 1117 by 1.5,PERCENT_MULTIPLIER
+Calculate overtime at 120% for wage type 2985,PERCENT_INCREASE
+Reduce wage type 2985 to 90%,PERCENT_DECREASE
+Double wage type 2985,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 8577,PERCENT_INCREASE
+Decrease wage type 8577 by 75%,PERCENT_DECREASE
+Double wage type 8577,PERCENT_MULTIPLIER
+Increase wage type 3550 by 110%,PERCENT_INCREASE
+Lower wage type 3550 by 75 percent,PERCENT_DECREASE
+Double wage type 3550,PERCENT_MULTIPLIER
+Make wage type 3293 200 percent,PERCENT_INCREASE
+Reduce wage type 3293 to 90%,PERCENT_DECREASE
+Multiply wage type 3293 by 1.5,PERCENT_MULTIPLIER
+Set wage type 7303 to 120% rate,PERCENT_INCREASE
+Apply 90% rate to wage type 7303,PERCENT_DECREASE
+Double wage type 7303,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 3065,PERCENT_INCREASE
+Decrease wage type 3065 by 85%,PERCENT_DECREASE
+Double wage type 3065,PERCENT_MULTIPLIER
+Set wage type 4077 to 175% rate,PERCENT_INCREASE
+Reduce wage type 4077 to 80%,PERCENT_DECREASE
+Apply 4x to wage type 4077,PERCENT_MULTIPLIER
+Make wage type 2408 175 percent,PERCENT_INCREASE
+Set wage type 2408 to 75%,PERCENT_DECREASE
+Multiply wage type 2408 by 4,PERCENT_MULTIPLIER
+Set wage type 1549 to 110% rate,PERCENT_INCREASE
+Apply 85% rate to wage type 1549,PERCENT_DECREASE
+Multiply wage type 1549 by 1.5,PERCENT_MULTIPLIER
+Increase wage type 6053 by 150%,PERCENT_INCREASE
+Apply 75% rate to wage type 6053,PERCENT_DECREASE
+Apply 2x to wage type 6053,PERCENT_MULTIPLIER
+Apply 130% premium to wage type 3991,PERCENT_INCREASE
+Reduce wage type 3991 to 80%,PERCENT_DECREASE
+Apply 1.5x to wage type 3991,PERCENT_MULTIPLIER
+Make wage type 8855 110 percent,PERCENT_INCREASE
+Decrease wage type 8855 by 85%,PERCENT_DECREASE
+Double wage type 8855,PERCENT_MULTIPLIER
+Apply 110% premium to wage type 6906,PERCENT_INCREASE
+Apply 85% rate to wage type 6906,PERCENT_DECREASE
+Apply 4x to wage type 6906,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 4566,PERCENT_INCREASE
+Set wage type 4566 to 90%,PERCENT_DECREASE
+Multiply wage type 4566 by 2,PERCENT_MULTIPLIER
+Increase wage type 1473 by 130%,PERCENT_INCREASE
+Apply 75% rate to wage type 1473,PERCENT_DECREASE
+Double wage type 1473,PERCENT_MULTIPLIER
+Increase wage type 2851 by 110%,PERCENT_INCREASE
+Reduce wage type 2851 to 90%,PERCENT_DECREASE
+Apply 2x to wage type 2851,PERCENT_MULTIPLIER
+Set wage type 9144 to 175% rate,PERCENT_INCREASE
+Lower wage type 9144 by 80 percent,PERCENT_DECREASE
+Scale wage type 9144 by 4,PERCENT_MULTIPLIER
+Make wage type 1587 200 percent,PERCENT_INCREASE
+Reduce wage type 1587 to 70%,PERCENT_DECREASE
+Double wage type 1587,PERCENT_MULTIPLIER
+Increase wage type 9083 by 120%,PERCENT_INCREASE
+Set wage type 9083 to 70%,PERCENT_DECREASE
+Scale wage type 9083 by 3,PERCENT_MULTIPLIER
+Apply 125% premium to wage type 2851,PERCENT_INCREASE
+Reduce wage type 2851 to 90%,PERCENT_DECREASE
+Apply 2x to wage type 2851,PERCENT_MULTIPLIER
+Increase wage type 5671 by 150%,PERCENT_INCREASE
+Apply 80% rate to wage type 5671,PERCENT_DECREASE
+Triple wage type 5671,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 6730,PERCENT_INCREASE
+Apply 70% rate to wage type 6730,PERCENT_DECREASE
+Scale wage type 6730 by 4,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 3936,PERCENT_INCREASE
+Set wage type 3936 to 75%,PERCENT_DECREASE
+Apply 2x to wage type 3936,PERCENT_MULTIPLIER
+Set wage type 7000 to 150% rate,PERCENT_INCREASE
+Reduce wage type 7000 to 75%,PERCENT_DECREASE
+Triple wage type 7000,PERCENT_MULTIPLIER
+Increase wage type 9513 by 150%,PERCENT_INCREASE
+Set wage type 9513 to 85%,PERCENT_DECREASE
+Apply 3x to wage type 9513,PERCENT_MULTIPLIER
+Set wage type 2749 to 175% rate,PERCENT_INCREASE
+Decrease wage type 2749 by 70%,PERCENT_DECREASE
+Apply 4x to wage type 2749,PERCENT_MULTIPLIER
+Make wage type 8897 125 percent,PERCENT_INCREASE
+Decrease wage type 8897 by 85%,PERCENT_DECREASE
+Double wage type 8897,PERCENT_MULTIPLIER
+Increase wage type 1965 by 125%,PERCENT_INCREASE
+Lower wage type 1965 by 75 percent,PERCENT_DECREASE
+Apply 3x to wage type 1965,PERCENT_MULTIPLIER
+Make wage type 2154 200 percent,PERCENT_INCREASE
+Lower wage type 2154 by 75 percent,PERCENT_DECREASE
+Apply 4x to wage type 2154,PERCENT_MULTIPLIER
+Make wage type 3537 200 percent,PERCENT_INCREASE
+Lower wage type 3537 by 70 percent,PERCENT_DECREASE
+Apply 4x to wage type 3537,PERCENT_MULTIPLIER
+Increase wage type 7818 by 125%,PERCENT_INCREASE
+Reduce wage type 7818 to 80%,PERCENT_DECREASE
+Multiply wage type 7818 by 3,PERCENT_MULTIPLIER
+Apply 200% premium to wage type 7715,PERCENT_INCREASE
+Apply 75% rate to wage type 7715,PERCENT_DECREASE
+Scale wage type 7715 by 3,PERCENT_MULTIPLIER
+Set wage type 8581 to 200% rate,PERCENT_INCREASE
+Set wage type 8581 to 75%,PERCENT_DECREASE
+Apply 2x to wage type 8581,PERCENT_MULTIPLIER
+Increase wage type 5996 by 110%,PERCENT_INCREASE
+Reduce wage type 5996 to 75%,PERCENT_DECREASE
+Scale wage type 5996 by 2,PERCENT_MULTIPLIER
+Make wage type 2084 120 percent,PERCENT_INCREASE
+Set wage type 2084 to 70%,PERCENT_DECREASE
+Scale wage type 2084 by 1.5,PERCENT_MULTIPLIER
+Increase wage type 2801 by 150%,PERCENT_INCREASE
+Apply 85% rate to wage type 2801,PERCENT_DECREASE
+Triple wage type 2801,PERCENT_MULTIPLIER
+Calculate overtime at 120% for wage type 3292,PERCENT_INCREASE
+Lower wage type 3292 by 70 percent,PERCENT_DECREASE
+Scale wage type 3292 by 3,PERCENT_MULTIPLIER
+Apply 200% premium to wage type 8638,PERCENT_INCREASE
+Reduce wage type 8638 to 75%,PERCENT_DECREASE
+Double wage type 8638,PERCENT_MULTIPLIER
+Increase wage type 8110 by 120%,PERCENT_INCREASE
+Reduce wage type 8110 to 75%,PERCENT_DECREASE
+Apply 1.5x to wage type 8110,PERCENT_MULTIPLIER
+Make wage type 7097 110 percent,PERCENT_INCREASE
+Reduce wage type 7097 to 85%,PERCENT_DECREASE
+Triple wage type 7097,PERCENT_MULTIPLIER
+Make wage type 7702 150 percent,PERCENT_INCREASE
+Lower wage type 7702 by 80 percent,PERCENT_DECREASE
+Multiply wage type 7702 by 1.5,PERCENT_MULTIPLIER
+Make wage type 2570 120 percent,PERCENT_INCREASE
+Apply 85% rate to wage type 2570,PERCENT_DECREASE
+Multiply wage type 2570 by 3,PERCENT_MULTIPLIER
+Set wage type 9047 to 130% rate,PERCENT_INCREASE
+Apply 80% rate to wage type 9047,PERCENT_DECREASE
+Double wage type 9047,PERCENT_MULTIPLIER
+Set wage type 2886 to 175% rate,PERCENT_INCREASE
+Apply 70% rate to wage type 2886,PERCENT_DECREASE
+Double wage type 2886,PERCENT_MULTIPLIER
+Increase wage type 3534 by 110%,PERCENT_INCREASE
+Reduce wage type 3534 to 80%,PERCENT_DECREASE
+Scale wage type 3534 by 3,PERCENT_MULTIPLIER
+Increase wage type 2526 by 175%,PERCENT_INCREASE
+Apply 70% rate to wage type 2526,PERCENT_DECREASE
+Multiply wage type 2526 by 3,PERCENT_MULTIPLIER
+Make wage type 9063 150 percent,PERCENT_INCREASE
+Set wage type 9063 to 75%,PERCENT_DECREASE
+Multiply wage type 9063 by 4,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 5055,PERCENT_INCREASE
+Apply 90% rate to wage type 5055,PERCENT_DECREASE
+Triple wage type 5055,PERCENT_MULTIPLIER
+Set wage type 6625 to 110% rate,PERCENT_INCREASE
+Apply 90% rate to wage type 6625,PERCENT_DECREASE
+Apply 4x to wage type 6625,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 7900,PERCENT_INCREASE
+Lower wage type 7900 by 85 percent,PERCENT_DECREASE
+Double wage type 7900,PERCENT_MULTIPLIER
+Set wage type 9993 to 130% rate,PERCENT_INCREASE
+Decrease wage type 9993 by 70%,PERCENT_DECREASE
+Triple wage type 9993,PERCENT_MULTIPLIER
+Set wage type 7224 to 175% rate,PERCENT_INCREASE
+Reduce wage type 7224 to 70%,PERCENT_DECREASE
+Apply 3x to wage type 7224,PERCENT_MULTIPLIER
+Increase wage type 8240 by 200%,PERCENT_INCREASE
+Set wage type 8240 to 90%,PERCENT_DECREASE
+Apply 4x to wage type 8240,PERCENT_MULTIPLIER
+Make wage type 4591 130 percent,PERCENT_INCREASE
+Apply 70% rate to wage type 4591,PERCENT_DECREASE
+Double wage type 4591,PERCENT_MULTIPLIER
+Set wage type 8296 to 175% rate,PERCENT_INCREASE
+Lower wage type 8296 by 90 percent,PERCENT_DECREASE
+Double wage type 8296,PERCENT_MULTIPLIER
+Set wage type 3057 to 110% rate,PERCENT_INCREASE
+Lower wage type 3057 by 80 percent,PERCENT_DECREASE
+Multiply wage type 3057 by 4,PERCENT_MULTIPLIER
+Make wage type 6909 175 percent,PERCENT_INCREASE
+Set wage type 6909 to 85%,PERCENT_DECREASE
+Double wage type 6909,PERCENT_MULTIPLIER
+Apply 175% premium to wage type 6903,PERCENT_INCREASE
+Set wage type 6903 to 80%,PERCENT_DECREASE
+Double wage type 6903,PERCENT_MULTIPLIER
+Set wage type 8295 to 150% rate,PERCENT_INCREASE
+Set wage type 8295 to 85%,PERCENT_DECREASE
+Double wage type 8295,PERCENT_MULTIPLIER
+Apply 125% premium to wage type 5914,PERCENT_INCREASE
+Set wage type 5914 to 80%,PERCENT_DECREASE
+Double wage type 5914,PERCENT_MULTIPLIER
+Increase wage type 5307 by 120%,PERCENT_INCREASE
+Lower wage type 5307 by 85 percent,PERCENT_DECREASE
+Multiply wage type 5307 by 1.5,PERCENT_MULTIPLIER
+Increase wage type 3624 by 200%,PERCENT_INCREASE
+Apply 90% rate to wage type 3624,PERCENT_DECREASE
+Multiply wage type 3624 by 2,PERCENT_MULTIPLIER
+Increase wage type 4861 by 120%,PERCENT_INCREASE
+Lower wage type 4861 by 90 percent,PERCENT_DECREASE
+Apply 2x to wage type 4861,PERCENT_MULTIPLIER
+Make wage type 8764 130 percent,PERCENT_INCREASE
+Lower wage type 8764 by 90 percent,PERCENT_DECREASE
+Double wage type 8764,PERCENT_MULTIPLIER
+Set wage type 5123 to 200% rate,PERCENT_INCREASE
+Decrease wage type 5123 by 75%,PERCENT_DECREASE
+Triple wage type 5123,PERCENT_MULTIPLIER
+Increase wage type 2570 by 110%,PERCENT_INCREASE
+Lower wage type 2570 by 80 percent,PERCENT_DECREASE
+Triple wage type 2570,PERCENT_MULTIPLIER
+Calculate overtime at 110% for wage type 5975,PERCENT_INCREASE
+Decrease wage type 5975 by 90%,PERCENT_DECREASE
+Apply 3x to wage type 5975,PERCENT_MULTIPLIER
+Make wage type 3674 110 percent,PERCENT_INCREASE
+Set wage type 3674 to 80%,PERCENT_DECREASE
+Triple wage type 3674,PERCENT_MULTIPLIER
+Set wage type 4358 to 150% rate,PERCENT_INCREASE
+Set wage type 4358 to 80%,PERCENT_DECREASE
+Multiply wage type 4358 by 1.5,PERCENT_MULTIPLIER
+Set wage type 8147 to 200% rate,PERCENT_INCREASE
+Reduce wage type 8147 to 70%,PERCENT_DECREASE
+Scale wage type 8147 by 2,PERCENT_MULTIPLIER
+Make wage type 1482 120 percent,PERCENT_INCREASE
+Lower wage type 1482 by 70 percent,PERCENT_DECREASE
+Double wage type 1482,PERCENT_MULTIPLIER
+Make wage type 1793 125 percent,PERCENT_INCREASE
+Apply 85% rate to wage type 1793,PERCENT_DECREASE
+Scale wage type 1793 by 1.5,PERCENT_MULTIPLIER
+Make wage type 7467 130 percent,PERCENT_INCREASE
+Lower wage type 7467 by 70 percent,PERCENT_DECREASE
+Scale wage type 7467 by 2,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 6111,PERCENT_INCREASE
+Set wage type 6111 to 80%,PERCENT_DECREASE
+Triple wage type 6111,PERCENT_MULTIPLIER
+Calculate overtime at 200% for wage type 8002,PERCENT_INCREASE
+Set wage type 8002 to 85%,PERCENT_DECREASE
+Multiply wage type 8002 by 1.5,PERCENT_MULTIPLIER
+Make wage type 2757 125 percent,PERCENT_INCREASE
+Reduce wage type 2757 to 85%,PERCENT_DECREASE
+Multiply wage type 2757 by 3,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 9061,PERCENT_INCREASE
+Apply 90% rate to wage type 9061,PERCENT_DECREASE
+Multiply wage type 9061 by 1.5,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 5912,PERCENT_INCREASE
+Apply 70% rate to wage type 5912,PERCENT_DECREASE
+Apply 4x to wage type 5912,PERCENT_MULTIPLIER
+Apply 130% premium to wage type 1295,PERCENT_INCREASE
+Apply 90% rate to wage type 1295,PERCENT_DECREASE
+Double wage type 1295,PERCENT_MULTIPLIER
+Set wage type 6273 to 200% rate,PERCENT_INCREASE
+Lower wage type 6273 by 85 percent,PERCENT_DECREASE
+Multiply wage type 6273 by 4,PERCENT_MULTIPLIER
+Calculate overtime at 130% for wage type 9722,PERCENT_INCREASE
+Set wage type 9722 to 80%,PERCENT_DECREASE
+Double wage type 9722,PERCENT_MULTIPLIER
+Set wage type 3887 to 120% rate,PERCENT_INCREASE
+Reduce wage type 3887 to 70%,PERCENT_DECREASE
+Multiply wage type 3887 by 1.5,PERCENT_MULTIPLIER
+Make wage type 5057 125 percent,PERCENT_INCREASE
+Lower wage type 5057 by 75 percent,PERCENT_DECREASE
+Multiply wage type 5057 by 1.5,PERCENT_MULTIPLIER
+Calculate overtime at 200% for wage type 7003,PERCENT_INCREASE
+Decrease wage type 7003 by 80%,PERCENT_DECREASE
+Triple wage type 7003,PERCENT_MULTIPLIER
+Increase wage type 3944 by 120%,PERCENT_INCREASE
+Apply 75% rate to wage type 3944,PERCENT_DECREASE
+Triple wage type 3944,PERCENT_MULTIPLIER
+Make wage type 8786 130 percent,PERCENT_INCREASE
+Set wage type 8786 to 80%,PERCENT_DECREASE
+Multiply wage type 8786 by 4,PERCENT_MULTIPLIER
+Make wage type 9826 120 percent,PERCENT_INCREASE
+Apply 75% rate to wage type 9826,PERCENT_DECREASE
+Apply 3x to wage type 9826,PERCENT_MULTIPLIER
+Set wage type 3307 to 175% rate,PERCENT_INCREASE
+Set wage type 3307 to 90%,PERCENT_DECREASE
+Triple wage type 3307,PERCENT_MULTIPLIER
+Make wage type 9959 175 percent,PERCENT_INCREASE
+Lower wage type 9959 by 75 percent,PERCENT_DECREASE
+Apply 4x to wage type 9959,PERCENT_MULTIPLIER
+Calculate overtime at 130% for wage type 7257,PERCENT_INCREASE
+Lower wage type 7257 by 80 percent,PERCENT_DECREASE
+Scale wage type 7257 by 2,PERCENT_MULTIPLIER
+Make wage type 6877 200 percent,PERCENT_INCREASE
+Apply 75% rate to wage type 6877,PERCENT_DECREASE
+Triple wage type 6877,PERCENT_MULTIPLIER
+Make wage type 3335 130 percent,PERCENT_INCREASE
+Set wage type 3335 to 75%,PERCENT_DECREASE
+Multiply wage type 3335 by 2,PERCENT_MULTIPLIER
+Make wage type 9770 110 percent,PERCENT_INCREASE
+Lower wage type 9770 by 90 percent,PERCENT_DECREASE
+Double wage type 9770,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 9641,PERCENT_INCREASE
+Set wage type 9641 to 70%,PERCENT_DECREASE
+Scale wage type 9641 by 1.5,PERCENT_MULTIPLIER
+Set wage type 8580 to 175% rate,PERCENT_INCREASE
+Reduce wage type 8580 to 70%,PERCENT_DECREASE
+Triple wage type 8580,PERCENT_MULTIPLIER
+Apply 130% premium to wage type 6677,PERCENT_INCREASE
+Apply 75% rate to wage type 6677,PERCENT_DECREASE
+Double wage type 6677,PERCENT_MULTIPLIER
+Set wage type 7603 to 175% rate,PERCENT_INCREASE
+Lower wage type 7603 by 85 percent,PERCENT_DECREASE
+Double wage type 7603,PERCENT_MULTIPLIER
+Apply 110% premium to wage type 2100,PERCENT_INCREASE
+Apply 90% rate to wage type 2100,PERCENT_DECREASE
+Apply 2x to wage type 2100,PERCENT_MULTIPLIER
+Increase wage type 8239 by 200%,PERCENT_INCREASE
+Decrease wage type 8239 by 70%,PERCENT_DECREASE
+Triple wage type 8239,PERCENT_MULTIPLIER
+Make wage type 5737 120 percent,PERCENT_INCREASE
+Set wage type 5737 to 90%,PERCENT_DECREASE
+Triple wage type 5737,PERCENT_MULTIPLIER
+Set wage type 2567 to 130% rate,PERCENT_INCREASE
+Reduce wage type 2567 to 90%,PERCENT_DECREASE
+Scale wage type 2567 by 2,PERCENT_MULTIPLIER
+Increase wage type 1691 by 125%,PERCENT_INCREASE
+Apply 90% rate to wage type 1691,PERCENT_DECREASE
+Double wage type 1691,PERCENT_MULTIPLIER
+Make wage type 2895 130 percent,PERCENT_INCREASE
+Decrease wage type 2895 by 85%,PERCENT_DECREASE
+Double wage type 2895,PERCENT_MULTIPLIER
+Make wage type 1170 150 percent,PERCENT_INCREASE
+Decrease wage type 1170 by 70%,PERCENT_DECREASE
+Double wage type 1170,PERCENT_MULTIPLIER
+Calculate overtime at 200% for wage type 7007,PERCENT_INCREASE
+Reduce wage type 7007 to 85%,PERCENT_DECREASE
+Multiply wage type 7007 by 3,PERCENT_MULTIPLIER
+Set wage type 8973 to 200% rate,PERCENT_INCREASE
+Lower wage type 8973 by 75 percent,PERCENT_DECREASE
+Scale wage type 8973 by 1.5,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 9601,PERCENT_INCREASE
+Lower wage type 9601 by 80 percent,PERCENT_DECREASE
+Triple wage type 9601,PERCENT_MULTIPLIER
+Increase wage type 3749 by 125%,PERCENT_INCREASE
+Set wage type 3749 to 80%,PERCENT_DECREASE
+Multiply wage type 3749 by 4,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 9789,PERCENT_INCREASE
+Apply 90% rate to wage type 9789,PERCENT_DECREASE
+Multiply wage type 9789 by 4,PERCENT_MULTIPLIER
+Increase wage type 8904 by 130%,PERCENT_INCREASE
+Reduce wage type 8904 to 80%,PERCENT_DECREASE
+Scale wage type 8904 by 4,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 8741,PERCENT_INCREASE
+Set wage type 8741 to 90%,PERCENT_DECREASE
+Multiply wage type 8741 by 1.5,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 8069,PERCENT_INCREASE
+Lower wage type 8069 by 70 percent,PERCENT_DECREASE
+Multiply wage type 8069 by 4,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 5407,PERCENT_INCREASE
+Reduce wage type 5407 to 75%,PERCENT_DECREASE
+Apply 4x to wage type 5407,PERCENT_MULTIPLIER
+Make wage type 9437 110 percent,PERCENT_INCREASE
+Reduce wage type 9437 to 90%,PERCENT_DECREASE
+Apply 2x to wage type 9437,PERCENT_MULTIPLIER
+Make wage type 2503 120 percent,PERCENT_INCREASE
+Apply 70% rate to wage type 2503,PERCENT_DECREASE
+Apply 1.5x to wage type 2503,PERCENT_MULTIPLIER
+Make wage type 1943 200 percent,PERCENT_INCREASE
+Set wage type 1943 to 75%,PERCENT_DECREASE
+Apply 2x to wage type 1943,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 8216,PERCENT_INCREASE
+Reduce wage type 8216 to 80%,PERCENT_DECREASE
+Apply 3x to wage type 8216,PERCENT_MULTIPLIER
+Make wage type 1247 175 percent,PERCENT_INCREASE
+Apply 80% rate to wage type 1247,PERCENT_DECREASE
+Double wage type 1247,PERCENT_MULTIPLIER
+Calculate overtime at 175% for wage type 7811,PERCENT_INCREASE
+Set wage type 7811 to 75%,PERCENT_DECREASE
+Apply 3x to wage type 7811,PERCENT_MULTIPLIER
+Make wage type 2038 120 percent,PERCENT_INCREASE
+Lower wage type 2038 by 75 percent,PERCENT_DECREASE
+Multiply wage type 2038 by 3,PERCENT_MULTIPLIER
+Apply 130% premium to wage type 3645,PERCENT_INCREASE
+Apply 85% rate to wage type 3645,PERCENT_DECREASE
+Multiply wage type 3645 by 1.5,PERCENT_MULTIPLIER
+Set wage type 9991 to 125% rate,PERCENT_INCREASE
+Set wage type 9991 to 70%,PERCENT_DECREASE
+Scale wage type 9991 by 2,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 8853,PERCENT_INCREASE
+Lower wage type 8853 by 75 percent,PERCENT_DECREASE
+Triple wage type 8853,PERCENT_MULTIPLIER
+Set wage type 4850 to 125% rate,PERCENT_INCREASE
+Lower wage type 4850 by 85 percent,PERCENT_DECREASE
+Scale wage type 4850 by 2,PERCENT_MULTIPLIER
+Increase wage type 5844 by 125%,PERCENT_INCREASE
+Apply 90% rate to wage type 5844,PERCENT_DECREASE
+Multiply wage type 5844 by 1.5,PERCENT_MULTIPLIER
+Calculate overtime at 125% for wage type 6131,PERCENT_INCREASE
+Decrease wage type 6131 by 75%,PERCENT_DECREASE
+Triple wage type 6131,PERCENT_MULTIPLIER
+Calculate overtime at 150% for wage type 6764,PERCENT_INCREASE
+Reduce wage type 6764 to 85%,PERCENT_DECREASE
+Scale wage type 6764 by 4,PERCENT_MULTIPLIER
+Increase wage type 1312 by 200%,PERCENT_INCREASE
+Decrease wage type 1312 by 70%,PERCENT_DECREASE
+Double wage type 1312,PERCENT_MULTIPLIER
+Calculate overtime at 175% for wage type 8010,PERCENT_INCREASE
+Reduce wage type 8010 to 70%,PERCENT_DECREASE
+Double wage type 8010,PERCENT_MULTIPLIER
+Increase wage type 6106 by 125%,PERCENT_INCREASE
+Decrease wage type 6106 by 75%,PERCENT_DECREASE
+Scale wage type 6106 by 1.5,PERCENT_MULTIPLIER
+Calculate overtime at 130% for wage type 9255,PERCENT_INCREASE
+Decrease wage type 9255 by 75%,PERCENT_DECREASE
+Multiply wage type 9255 by 3,PERCENT_MULTIPLIER
+Apply 200% premium to wage type 5997,PERCENT_INCREASE
+Lower wage type 5997 by 80 percent,PERCENT_DECREASE
+Apply 4x to wage type 5997,PERCENT_MULTIPLIER
+Make wage type 4261 200 percent,PERCENT_INCREASE
+Set wage type 4261 to 80%,PERCENT_DECREASE
+Triple wage type 4261,PERCENT_MULTIPLIER
+Apply 200% premium to wage type 4778,PERCENT_INCREASE
+Set wage type 4778 to 75%,PERCENT_DECREASE
+Apply 2x to wage type 4778,PERCENT_MULTIPLIER
+Calculate overtime at 120% for wage type 5949,PERCENT_INCREASE
+Decrease wage type 5949 by 90%,PERCENT_DECREASE
+Triple wage type 5949,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 7186,PERCENT_INCREASE
+Apply 80% rate to wage type 7186,PERCENT_DECREASE
+Triple wage type 7186,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 2886,PERCENT_INCREASE
+Set wage type 2886 to 80%,PERCENT_DECREASE
+Scale wage type 2886 by 4,PERCENT_MULTIPLIER
+Apply 125% premium to wage type 1491,PERCENT_INCREASE
+Lower wage type 1491 by 85 percent,PERCENT_DECREASE
+Apply 4x to wage type 1491,PERCENT_MULTIPLIER
+Increase wage type 8720 by 125%,PERCENT_INCREASE
+Set wage type 8720 to 75%,PERCENT_DECREASE
+Double wage type 8720,PERCENT_MULTIPLIER
+Increase wage type 4262 by 125%,PERCENT_INCREASE
+Apply 75% rate to wage type 4262,PERCENT_DECREASE
+Multiply wage type 4262 by 1.5,PERCENT_MULTIPLIER
+Make wage type 7167 125 percent,PERCENT_INCREASE
+Lower wage type 7167 by 90 percent,PERCENT_DECREASE
+Apply 1.5x to wage type 7167,PERCENT_MULTIPLIER
+Apply 200% premium to wage type 1434,PERCENT_INCREASE
+Reduce wage type 1434 to 80%,PERCENT_DECREASE
+Double wage type 1434,PERCENT_MULTIPLIER
+Set wage type 8228 to 120% rate,PERCENT_INCREASE
+Set wage type 8228 to 70%,PERCENT_DECREASE
+Apply 4x to wage type 8228,PERCENT_MULTIPLIER
+Set wage type 6872 to 200% rate,PERCENT_INCREASE
+Apply 80% rate to wage type 6872,PERCENT_DECREASE
+Triple wage type 6872,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 2585,PERCENT_INCREASE
+Lower wage type 2585 by 70 percent,PERCENT_DECREASE
+Multiply wage type 2585 by 3,PERCENT_MULTIPLIER
+Apply 120% premium to wage type 8491,PERCENT_INCREASE
+Reduce wage type 8491 to 90%,PERCENT_DECREASE
+Triple wage type 8491,PERCENT_MULTIPLIER
+Increase wage type 7970 by 175%,PERCENT_INCREASE
+Decrease wage type 7970 by 70%,PERCENT_DECREASE
+Double wage type 7970,PERCENT_MULTIPLIER
+Increase wage type 3887 by 130%,PERCENT_INCREASE
+Lower wage type 3887 by 85 percent,PERCENT_DECREASE
+Multiply wage type 3887 by 2,PERCENT_MULTIPLIER
+Make wage type 5279 130 percent,PERCENT_INCREASE
+Reduce wage type 5279 to 90%,PERCENT_DECREASE
+Double wage type 5279,PERCENT_MULTIPLIER
+Apply 150% premium to wage type 6690,PERCENT_INCREASE
+Decrease wage type 6690 by 70%,PERCENT_DECREASE
+Apply 1.5x to wage type 6690,PERCENT_MULTIPLIER
+Set wage type 4545 to 120% rate,PERCENT_INCREASE
+Reduce wage type 4545 to 85%,PERCENT_DECREASE
+Multiply wage type 4545 by 4,PERCENT_MULTIPLIER

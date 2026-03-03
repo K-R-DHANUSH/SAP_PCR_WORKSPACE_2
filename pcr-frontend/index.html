@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SAP PCR Workspace – Learning Edition</title>
+
+  <link rel="stylesheet" href="./app.css" />
+
+<!-- Backend URL injected by Render.com -->
+<script>
+ window.BACKEND_URL = "https://sap-pcr-workspace.dhanushkrd02.workers.dev";
+</script>
+  
+</head>
+
+<body class="theme-modern">
+  <div class="sap-window">
+
+    <!-- TITLE BAR -->
+    <div class="sap-titlebar">
+      <div class="sap-logo-modern">SAP</div>
+      <span class="title-text">SAP PCR Workspace – Learning Edition</span>
+    </div>
+
+    <!-- TOOLBAR -->
+    <div class="sap-toolbar">
+      <button class="sap-btn" id="btn-mode">Change &lt;-&gt; Display</button>
+      <button class="sap-btn" id="btn-check">Check</button>
+      <button class="sap-btn" id="btn-create">Create</button>
+      <button class="sap-btn" id="btn-delete">Delete</button>
+      <button class="sap-btn" id="btn-cut">Cut</button>
+      <button class="sap-btn" id="btn-copy-buffer">Copy to buffer</button>
+      <button class="sap-btn" id="btn-paste">Paste</button>
+      <button class="sap-btn" id="btn-reassign">Reassign</button>
+
+      <div class="sap-toolbar-spacer"></div>
+
+      <span class="sap-theme-label">Theme:</span>
+      <select id="theme-select" class="sap-select sap-theme-select">
+        <option value="modern">Modern SAP UI</option>
+        
+      </select>
+      <span class="sap-toolbar-more">»</span>
+    </div>
+
+    <!-- MAIN LAYOUT -->
+    <div class="main">
+
+      
+
+      <!-- CENTER PANEL -->
+      <div class="panel panel-center" id="panel-center">
+
+        <div id="pcr-header-screen" class="panel-body pcr-header-full">
+          <div class="pcr-header-row">
+            <label>Rule:</label>
+            <input id="rule-id" class="rule-input-small header-field" placeholder="PCR ID (e.g. Z000)" />
+            <input id="rule-text" class="rule-input-wide header-field" placeholder="PCR description" />
+          </div>
+
+          <div class="pcr-header-row">
+            <label>ESGrp:</label>
+            <input id="rule-esgrp" class="rule-input-small header-field" placeholder="*" />
+            <label>Wage/time type:</label>
+            <input id="rule-wt" class="rule-input-small header-field" placeholder="2000" />
+
+            <button id="btn-attributes" class="sap-btn small">Attributes</button>
+            <button id="btn-doc" class="sap-btn small">Documentation</button>
+          </div>
+
+          <div id="pcr-header-hint" class="pcr-header-hint">
+            Fill all fields and press <b>ENTER</b> on Wage type to open the workspace.
+          </div>
+        </div>
+
+        <!-- WORKSPACE -->
+        <div id="workspace-area" class="hidden">
+
+          <div class="panel-header center-header">
+            <span>PCR Workspace</span>
+            <div class="rule-mini-header">
+              <span id="hdr-mini-rule"></span> |
+              <span id="hdr-mini-esgrp"></span> |
+              <span id="hdr-mini-wt"></span>
+            </div>
+
+            <div class="center-toggle">
+              <button id="btn-tree-view" class="view-toggle-btn active">Table View</button>
+              <button id="btn-editor-view" class="view-toggle-btn">Editor</button>
+            </div>
+          </div>
+
+          <div class="panel-body center-body">
+
+            <div id="tree-view" class="center-view active">
+              <div class="tree-preview-wrapper" id="tree-wrapper">
+                <div id="tree-preview" class="tree-preview">(no lines yet)</div>
+                <div id="inline-suggest" class="inline-suggest hidden"></div>
+              </div>
+            </div>
+
+            <div id="editor-view" class="center-view">
+              <div class="editor-wrapper">
+                <textarea id="pcr-editor" spellcheck="false"></textarea>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT RESIZER -->
+      <div class="resizer" id="resizer-right"></div>
+
+      <!-- RIGHT PANEL (AI COLUMN) -->
+      <div class="panel panel-right" id="panel-right">
+        <div class="panel-header">AI Copilot</div>
+        <div class="panel-body ai-body">
+
+          <!-- AI PCR GENERATOR -->
+          <div class="ai-section ai-generator">
+            <div class="ai-section-title">AI PCR Generator</div>
+            <div class="ai-section-body">
+              <textarea
+                id="ai-prompt"
+                class="doc-textarea"
+                placeholder="Describe your payroll scenario&#10;Example: Calculate overtime at 150% for hours above planned working time, store result in wage type 9000..."
+              ></textarea>
+
+              <div style="margin-top:4px; display:flex; gap:6px; align-items:center; flex-wrap:wrap;">
+                <button id="ai-generate-btn" class="sap-btn small">Generate PCR</button>
+                <span id="ai-status" style="font-size:11px; opacity:0.8;"></span>
+              </div>
+
+              <div style="margin-top:6px;">
+                <div style="font-weight:bold; margin-bottom:3px;">Generated PCR (preview)</div>
+                <textarea
+                  id="ai-pcr-preview"
+                  class="doc-textarea"
+                  placeholder="Generated PCR will appear here..."
+                  readonly
+                ></textarea>
+                <div style="margin-top:4px; display:flex; gap:6px; flex-wrap:wrap;">
+                  <button id="ai-copy-btn" class="sap-btn small">Copy to workspace</button>
+                  <button id="ai-clear-btn" class="sap-btn small">Clear</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXISTING PANELS BELOW (UNCHANGED) -->
+
+          <div id="ai-welcome" class="ai-card">
+            <div class="ai-card-title">Blank learning workspace ✔</div>
+            <div class="ai-card-text">
+              Fill the header (Rule, ESGrp, Wage/time type) and press Enter.<br />
+              I’ll generate the first wage type node and analyse your PCR as you build it.
+            </div>
+          </div>
+
+          <div class="ai-section ai-hints">
+            <div class="ai-section-title">Hints</div>
+            <div id="ai-issues" class="ai-section-body"></div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- STATUS BAR -->
+    <div class="sap-statusbar">
+      <div class="status-segment">Lines: <span id="status-lines">0</span></div>
+      <div class="status-segment">Cursor: <span id="status-cursor">1:1</span></div>
+      <div class="status-segment flex-grow">Ready</div>
+      <div class="status-segment">Mode: <span id="status-mode">Change</span></div>
+    </div>
+
+  </div>
+
+  <!-- POPUPS + MODALS -->
+  <div id="insert-popup" class="insert-popup hidden">
+    <div class="insert-box">
+      <h3>Insert object</h3>
+      <div class="row">On which level should it be inserted?</div>
+      <div class="insert-buttons">
+        <button id="insert-same" class="insert-btn">Same level</button>
+        <button id="insert-sub" class="insert-btn">Sub-level</button>
+        <button id="insert-cancel" class="insert-btn">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="attr-modal" class="modal-overlay hidden">
+    <div class="modal modal-wide">
+      <div class="modal-title">
+        Edit Rule: Attributes
+        <button id="attr-close" class="modal-close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="attr-row">
+          <label>Rule:</label>
+          <input id="attr-rule" class="rule-input-small" disabled />
+          <input id="attr-rule-text" class="rule-input-wide" disabled />
+        </div>
+        <div class="attr-row">
+          <label>Program class:</label>
+          <input id="attr-program" class="rule-input-small" disabled />
+          <label>Country grouping:</label>
+          <input id="attr-country" class="rule-input-small" disabled />
+        </div>
+        <div class="attr-row">
+          <label>Person responsible:</label>
+          <input id="attr-person" class="rule-input-wide" disabled />
+        </div>
+        <hr />
+        <div class="attr-row small-text">
+          <div>Created on: <span id="attr-created">–</span></div>
+          <div>Last changed: <span id="attr-changed">–</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="doc-modal" class="modal-overlay hidden">
+    <div class="modal modal-wide">
+      <div class="modal-title">
+        Documentation
+        <button id="doc-close" class="modal-close">✕</button>
+      </div>
+      <div class="modal-body">
+        <textarea id="doc-text" class="doc-textarea" placeholder="No documentation exists."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div id="oplib-modal" class="modal-overlay hidden">
+    <div class="modal modal-wide">
+      <div class="modal-title">
+        <span id="oplib-title">PCR Operation Library</span>
+        <button id="oplib-close" class="modal-close">✕</button>
+      </div>
+      <div id="oplib-body"
+           class="modal-body"
+           style="max-height:360px; overflow:auto; font-family:'Courier New','Consolas',monospace; font-size:12px;">
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden helpers required by JS (do not remove) -->
+<button id="btn-ping" style="display:none"></button>
+<button id="btn-move-up" style="display:none"></button>
+<button id="btn-move-down" style="display:none"></button>
+<button id="btn-export" style="display:none"></button>
+<button id="btn-import" style="display:none"></button>
+<input  id="btn-upload" type="file" style="display:none" />
+<button id="btn-reset" style="display:none"></button>
+
+
+<script>
+  window.BACKEND_URL = "https://musical-disco-jgp4pprjr9q3pgrj-8000.app.github.dev";
+</script>
+
+ <script src="./scripts/index.js"></script>
+<script src="./scripts/ai-validator.js"></script>
+
+
+</body>
+
+</html>
+

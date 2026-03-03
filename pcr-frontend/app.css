@@ -1,0 +1,830 @@
+/* =========================================
+   GLOBAL BASE
+=========================================*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.sap-window {
+  width: 1180px;
+  max-width: 100%;
+  height: 690px;
+  max-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* status bar stays at bottom */
+  border: 1px solid rgb(95,95,95);
+}
+
+/* =========================================
+   THEMES
+=========================================*/
+body.theme-classic {
+  background: #c4c4c2;
+  color: #000;
+}
+
+body.theme-classic .sap-window {
+  background: #cfcfca;
+  border: 2px solid #b0b0b0;
+}
+
+body.theme-classic .panel {
+  background: #deded8;
+  border-right: 1px solid #7c7c7c;
+  border-bottom: 1px solid #7c7c7c;
+}
+
+body.theme-classic .sap-toolbar {
+  background: #e7e7e2;
+  border-bottom: 2px solid #797979;
+}
+
+body.theme-classic .sap-btn {
+  background: #eaeaea;
+  border: 1px solid #747474;
+  color: #000;
+}
+
+body.theme-classic .panel-header {
+  background: #d9d9d4;
+  border-bottom: 1px solid #747474;
+}
+
+/* Modern SAP Fiori look */
+body.theme-modern {
+  background: #f6f8fb;
+  color: #1c2833;
+}
+
+body.theme-modern .sap-window {
+  background: #fff;
+  border: 1px solid #c2ced6;
+}
+
+body.theme-modern .panel {
+  background: #fff;
+  border-right: 1px solid #dde2e7;
+  border-bottom: 1px solid #dde2e7;
+}
+
+body.theme-modern .sap-toolbar {
+  background: #f9fbfd;
+  border-bottom: 1px solid #d0d7de;
+}
+
+body.theme-modern .sap-btn {
+  background: #fff;
+  border: 1px solid #93b4e0;
+  color: #294e80;
+}
+
+body.theme-modern .sap-btn:hover {
+  background: #e3f0ff;
+}
+
+body.theme-modern .panel-header {
+  background: #f1f5fa;
+  border-bottom: 1px solid #d0d7de;
+}
+
+/* Modern SAP Logo visible only in modern theme */
+.sap-logo-modern {
+  display: none;
+  font-weight: bold;
+  background: #0a6ed1;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+body.theme-modern .sap-logo-modern {
+  display: inline-block;
+}
+
+/* =========================================
+   TITLE BAR
+=========================================*/
+.sap-titlebar {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  border-bottom: 1px solid #878787;
+}
+
+.title-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* =========================================
+   TOOLBAR
+=========================================*/
+.sap-toolbar {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  gap: 4px;
+  font-size: 13px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.sap-toolbar > * {
+  flex-shrink: 0;
+}
+
+.sap-toolbar-spacer {
+  flex-grow: 1;
+}
+
+.sap-toolbar-more {
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+/* =========================================
+   BUTTONS / INPUTS
+=========================================*/
+.sap-btn {
+  padding: 3px 7px;
+  border: 1px solid #777;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.sap-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.sap-btn:active:not(:disabled) {
+  transform: scale(0.96);
+}
+
+.sap-select {
+  padding: 2px 3px;
+  font-size: 12px;
+}
+
+.sap-input {
+  height: 22px;
+  font-size: 12px;
+}
+
+.small {
+  font-size: 11px;
+  padding: 2px 4px;
+}
+
+.sap-theme-label {
+  font-size: 12px;
+}
+
+/* =========================================
+   MAIN LAYOUT
+=========================================*/
+.main {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+/* Panels */
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-left {
+  width: 260px;
+  min-width: 180px;
+  max-width: 420px;
+}
+
+.panel-right {
+  width: 320px;
+  min-width: 240px;
+  max-width: 480px;
+}
+
+.panel-center {
+  flex: 1 1 auto;
+  position: relative;
+}
+
+/* Headers */
+.panel-header {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 6px;
+  white-space: nowrap;
+}
+
+/* Panel bodies */
+.panel-body {
+  flex: 1;
+  padding: 4px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Resizers */
+.resizer {
+  width: 6px;
+  cursor: col-resize;
+  background: rgba(0,0,0,0.15);
+}
+
+.resizer:hover {
+  background: rgba(0,0,0,0.3);
+}
+
+
+/* =========================================
+   CENTER HEADER
+=========================================*/
+.center-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center-toggle {
+  display: flex;
+  gap: 4px;
+}
+
+.view-toggle-btn {
+  padding: 2px 6px;
+  border: 1px solid #555;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.view-toggle-btn.active {
+  background: #fff;
+  border: 2px solid #2a65cc;
+}
+
+.rule-mini-header {
+  font-size: 11px;
+  opacity: 0.85;
+  margin-right: 8px;
+}
+
+/* =========================================
+   CENTER BODY
+=========================================*/
+.center-body {
+  padding: 0;
+  overflow: hidden;
+}
+
+.center-view {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.center-view.active {
+  display: block;
+}
+
+/* =========================================
+   HEADER INITIAL SCREEN
+=========================================*/
+.pcr-header-full {
+  background: #f0f0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+body.theme-modern .pcr-header-full {
+  background: #f4f7fb;
+}
+
+.pcr-header-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.pcr-header-row label {
+  font-weight: bold;
+  min-width: 60px;
+}
+
+.pcr-header-hint {
+  margin-top: 6px;
+  font-size: 11px;
+  opacity: 0.9;
+}
+
+.rule-input-small {
+  width: 150px;
+  font-size: 12px;
+}
+
+.rule-input-wide {
+  flex: 1;
+  font-size: 12px;
+}
+
+.field-error {
+  border: 1px solid #c00 !important;
+  background: #ffe0e0 !important;
+}
+
+/* =========================================
+   TREE TABLE (PE02-like)
+=========================================*/
+.tree-preview {
+  font-family: "Courier New","Consolas", monospace;
+  font-size: 12px;
+}
+
+.pcr-row {
+  position: relative;
+  white-space: pre;
+  padding: 0 4px;
+  line-height: 18px;
+  font-family: "Courier New","Consolas", monospace;
+  user-select: text;
+  cursor: text;
+}
+
+.pcr-row:nth-child(even) {
+  background: rgba(0,0,0,0.015);
+}
+
+.pcr-row.selected {
+  background: #cfe1ff;
+  outline: 1px solid #3c6acb;
+  z-index: 1;
+}
+
+.pcr-row-error {
+  background: #ffd7d7;
+}
+
+.pcr-row-edit {
+  outline: 1px solid #3c6acb;
+  background: #e6f0ff;
+}
+
+.pcr-cell,
+.pcr-desc,
+.pcr-indent {
+  font-family: "Courier New","Consolas","Courier", monospace;
+  font-size: 12px;
+}
+
+.pcr-indent {
+  color: #888;
+}
+
+.pcr-desc {
+  color: #444;
+  margin-left: 4ch;
+}
+
+.pcr-desc-wt {
+  font-style: italic;
+  color: #666;
+}
+
+.pcr-flow-if,
+.pcr-flow-else,
+.pcr-flow-endif {
+  background: linear-gradient(to right, rgba(0,0,0,0.06), transparent);
+  font-weight: 600;
+}
+
+.pcr-flow-if::before,
+.pcr-flow-else::before,
+.pcr-flow-endif::before {
+  content: "┊";
+  position: absolute;
+  left: 2px;
+  color: #999;
+}
+
+.pcr-row.pcr-warn {
+  background: #f4f4f0;
+}
+
+.pcr-row.pcr-danger {
+  background: #f0e4e4;
+  border-left: 2px solid #a04848;
+}
+
+/* =========================================
+   EDITOR
+=========================================*/
+.editor-wrapper {
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #5b5b5b;
+  position: relative;
+  background: #ffffff;
+}
+
+#pcr-editor {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 4px;
+  font-family: "Courier New","Consolas","Courier", monospace;
+  font-size: 12px;
+  line-height: 19px;
+  white-space: pre;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* =========================================
+   AI COPILOT
+=========================================*/
+.ai-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.ai-card {
+  border: 1px solid #666;
+  padding: 6px;
+  background: #fbfbe8;
+}
+
+.ai-card-title {
+  font-weight: bold;
+}
+
+.ai-section {
+  flex: 0 0 auto;
+}
+
+.ai-section-title {
+  font-weight: bold;
+  background: rgba(180,180,180,0.25);
+  padding: 2px 4px;
+  margin-bottom: 4px;
+}
+
+/* Make AI Generator full height */
+.panel-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ai-generator {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-section-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #666;
+  padding: 4px;
+  background: #fff;
+  overflow: hidden;
+}
+
+#ai-prompt,
+#ai-pcr-preview {
+  flex: 1;
+  width: 100%;
+  resize: none;
+}
+
+/* ==== AI Suggestions (next-line copilot) ==== */
+.ai-suggest-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  font-size: 11px;
+}
+
+.ai-suggest-label {
+  flex: 0 0 auto;
+  font-weight: 600;
+}
+
+.ai-suggest-code {
+  font-family: "Courier New","Consolas", monospace;
+  background: #f4f4f4;
+  padding: 1px 4px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  flex: 1 1 auto;
+}
+
+/* =========================================
+   STATUS BAR
+=========================================*/
+.sap-statusbar {
+  height: 26px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #7a7a7a;
+  background: #dcdcdc;
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+.status-segment {
+  padding: 0 8px;
+  border-right: 1px solid #8b8b8b;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* =========================================
+   MODALS
+=========================================*/
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.modal {
+  background: #f7f7f7;
+  border: 1px solid #777;
+  min-width: 340px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+
+.modal-wide {
+  min-width: 520px;
+}
+
+.modal-title {
+  padding: 4px 8px;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 1px solid #999;
+  background: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-close {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.attr-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.attr-row.small-text {
+  font-size: 11px;
+  justify-content: space-between;
+}
+
+.doc-textarea {
+  width: 100%;
+  height: 220px;
+  font-family: "Courier New","Consolas", monospace;
+  font-size: 12px;
+}
+
+/* =========================================
+   INSERT POPUP
+=========================================*/
+.insert-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 300;
+}
+
+.insert-box {
+  background: #f7f7f7;
+  padding: 12px;
+  border: 1px solid #555;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.35);
+  min-width: 320px;
+  font-size: 13px;
+}
+
+.insert-box h3 {
+  margin: 0 0 10px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 6px;
+}
+
+.insert-box .row {
+  margin-bottom: 12px;
+}
+
+.insert-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.insert-btn {
+  padding: 4px 10px;
+  font-size: 12px;
+  border: 1px solid #666;
+  background: #fff;
+  cursor: pointer;
+}
+
+.insert-btn:hover {
+  background: #ddd;
+}
+
+/* =========================================
+   LIGHT SCROLLBARS
+=========================================*/
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(200,200,200,0.15);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(90,90,90,0.45);
+  border-radius: 3px;
+}
+
+/* =========================================
+   RESPONSIVE
+=========================================*/
+@media (max-width: 900px) {
+  .main {
+    flex-direction: column;
+  }
+  .resizer {
+    display: none;
+  }
+  .panel-left,
+  .panel-right {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* =========================================
+   INLINE SUGGEST BOX
+=========================================*/
+.inline-suggest {
+  position: absolute;
+  font-family: "Courier New","Consolas", monospace;
+  font-size: 12px;
+  background: #ffffff;
+  border: 1px solid #6b6b6b;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  z-index: 500;
+  min-width: 180px;
+  max-height: 140px;
+  overflow-y: auto;
+  opacity: 0.95;
+  transition: opacity .4s ease;
+  backdrop-filter: blur(2px);
+}
+
+.inline-suggest-item {
+  padding: 3px 6px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.inline-suggest-item:hover,
+.inline-suggest-item.active {
+  background: #cce0ff;
+}
+
+.sap-window {
+  width: 1180px;
+  max-width: 100%;
+  height: 690px;
+  max-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* status bar stays at bottom */
+  border: 1px solid rgb(95,95,95);
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Prevent layout stretching */
+#left-panel,
+#panel-center,
+#right-panel {
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+}
+
+/* Restore classic SAP PCR layout proportions */
+#main-container {
+    display: grid;
+    grid-template-columns: 260px auto 340px;
+    height: 100%;
+}
+
+#pcr-explorer {
+    min-width: 240px;
+}
+
+#panel-center {
+    min-width: 600px;
+    overflow: auto;
+}
+
+#ai-panel {
+    min-width: 320px;
+    max-width: 380px;
+    overflow: auto;
+}
+
+/* Lock the center workspace layout */
+#pcr-workspace-container,
+#workspace-area {
+    height: calc(100vh - 180px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+}
+
+#table-view-wrapper,
+#editor-view-wrapper {
+    height: 100%;
+    overflow-y: auto;
+}
+
+#panel-center {
+    height: calc(100vh - 180px);
+    overflow-y: auto;
+}
+
+/* Prevent layout stretching */
+#left-panel,
+#panel-center,
+#right-panel {
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+}
+
