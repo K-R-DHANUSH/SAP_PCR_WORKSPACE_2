@@ -29,10 +29,14 @@ app = FastAPI(title="SAP PCR Workspace API")
 
 app.add_middleware(
     CORSMiddleware,
-     allow_origins=[
+    allow_origins=[
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+        "http://localhost:3000",
         "https://k-r-dhanush.github.io"
     ],
-    allow_credentials=False,
+    allow_origin_regex=r"https://.*\.github\.dev",
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
