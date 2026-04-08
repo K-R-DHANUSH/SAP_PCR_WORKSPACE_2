@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+import os
+import json
+import requests
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -7,11 +12,20 @@ from engine.extractor import extract_params
 from engine.builder import build_pcr
 from engine.validator import validate
 
-print("THIS IS THE ACTIVE MAIN.PY")
+load_dotenv()
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
+if not GROQ_API_KEY:
+    raise RuntimeError("GROQ_API_KEY not set")
+
+
+# ----------------------------------------
+# FastAPI setup
+# ----------------------------------------
 
 app = FastAPI()
 
-# Open CORS for development
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -20,91 +34,112 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+# ----------------------------------------
+# Request schema
+# ----------------------------------------
+
 class Prompt(BaseModel):
     prompt: str
 
+
+# ----------------------------------------
+# LLM config
+# ----------------------------------------
+
+SYSTEM_PROMPT = """
+Extract payroll parameters as JSON only.
+"""
+
+
+def llm_extract(prompt: str):
+
+    payload = {
+        "model": "llama3-70b-8192",
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": prompt},
+        ],
+        "temperature": 0.1
+    }
+
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
+    }
+
+    r = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers=headers,
+        json=payload
+    )
+
+    return r.json()["choices"][0]["message"]["content"]
+
+
+# ----------------------------------------
+# Root endpoint
+# ----------------------------------------
 
 @app.get("/")
 def root():
     return {"status": "ok"}
 
 
+# ----------------------------------------
+# PCR generation endpoint
+# ----------------------------------------
+
 @app.post("/generate")
 def generate(data: Prompt):
-    intent, confidence = classify(data.prompt)
 
-    # -----------------------------
-    # Confidence Guardrail
-    # -----------------------------
-    if confidence < 0.60:
+    try:
+
+        prompt = data.prompt
+
+        # 1. Classify
+        intent, confidence = classify(prompt)
+
+        # ----------------------------------------
+        # FIX WRONG DECREASE DETECTION
+        # ----------------------------------------
+        prompt_lower = prompt.lower()
+
+        if ("percent" in prompt_lower or "%" in prompt_lower):
+            if not any(word in prompt_lower for word in ["decrease", "reduce", "deduct", "minus"]):
+                intent = "PERCENT_INCREASE"
+
+        # 2. Extract params
+        params = extract_params(prompt, intent)
+
+        # 3. LLM fallback (safe merge)
+        if confidence < 0.6 or len(params) < 2:
+            try:
+                parsed = json.loads(llm_extract(prompt))
+
+                for k, v in parsed.items():
+                    if k not in params:
+                        params[k] = v
+
+            except:
+                pass
+
+        # 4. Build PCR
+        pcr = build_pcr(intent, params)
+
+        # 5. Validate
+        validate(pcr)
+
         return {
-            "ok": False,
-            "error": "Low confidence prediction",
-            "confidence": confidence
+            "ok": True,
+            "intent": intent,
+            "confidence": confidence,
+            "params": params,
+            "pcr": "\n".join(pcr)
         }
 
-    params = extract_params(data.prompt, intent)
-
-    # -----------------------------
-    # Complex Overtime Validation
-    # -----------------------------
-    if params.get("operation") == "OVERTIME_COMPLEX":
-        if (
-            "wage_types" not in params
-            or len(params["wage_types"]) < 3
-            or "percent" not in params
-            or "threshold" not in params
-        ):
-            return {
-                "ok": False,
-                "error": "Incomplete complex overtime description",
-                "confidence": confidence
-            }
-
-    # -----------------------------
-    # Simple Percent Increase
-    # -----------------------------
-    elif intent == "PERCENT_INCREASE":
-        if "percent" not in params or "wage_types" not in params:
-            return {
-                "ok": False,
-                "error": "Missing percent or wage type",
-                "confidence": confidence
-            }
-
-    # -----------------------------
-    # Percent Decrease
-    # -----------------------------
-    elif intent == "PERCENT_DECREASE":
-        if "percent" not in params or "wage_types" not in params:
-            return {
-                "ok": False,
-                "error": "Missing percent or wage type",
-                "confidence": confidence
-            }
-
-    # -----------------------------
-    # Multiplier
-    # -----------------------------
-    elif intent == "PERCENT_MULTIPLIER":
-        if "multiplier" not in params or "wage_types" not in params:
-            return {
-                "ok": False,
-                "error": "Missing multiplier or wage type",
-                "confidence": confidence
-            }
-
-    # -----------------------------
-    # Build PCR
-    # -----------------------------
-    pcr = build_pcr(intent, params)
-
-    # Validate structure
-    validate(pcr)
-
-    return {
-        "ok": True,
-        "intent": intent,
-        "confidence": confidence,
-        "pcr": "\n".join(pcr)
-    }
+    except Exception as e:
+        return {
+            "ok": False,
+            "error": str(e)
+        }

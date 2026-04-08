@@ -1,86 +1,105 @@
 # pcr-backend/engine/builder.py
 
+
 def build_pcr(intent: str, params: dict) -> list:
-    """
-    Build SAP PCR lines based on intent + extracted parameters.
-    Returns list of PCR lines (strings).
-    """
 
-    if intent == "PERCENT_INCREASE":
-        return build_percent_increase(params)
+    # --------------------------------
+    # OVERTIME FIRST (PRIORITY)
+    # --------------------------------
+    if params.get("scenario") == "OVERTIME":
+        return build_complex_overtime(params)
 
-    if intent == "MULTIPLY_AMOUNT":
-        return build_multiply(params)
+    lines = []
 
-    if intent == "THRESHOLD_CHECK":
-        return build_threshold(params)
+    source = params.get("source_wage_type", "1000")
+    target = params.get("target_wage_type", "1000")
 
-    # fallback
-    return [
-        "RTE= 0",
-        "ADDWT *"
-    ]
+    # --------------------------------
+    # STEP 1 — BASE
+    # --------------------------------
+    lines.append(f"AMT= {source}")
+
+    # --------------------------------
+    # STEP 2 — ADD
+    # --------------------------------
+    if "add_amount" in params:
+        lines.append(f"AMT+ {params['add_amount']}")
+
+    # --------------------------------
+    # STEP 3 — SUBTRACT
+    # --------------------------------
+    if "sub_amount" in params:
+        lines.append(f"AMT- {params['sub_amount']}")
+
+    # --------------------------------
+    # STEP 4 — THRESHOLD
+    # --------------------------------
+    if params.get("threshold"):
+        lines.append(f"AMT?{params.get('condition_operator','>')}{params['threshold']}")
+
+    # --------------------------------
+    # STEP 5 — PERCENT
+    # --------------------------------
+    if "percent" in params:
+        lines.append(f"AMT* {params['percent']}")
+        lines.append("AMT/100")
+
+    # --------------------------------
+    # STEP 6 — MULTIPLIER
+    # --------------------------------
+    elif "multiplier" in params:
+        lines.append(f"AMT* {params['multiplier']}")
+
+    # --------------------------------
+    # FINAL
+    # --------------------------------
+    lines.append(f"ADDWT {target}")
+
+    return lines
+
+
+# --------------------------------
+# OVERTIME (FINAL)
+# --------------------------------
 
 def build_complex_overtime(params: dict) -> list:
-    wage_types = params.get("wage_types", [])
-    percent = params.get("percent")
-    threshold = params.get("threshold")
 
-    if len(wage_types) < 3:
-        raise ValueError("Not enough wage types provided")
+    hours_wt = params.get("hours_wt")
+    result_wt = params.get("target_wage_type")
 
-    hours_wt = wage_types[0]
-    basic_wt = wage_types[1]
-    result_wt = wage_types[2]
-
-    return [
-        f"AMT?{threshold}",
-        f"IF AMT > {threshold}",
-        f"RTE= {percent}",
-        f"MULTI {basic_wt}",
-        "DIVI 100",
-        f"ADDWT {result_wt}",
-        "ENDIF"
-    ]
-
-# -------------------------------
-# 150% / percent logic
-# -------------------------------
-def build_percent_increase(params: dict) -> list:
-    wt = params.get("wage_type", "*")
     percent = params.get("percent", 100)
+    threshold = params.get("threshold", 8)
 
-    return [
-        f"RTE= {percent}",
-        "MULTI RTE",
-        "DIVI 100",
-        f"ADDWT {wt}"
+    if not hours_wt or not result_wt:
+        return ["NUM= 0", "ADDWT 1000"]
+
+    lines = [
+        f"NUM= {hours_wt}",
+        f"NUM?{threshold}"
     ]
 
+    sources = params.get("source_wage_types")
 
-# -------------------------------
-# Multiply logic
-# -------------------------------
-def build_multiply(params: dict) -> list:
-    wt = params.get("wage_type", "*")
-    multiplier = params.get("multiplier", 1)
+    if sources:
+        lines.append(f"AMT= {sources[0]}")
+        for wt in sources[1:]:
+            lines.append(f"AMT+ {wt}")
+    else:
+        source = params.get("source_wage_type")
+        if source:
+            lines.append(f"AMT= {source}")
 
-    return [
-        f"RTE= {multiplier}",
-        "MULTI RTE",
-        f"ADDWT {wt}"
-    ]
+    # ADD support inside overtime
+    if "add_amount" in params:
+        lines.append(f"AMT+ {params['add_amount']}")
 
+    if "sub_amount" in params:
+        lines.append(f"AMT- {params['sub_amount']}")
 
-# -------------------------------
-# Threshold IF logic
-# -------------------------------
-def build_threshold(params: dict) -> list:
-    wt = params.get("wage_type", "*")
-    threshold = params.get("threshold", 0)
+    lines.extend([
+        f"AMT* {percent}",
+        "AMT/100",
+        f"ADDWT {result_wt}"
+    ])
 
-    return [
-        f"IF AMT > {threshold}",
-        f"ADDWT {wt}",
-        "ENDIF"
-    ]
+    return lines
