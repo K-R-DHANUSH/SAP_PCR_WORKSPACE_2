@@ -127,29 +127,25 @@
     // Backend config
     // ----------------------------
     const API = (() => {
-  try {
-    if (typeof window !== "undefined" && window.BACKEND_URL) {
-      return String(window.BACKEND_URL).replace(/\/+$/, "");
-    }
+  const host = window.location.hostname;
 
-    const host = window.location.hostname;
-
-    // Local
-    if (host.includes("localhost") || host.includes("127.0.0.1")) {
-      return "http://localhost:8000";
-    }
-
-    // Codespaces
-    if (host.includes("github.dev") || host.includes("app.github.dev")) {
-      return `https://${host.replace("-3000", "-8000")}`;
-    }
-
-    // ✅ Production (GitHub Pages → Render)
+  // ✅ 1. GitHub Pages (PRODUCTION - HIGHEST PRIORITY)
+  if (host.includes("github.io")) {
     return "https://sap-pcr-workspace-2-github-io.onrender.com";
-  } catch (e) {
-    console.error("API init failed", e);
-    return "";
   }
+
+  // ✅ 2. Codespaces (DEV)
+  if (host.includes("github.dev") || host.includes("app.github.dev")) {
+    return `https://${window.location.host.replace("-3000", "-8000")}`;
+  }
+
+  // ✅ 3. Localhost (DEV)
+  if (host.includes("localhost") || host.includes("127.0.0.1")) {
+    return "http://localhost:8000";
+  }
+
+  // ✅ 4. Fallback (safe default)
+  return "https://sap-pcr-workspace-2-github-io.onrender.com";
 })();
 
     function apiNotConfigured() {
