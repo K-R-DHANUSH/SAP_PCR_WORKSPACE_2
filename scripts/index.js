@@ -126,9 +126,26 @@
     // ----------------------------
     // Backend config
     // ----------------------------
-    const API = (typeof window !== "undefined" && window.BACKEND_URL)
-      ? String(window.BACKEND_URL).replace(/\/+$/, "")
-      : "";
+    const API = (() => {
+  // 1. If explicitly set (best for flexibility)
+  if (typeof window !== "undefined" && window.BACKEND_URL) {
+    return String(window.BACKEND_URL).replace(/\/+$/, "");
+  }
+
+  // 2. Detect Codespaces / localhost
+  const host = window.location.hostname;
+
+  if (host.includes("localhost") || host.includes("127.0.0.1")) {
+    return "http://localhost:8000";
+  }
+
+  if (host.includes("github.dev") || host.includes("app.github.dev")) {
+    // Codespaces URL
+    return `https://${host.replace("-3000", "-8000")}`;
+  }
+
+  // 3. Production (GitHub Pages → Render)
+  return "https://k-r-dhanush.github.io/SAP_PCR_WORKSPACE_2.github.io"
 
     function apiNotConfigured() {
       return !API || String(API).trim() === "";
