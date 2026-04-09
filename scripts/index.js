@@ -135,9 +135,9 @@
   }
 
   // ✅ 2. Codespaces (DEV)
-  if (host.includes("github.dev") || host.includes("app.github.dev")) {
-    return `https://${window.location.host.replace("-3000", "-8000")}`;
-  }
+ if (host.includes("github.dev") || host.includes("app.github.dev")) {
+  return window.location.origin.replace(/-\d+\.app\.github\.dev/, "-8000.app.github.dev");
+}
 
   // ✅ 3. Localhost (DEV)
   if (host.includes("localhost") || host.includes("127.0.0.1")) {

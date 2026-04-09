@@ -1,53 +1,74 @@
 """
-SAP PCR Validator
-Enforces exact SAP PE02 PCR syntax rules.
-Returns a list of human-readable issue strings (empty = valid).
+SAP PCR Validator — Maximum Coverage Edition
+Validates every SAP PE02 PCR operation and structure.
+Returns list of human-readable issues (empty = valid).
 """
 
 import re
 from typing import List
 
-# Lines that are structural (not operations) — skip deep validation
-HEADER_PATTERN = re.compile(r"^[A-Z0-9]{4}\s+.+")           # Z001 Rule description
-WT_NODE_PATTERN = re.compile(r"^/\d{4}(\s.*)?$")             # /2000 Wage type
-SEPARATOR_PATTERN = re.compile(r"^\*\s*$")                   # *
-
-# All valid SAP PCR opcodes
+# ─────────────────────────────────────────────────────────────
+#  COMPLETE VALID OPCODE SET  (sourced from PE02 + Excel reference)
+# ─────────────────────────────────────────────────────────────
 VALID_OPCODES = {
+    # AMT register
     "AMT=", "AMT+", "AMT-", "AMT*", "AMT/",
-    "AMT?>", "AMT?<", "AMT?=", "AMT?>=", "AMT?<=",
+    "AMT?>", "AMT?<", "AMT?=", "AMT?>=", "AMT?<=", "AMT?<>",
+    # NUM register
     "NUM=", "NUM+", "NUM-", "NUM*", "NUM/",
-    "NUM?>", "NUM?<", "NUM?=", "NUM?>=", "NUM?<=",
-    "RTE=", "RTE*", "RTE/",
-    "RTE?>", "RTE?<", "RTE?=",
-    "MULTI", "DIVI",
-    "ADDWT", "SUBWT",
-    "OUTWP", "OUTWPP",
-    "ZERO=", "SUPPRESS",
-    "PRINT", "TABLE",
+    "NUM?>", "NUM?<", "NUM?=", "NUM?>=", "NUM?<=", "NUM?<>",
+    # RTE register
+    "RTE=", "RTE+", "RTE-", "RTE*", "RTE/",
+    "RTE?>", "RTE?<", "RTE?=", "RTE?>=", "RTE?<=", "RTE?<>",
+    # Cross-register
+    "MULTI", "DIVI", "DIVID",
+    # Output
+    "ADDWT", "SUBWT", "ELIMI", "ADDNA", "ADDCU",
+    # Control
+    "OUTWP", "OUTWPP", "ZERO=", "SUPPRESS", "RESET", "BLOCK",
+    # Table/field access
+    "TABLE", "TABLB", "TABLP",
+    # Other valid PCR operations
+    "ACTIO", "AVERA", "COLER", "DTDIF", "PRINT",
+    "SCLAS", "COLOP", "SUBRC", "VAKEY", "VALEN",
 }
 
-# Opcodes that require an operand
-REQUIRES_OPERAND = {
-    "AMT=", "AMT+", "AMT-", "AMT*", "AMT/",
-    "NUM=", "NUM+", "NUM-", "NUM*", "NUM/",
-    "RTE=", "RTE*", "RTE/",
-    "AMT?>", "AMT?<", "AMT?=",
-    "NUM?>", "NUM?<", "NUM?=",
-    "RTE?>", "RTE?<", "RTE?=",
-    "MULTI", "DIVI",
-    "ADDWT", "SUBWT",
+LOAD_OPS       = {"AMT=", "AMT+", "AMT-", "NUM=", "NUM+", "NUM-", "RTE=", "RTE+", "RTE-"}
+SCALAR_OPS     = {"AMT*", "AMT/", "NUM*", "NUM/", "RTE*", "RTE/"}
+COMPARE_OPS    = {
+    "AMT?>", "AMT?<", "AMT?=", "AMT?>=", "AMT?<=", "AMT?<>",
+    "NUM?>", "NUM?<", "NUM?=", "NUM?>=", "NUM?<=", "NUM?<>",
+    "RTE?>", "RTE?<", "RTE?=", "RTE?>=", "RTE?<=", "RTE?<>",
 }
+WT_OUTPUT_OPS  = {"ADDWT", "SUBWT", "ELIMI", "ADDNA", "ADDCU"}
+NO_OPERAND_OPS = {"OUTWP", "OUTWPP", "ZERO=", "SUPPRESS", "RESET"}
+MULTI_REGS     = {"RTE", "NUM", "AMT"}
 
-# Opcodes that take NO operand
-NO_OPERAND = {"OUTWP", "OUTWPP", "ZERO=", "SUPPRESS"}
+# Structural line patterns
+RE_SEPARATOR   = re.compile(r"^\*+\s*$")
+RE_WT_NODE     = re.compile(r"^/[A-Z0-9*?]{1,4}(\s|$)")
+RE_RULE_HEADER = re.compile(r"^[A-Z][A-Z0-9]{3}\s+\S")
 
-# Registers for MULTI/DIVI
-MULTI_DIVI_OPERANDS = {"RTE", "NUM", "AMT"}
+
+def _is_wt_or_star(s: str) -> bool:
+    return s == "*" or re.match(r"^\d{4}$", s) is not None
 
 
-class ValidationError(Exception):
-    pass
+def _is_numeric(s: str) -> bool:
+    return re.match(r"^-?\d+(\.\d+)?$", s) is not None
+
+
+def _parse_opcode(line: str):
+    """Parse opcode and operand from a PCR line."""
+    # Compound: AMT?>, NUM?<=, AMT=, AMT*, etc.
+    m = re.match(r"^([A-Z]{2,6}[=+\-*/]|[A-Z]{2,6}\?[><=]{1,2})\s*(.*)", line.strip())
+    if m:
+        return m.group(1).upper(), m.group(2).strip()
+    # Word: ADDWT, MULTI, OUTWP, etc.
+    m = re.match(r"^([A-Z]{2,8})\s*(.*)", line.strip())
+    if m:
+        return m.group(1).upper(), m.group(2).strip()
+    return line.strip().upper(), ""
 
 
 def validate(lines: List[str]) -> List[str]:
@@ -56,121 +77,150 @@ def validate(lines: List[str]) -> List[str]:
     Empty list = valid PCR.
     """
     issues = []
+    has_header = False
+    has_node   = False
+    has_init   = False
+    addwt_seen = False
+    node_ops   = 0
 
-    if not lines:
-        return ["PCR is empty"]
-
-    has_init = False   # tracks if AMT=, NUM=, or RTE= seen before ADDWT
-    has_addwt = False
-
-    for i, raw_line in enumerate(lines):
-        line = raw_line.strip()
+    for i, raw in enumerate(lines):
+        line   = raw.strip()
         lineno = i + 1
 
         if not line:
             continue
 
-        # ── Skip structural lines ──────────────────────────
-        if SEPARATOR_PATTERN.match(line):
-            continue
-        if WT_NODE_PATTERN.match(line):
-            # Reset init tracker per wage type node
-            has_init = False
-            continue
-        if HEADER_PATTERN.match(line) and i <= 2:
+        # ── Structural lines ───────────────────────────────────
+        if RE_SEPARATOR.match(line):
             continue
 
-        # ── Forbidden patterns ─────────────────────────────
+        if RE_WT_NODE.match(line):
+            # Check previous node had ADDWT
+            if node_ops > 0 and not addwt_seen:
+                issues.append(f"Line {lineno}: Previous wage type node has operations but no ADDWT — result lost")
+            has_node  = True
+            has_init  = False
+            addwt_seen = False
+            node_ops  = 0
+            continue
 
-        # THEN keyword
+        if RE_RULE_HEADER.match(line) and not has_header and i <= 3:
+            has_header = True
+            continue
+
+        node_ops += 1
+
+        # ── Absolute forbidden patterns ────────────────────────
         if re.search(r"\bTHEN\b", line, re.IGNORECASE):
-            issues.append(f"Line {lineno}: 'THEN' keyword is not valid in SAP PCR — remove it")
+            issues.append(f"Line {lineno}: 'THEN' is not valid SAP PCR — use register comparison e.g. NUM?> 8")
 
-        # Indexed access e.g. AMT(1000), NUM(2001)
-        if re.match(r"^(AMT|NUM|RTE)\s*\(\s*\d+\s*\)", line, re.IGNORECASE):
-            issues.append(f"Line {lineno}: Indexed access '{line}' is not allowed — use 'AMT= NNNN' format")
+        if re.match(r"^IF\b", line, re.IGNORECASE):
+            issues.append(f"Line {lineno}: 'IF' is not valid SAP PCR — use 'NUM?> 8' style comparisons")
+            continue
 
-        # Inline math expressions
-        if re.search(r"(AMT|NUM|RTE)\s*=\s*.+[+\-*/].+", line, re.IGNORECASE):
-            issues.append(f"Line {lineno}: Inline arithmetic not allowed — use separate AMT+, AMT*, etc. operations")
+        if re.match(r"^(ELSE|ELSEIF|ENDIF)\b", line, re.IGNORECASE):
+            issues.append(f"Line {lineno}: '{line.split()[0].upper()}' is not valid SAP PCR — use OUTWP for conditional exit")
+            continue
 
-        # IF/THEN pattern (not valid PCR)
-        if re.match(r"^IF\s+", line, re.IGNORECASE):
-            issues.append(f"Line {lineno}: 'IF' keyword is not valid SAP PCR — use register comparison (e.g. NUM?> 8)")
+        # Indexed access AMT(1000)
+        if re.match(r"^(AMT|NUM|RTE)\s*\(", line, re.IGNORECASE):
+            issues.append(f"Line {lineno}: Indexed access not allowed — use 'AMT= 1000' format")
+            continue
 
-        # ELSE/ENDIF (not valid PCR)
-        if re.match(r"^(ELSE|ENDIF)\b", line, re.IGNORECASE):
-            issues.append(f"Line {lineno}: '{line.split()[0]}' is not valid SAP PCR syntax — use OUTWP for conditional exit")
+        # Inline arithmetic
+        if re.match(r"^(AMT|NUM|RTE)\s*=\s*\S+\s*[+\-*/]\s*\S+", line, re.IGNORECASE):
+            issues.append(f"Line {lineno}: Inline arithmetic not allowed — use separate operations")
+            continue
 
-        # ── Parse the opcode ──────────────────────────────
-        # Handle condition operators like AMT?>, NUM?<
-        cond_match = re.match(r"^(AMT|NUM|RTE)\?([><=]{1,2})\s+(.+)$", line)
-        assign_match = re.match(r"^(AMT[=+\-*/]|NUM[=+\-*/]|RTE[=*/])\s+(.+)$", line)
-        word_match = re.match(r"^([A-Z=?<>+\-*/]{2,8})\s*(.*)$", line)
+        # Missing space between opcode and operand
+        if re.match(r"^(AMT|NUM|RTE)[=+\-*/]\S", line):
+            issues.append(f"Line {lineno}: Missing space after operator — write 'AMT= 1000' not 'AMT=1000'")
+            continue
 
-        if cond_match:
-            reg, op, operand = cond_match.groups()
-            operand = operand.strip()
-            # Operand must be numeric
-            if not re.match(r"^-?\d+(\.\d+)?$", operand):
-                issues.append(f"Line {lineno}: Condition operand '{operand}' must be a number")
+        # ── Parse and validate opcode ──────────────────────────
+        opcode, operand = _parse_opcode(line)
+
+        # Unknown opcode
+        if opcode not in VALID_OPCODES:
+            if re.match(r"^[A-Z]{2,}", opcode):
+                issues.append(f"Line {lineno}: Unknown SAP PCR operation '{opcode}'")
+            continue
+
+        # ── No-operand ops ─────────────────────────────────────
+        if opcode in NO_OPERAND_OPS:
+            if operand:
+                issues.append(f"Line {lineno}: '{opcode}' takes no operand — remove '{operand}'")
+            continue
+
+        # ── MULTI / DIVI ───────────────────────────────────────
+        if opcode in ("MULTI", "DIVI", "DIVID"):
+            if not operand:
+                issues.append(f"Line {lineno}: '{opcode}' requires a register: RTE, NUM, or AMT")
+            elif operand.upper() not in MULTI_REGS:
+                issues.append(f"Line {lineno}: '{opcode}' operand must be RTE, NUM, or AMT — got '{operand}'")
+            if not has_init:
+                issues.append(f"Line {lineno}: '{opcode}' used before any register initialization")
+            continue
+
+        # ── Load ops ───────────────────────────────────────────
+        if opcode in LOAD_OPS:
+            if not operand:
+                issues.append(f"Line {lineno}: '{opcode}' requires a wage type — e.g. '{opcode} 1000'")
+            elif not _is_wt_or_star(operand) and not re.match(r"^[A-Z]{2,6}$", operand):
+                issues.append(f"Line {lineno}: '{opcode}' operand '{operand}' must be a 4-digit wage type or *")
+            if opcode in ("AMT=", "NUM=", "RTE="):
+                has_init = True
+            continue
+
+        # ── Scalar ops ─────────────────────────────────────────
+        if opcode in SCALAR_OPS:
+            if not operand:
+                issues.append(f"Line {lineno}: '{opcode}' requires a numeric scalar — e.g. '{opcode} 100'")
+            elif not _is_numeric(operand):
+                issues.append(f"Line {lineno}: '{opcode}' operand '{operand}' must be a number")
+            else:
+                val = float(operand)
+                if "." in operand and val < 10:
+                    reg = opcode[:3]
+                    int_val = int(round(val * 100))
+                    issues.append(
+                        f"Line {lineno}: Decimal percentage '{operand}' not allowed — "
+                        f"use '{reg}* {int_val}' then '{reg}/ 100'"
+                    )
+                if opcode.endswith("/") and val == 0:
+                    issues.append(f"Line {lineno}: Division by zero — '{opcode} 0' will crash payroll")
+            continue
+
+        # ── Compare ops ────────────────────────────────────────
+        if opcode in COMPARE_OPS:
+            if not operand:
+                issues.append(f"Line {lineno}: '{opcode}' requires a comparison value — e.g. '{opcode} 8'")
+            elif not _is_numeric(operand):
+                issues.append(f"Line {lineno}: '{opcode}' comparison value '{operand}' must be a number")
             has_init = True
             continue
 
-        if assign_match:
-            opcode, operand = assign_match.groups()
-            operand = operand.strip()
-            opcode_up = opcode.upper()
-
-            # Track initialization
-            if opcode_up in ("AMT=", "NUM=", "RTE="):
-                has_init = True
-
-            # Operand must be numeric or * or a 4-digit wage type
-            if opcode_up in ("AMT=", "NUM=", "RTE=", "AMT+", "AMT-", "NUM+", "NUM-"):
-                if operand != "*" and not re.match(r"^\d{4}$", operand) and not re.match(r"^-?\d+$", operand):
-                    issues.append(
-                        f"Line {lineno}: Operand '{operand}' for {opcode_up} must be a 4-digit wage type, *, or a number"
-                    )
-            elif opcode_up in ("AMT*", "AMT/", "NUM*", "NUM/", "RTE*", "RTE/"):
-                if not re.match(r"^\d+(\.\d+)?$", operand):
-                    issues.append(f"Line {lineno}: Scalar operand '{operand}' for {opcode_up} must be a number")
-                # Warn about decimal percentage shortcut
-                if "." in operand and float(operand) < 10:
-                    issues.append(
-                        f"Line {lineno}: Use 'AMT* 150' then 'AMT/ 100' instead of decimal '{operand}' for percentages"
-                    )
+        # ── Output ops ─────────────────────────────────────────
+        if opcode in WT_OUTPUT_OPS:
+            if opcode == "ADDWT":
+                if not has_init:
+                    issues.append(f"Line {lineno}: ADDWT before any register initialization — load a register first")
+                if not operand:
+                    issues.append(f"Line {lineno}: ADDWT requires a wage type — e.g. 'ADDWT 9000'")
+                elif not _is_wt_or_star(operand):
+                    issues.append(f"Line {lineno}: ADDWT target '{operand}' must be a 4-digit wage type or *")
+                addwt_seen = True
+            else:
+                if not operand or not _is_wt_or_star(operand):
+                    issues.append(f"Line {lineno}: '{opcode}' requires a 4-digit wage type — e.g. '{opcode} 9000'")
             continue
 
-        # Word opcode (ADDWT, SUBWT, MULTI, DIVI, OUTWP, etc.)
-        if word_match:
-            opcode = word_match.group(1).upper()
-            operand = word_match.group(2).strip()
-
-            if opcode == "ADDWT":
-                has_addwt = True
-                if not has_init and lineno > 3:
-                    issues.append(f"Line {lineno}: ADDWT appears before any AMT/NUM/RTE initialization")
-                if operand != "*" and not re.match(r"^\d{4}$", operand):
-                    issues.append(f"Line {lineno}: ADDWT operand '{operand}' must be a 4-digit wage type or *")
-
-            elif opcode == "SUBWT":
-                if not re.match(r"^\d{4}$", operand):
-                    issues.append(f"Line {lineno}: SUBWT operand '{operand}' must be a 4-digit wage type")
-
-            elif opcode in ("MULTI", "DIVI"):
-                if operand.upper() not in MULTI_DIVI_OPERANDS:
-                    issues.append(
-                        f"Line {lineno}: {opcode} operand '{operand}' must be RTE, NUM, or AMT"
-                    )
-
-            elif opcode in NO_OPERAND:
-                if operand:
-                    issues.append(f"Line {lineno}: {opcode} takes no operand — remove '{operand}'")
-
-            elif opcode not in VALID_OPCODES and not WT_NODE_PATTERN.match(line) and not HEADER_PATTERN.match(line):
-                # Unknown opcode — but only flag if it looks like an intended opcode
-                if len(opcode) >= 3 and re.match(r"^[A-Z]+", opcode):
-                    issues.append(f"Line {lineno}: Unknown SAP PCR operation '{opcode}'")
+    # ── End checks ─────────────────────────────────────────────
+    if not has_header:
+        issues.append("PCR missing rule header — first line should be e.g. 'Z001 My rule description'")
+    if not has_node:
+        issues.append("PCR has no wage type node — add '/NNNN Description' line")
+    if node_ops > 0 and not addwt_seen:
+        issues.append("Last wage type node has operations but no ADDWT — result will be lost")
 
     return issues

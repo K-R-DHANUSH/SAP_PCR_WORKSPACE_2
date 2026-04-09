@@ -1,901 +1,1121 @@
 prompt,intent
-Make wage type 7695 110 percent,PERCENT_INCREASE
-Set wage type 7695 to 90%,PERCENT_DECREASE
-Double wage type 7695,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 5095,PERCENT_INCREASE
-Apply 80% rate to wage type 5095,PERCENT_DECREASE
-Triple wage type 5095,PERCENT_MULTIPLIER
-Set wage type 9112 to 110% rate,PERCENT_INCREASE
-Apply 90% rate to wage type 9112,PERCENT_DECREASE
-Multiply wage type 9112 by 4,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 2713,PERCENT_INCREASE
-Decrease wage type 2713 by 80%,PERCENT_DECREASE
-Scale wage type 2713 by 3,PERCENT_MULTIPLIER
-Make wage type 6586 175 percent,PERCENT_INCREASE
-Apply 90% rate to wage type 6586,PERCENT_DECREASE
-Apply 1.5x to wage type 6586,PERCENT_MULTIPLIER
-Increase wage type 5302 by 110%,PERCENT_INCREASE
-Lower wage type 5302 by 70 percent,PERCENT_DECREASE
-Double wage type 5302,PERCENT_MULTIPLIER
-Set wage type 7549 to 130% rate,PERCENT_INCREASE
-Lower wage type 7549 by 70 percent,PERCENT_DECREASE
-Scale wage type 7549 by 1.5,PERCENT_MULTIPLIER
-Make wage type 9477 110 percent,PERCENT_INCREASE
-Lower wage type 9477 by 90 percent,PERCENT_DECREASE
-Multiply wage type 9477 by 3,PERCENT_MULTIPLIER
-Set wage type 7295 to 130% rate,PERCENT_INCREASE
-Apply 90% rate to wage type 7295,PERCENT_DECREASE
-Triple wage type 7295,PERCENT_MULTIPLIER
-Make wage type 5242 200 percent,PERCENT_INCREASE
-Apply 85% rate to wage type 5242,PERCENT_DECREASE
-Double wage type 5242,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 2174,PERCENT_INCREASE
-Apply 85% rate to wage type 2174,PERCENT_DECREASE
-Apply 3x to wage type 2174,PERCENT_MULTIPLIER
-Make wage type 2141 130 percent,PERCENT_INCREASE
-Apply 80% rate to wage type 2141,PERCENT_DECREASE
-Apply 2x to wage type 2141,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 7024,PERCENT_INCREASE
-Apply 80% rate to wage type 7024,PERCENT_DECREASE
-Apply 1.5x to wage type 7024,PERCENT_MULTIPLIER
-Calculate overtime at 130% for wage type 8264,PERCENT_INCREASE
-Decrease wage type 8264 by 80%,PERCENT_DECREASE
-Apply 1.5x to wage type 8264,PERCENT_MULTIPLIER
-Increase wage type 2384 by 175%,PERCENT_INCREASE
-Apply 75% rate to wage type 2384,PERCENT_DECREASE
-Double wage type 2384,PERCENT_MULTIPLIER
-Set wage type 4236 to 110% rate,PERCENT_INCREASE
-Set wage type 4236 to 90%,PERCENT_DECREASE
-Double wage type 4236,PERCENT_MULTIPLIER
-Make wage type 5685 130 percent,PERCENT_INCREASE
-Apply 75% rate to wage type 5685,PERCENT_DECREASE
-Multiply wage type 5685 by 2,PERCENT_MULTIPLIER
-Increase wage type 1980 by 110%,PERCENT_INCREASE
-Lower wage type 1980 by 85 percent,PERCENT_DECREASE
-Apply 3x to wage type 1980,PERCENT_MULTIPLIER
-Make wage type 4972 200 percent,PERCENT_INCREASE
-Set wage type 4972 to 70%,PERCENT_DECREASE
-Triple wage type 4972,PERCENT_MULTIPLIER
-Increase wage type 8098 by 120%,PERCENT_INCREASE
-Decrease wage type 8098 by 85%,PERCENT_DECREASE
-Triple wage type 8098,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 5746,PERCENT_INCREASE
-Reduce wage type 5746 to 90%,PERCENT_DECREASE
-Multiply wage type 5746 by 3,PERCENT_MULTIPLIER
-Increase wage type 3152 by 130%,PERCENT_INCREASE
-Decrease wage type 3152 by 90%,PERCENT_DECREASE
-Scale wage type 3152 by 1.5,PERCENT_MULTIPLIER
-Increase wage type 9943 by 200%,PERCENT_INCREASE
-Lower wage type 9943 by 90 percent,PERCENT_DECREASE
-Multiply wage type 9943 by 3,PERCENT_MULTIPLIER
-Set wage type 4100 to 110% rate,PERCENT_INCREASE
-Lower wage type 4100 by 70 percent,PERCENT_DECREASE
-Triple wage type 4100,PERCENT_MULTIPLIER
-Increase wage type 7291 by 200%,PERCENT_INCREASE
-Apply 70% rate to wage type 7291,PERCENT_DECREASE
-Apply 4x to wage type 7291,PERCENT_MULTIPLIER
-Calculate overtime at 175% for wage type 6273,PERCENT_INCREASE
-Apply 85% rate to wage type 6273,PERCENT_DECREASE
-Scale wage type 6273 by 1.5,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 4976,PERCENT_INCREASE
-Reduce wage type 4976 to 85%,PERCENT_DECREASE
-Triple wage type 4976,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 4789,PERCENT_INCREASE
-Apply 90% rate to wage type 4789,PERCENT_DECREASE
-Triple wage type 4789,PERCENT_MULTIPLIER
-Increase wage type 6175 by 130%,PERCENT_INCREASE
-Set wage type 6175 to 90%,PERCENT_DECREASE
-Apply 1.5x to wage type 6175,PERCENT_MULTIPLIER
-Set wage type 4137 to 120% rate,PERCENT_INCREASE
-Lower wage type 4137 by 75 percent,PERCENT_DECREASE
-Apply 4x to wage type 4137,PERCENT_MULTIPLIER
-Increase wage type 9689 by 175%,PERCENT_INCREASE
-Decrease wage type 9689 by 75%,PERCENT_DECREASE
-Scale wage type 9689 by 2,PERCENT_MULTIPLIER
-Set wage type 5414 to 120% rate,PERCENT_INCREASE
-Apply 75% rate to wage type 5414,PERCENT_DECREASE
-Multiply wage type 5414 by 3,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 9257,PERCENT_INCREASE
-Lower wage type 9257 by 80 percent,PERCENT_DECREASE
-Triple wage type 9257,PERCENT_MULTIPLIER
-Increase wage type 9773 by 120%,PERCENT_INCREASE
-Reduce wage type 9773 to 75%,PERCENT_DECREASE
-Triple wage type 9773,PERCENT_MULTIPLIER
-Increase wage type 4903 by 150%,PERCENT_INCREASE
-Lower wage type 4903 by 80 percent,PERCENT_DECREASE
-Double wage type 4903,PERCENT_MULTIPLIER
-Set wage type 5100 to 125% rate,PERCENT_INCREASE
-Set wage type 5100 to 70%,PERCENT_DECREASE
-Double wage type 5100,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 1210,PERCENT_INCREASE
-Decrease wage type 1210 by 80%,PERCENT_DECREASE
-Apply 1.5x to wage type 1210,PERCENT_MULTIPLIER
-Set wage type 7602 to 120% rate,PERCENT_INCREASE
-Apply 70% rate to wage type 7602,PERCENT_DECREASE
-Multiply wage type 7602 by 4,PERCENT_MULTIPLIER
-Set wage type 6821 to 120% rate,PERCENT_INCREASE
-Decrease wage type 6821 by 90%,PERCENT_DECREASE
-Scale wage type 6821 by 4,PERCENT_MULTIPLIER
-Apply 125% premium to wage type 3759,PERCENT_INCREASE
-Decrease wage type 3759 by 80%,PERCENT_DECREASE
-Apply 4x to wage type 3759,PERCENT_MULTIPLIER
-Apply 110% premium to wage type 6556,PERCENT_INCREASE
-Set wage type 6556 to 75%,PERCENT_DECREASE
-Multiply wage type 6556 by 4,PERCENT_MULTIPLIER
-Set wage type 2129 to 150% rate,PERCENT_INCREASE
-Decrease wage type 2129 by 80%,PERCENT_DECREASE
-Double wage type 2129,PERCENT_MULTIPLIER
-Apply 125% premium to wage type 4894,PERCENT_INCREASE
-Reduce wage type 4894 to 75%,PERCENT_DECREASE
-Apply 1.5x to wage type 4894,PERCENT_MULTIPLIER
-Make wage type 6513 150 percent,PERCENT_INCREASE
-Set wage type 6513 to 90%,PERCENT_DECREASE
-Apply 1.5x to wage type 6513,PERCENT_MULTIPLIER
-Apply 110% premium to wage type 9407,PERCENT_INCREASE
-Set wage type 9407 to 70%,PERCENT_DECREASE
-Apply 1.5x to wage type 9407,PERCENT_MULTIPLIER
-Set wage type 6993 to 125% rate,PERCENT_INCREASE
-Apply 80% rate to wage type 6993,PERCENT_DECREASE
-Triple wage type 6993,PERCENT_MULTIPLIER
-Make wage type 7302 200 percent,PERCENT_INCREASE
-Reduce wage type 7302 to 70%,PERCENT_DECREASE
-Multiply wage type 7302 by 2,PERCENT_MULTIPLIER
-Increase wage type 9537 by 150%,PERCENT_INCREASE
-Apply 75% rate to wage type 9537,PERCENT_DECREASE
-Triple wage type 9537,PERCENT_MULTIPLIER
-Make wage type 7382 200 percent,PERCENT_INCREASE
-Reduce wage type 7382 to 80%,PERCENT_DECREASE
-Apply 1.5x to wage type 7382,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 3272,PERCENT_INCREASE
-Decrease wage type 3272 by 75%,PERCENT_DECREASE
-Double wage type 3272,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 7125,PERCENT_INCREASE
-Reduce wage type 7125 to 85%,PERCENT_DECREASE
-Scale wage type 7125 by 3,PERCENT_MULTIPLIER
-Make wage type 5424 110 percent,PERCENT_INCREASE
-Apply 70% rate to wage type 5424,PERCENT_DECREASE
-Triple wage type 5424,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 9326,PERCENT_INCREASE
-Reduce wage type 9326 to 90%,PERCENT_DECREASE
-Scale wage type 9326 by 1.5,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 8835,PERCENT_INCREASE
-Set wage type 8835 to 75%,PERCENT_DECREASE
-Scale wage type 8835 by 1.5,PERCENT_MULTIPLIER
-Set wage type 7419 to 150% rate,PERCENT_INCREASE
-Decrease wage type 7419 by 85%,PERCENT_DECREASE
-Multiply wage type 7419 by 1.5,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 1632,PERCENT_INCREASE
-Decrease wage type 1632 by 85%,PERCENT_DECREASE
-Apply 3x to wage type 1632,PERCENT_MULTIPLIER
-Increase wage type 5517 by 200%,PERCENT_INCREASE
-Reduce wage type 5517 to 80%,PERCENT_DECREASE
-Multiply wage type 5517 by 4,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 6020,PERCENT_INCREASE
-Set wage type 6020 to 85%,PERCENT_DECREASE
-Triple wage type 6020,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 3192,PERCENT_INCREASE
-Reduce wage type 3192 to 80%,PERCENT_DECREASE
-Apply 3x to wage type 3192,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 8140,PERCENT_INCREASE
-Apply 75% rate to wage type 8140,PERCENT_DECREASE
-Triple wage type 8140,PERCENT_MULTIPLIER
-Calculate overtime at 175% for wage type 3533,PERCENT_INCREASE
-Decrease wage type 3533 by 75%,PERCENT_DECREASE
-Multiply wage type 3533 by 4,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 1868,PERCENT_INCREASE
-Apply 85% rate to wage type 1868,PERCENT_DECREASE
-Triple wage type 1868,PERCENT_MULTIPLIER
-Increase wage type 3047 by 130%,PERCENT_INCREASE
-Set wage type 3047 to 80%,PERCENT_DECREASE
-Scale wage type 3047 by 3,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 3145,PERCENT_INCREASE
-Reduce wage type 3145 to 85%,PERCENT_DECREASE
-Scale wage type 3145 by 4,PERCENT_MULTIPLIER
-Set wage type 1279 to 200% rate,PERCENT_INCREASE
-Apply 80% rate to wage type 1279,PERCENT_DECREASE
-Multiply wage type 1279 by 1.5,PERCENT_MULTIPLIER
-Make wage type 1041 125 percent,PERCENT_INCREASE
-Set wage type 1041 to 80%,PERCENT_DECREASE
-Apply 2x to wage type 1041,PERCENT_MULTIPLIER
-Apply 125% premium to wage type 4982,PERCENT_INCREASE
-Reduce wage type 4982 to 75%,PERCENT_DECREASE
-Apply 2x to wage type 4982,PERCENT_MULTIPLIER
-Set wage type 3027 to 200% rate,PERCENT_INCREASE
-Lower wage type 3027 by 70 percent,PERCENT_DECREASE
-Multiply wage type 3027 by 2,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 1587,PERCENT_INCREASE
-Lower wage type 1587 by 80 percent,PERCENT_DECREASE
-Scale wage type 1587 by 3,PERCENT_MULTIPLIER
-Calculate overtime at 120% for wage type 1244,PERCENT_INCREASE
-Decrease wage type 1244 by 90%,PERCENT_DECREASE
-Double wage type 1244,PERCENT_MULTIPLIER
-Apply 110% premium to wage type 1366,PERCENT_INCREASE
-Reduce wage type 1366 to 70%,PERCENT_DECREASE
-Apply 3x to wage type 1366,PERCENT_MULTIPLIER
-Make wage type 2229 200 percent,PERCENT_INCREASE
-Reduce wage type 2229 to 70%,PERCENT_DECREASE
-Double wage type 2229,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 1151,PERCENT_INCREASE
-Set wage type 1151 to 70%,PERCENT_DECREASE
-Multiply wage type 1151 by 1.5,PERCENT_MULTIPLIER
-Increase wage type 5713 by 125%,PERCENT_INCREASE
-Reduce wage type 5713 to 85%,PERCENT_DECREASE
-Multiply wage type 5713 by 3,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 3847,PERCENT_INCREASE
-Reduce wage type 3847 to 70%,PERCENT_DECREASE
-Triple wage type 3847,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 8059,PERCENT_INCREASE
-Reduce wage type 8059 to 75%,PERCENT_DECREASE
-Multiply wage type 8059 by 2,PERCENT_MULTIPLIER
-Apply 200% premium to wage type 4917,PERCENT_INCREASE
-Apply 85% rate to wage type 4917,PERCENT_DECREASE
-Double wage type 4917,PERCENT_MULTIPLIER
-Apply 110% premium to wage type 8271,PERCENT_INCREASE
-Reduce wage type 8271 to 80%,PERCENT_DECREASE
-Double wage type 8271,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 3108,PERCENT_INCREASE
-Apply 80% rate to wage type 3108,PERCENT_DECREASE
-Double wage type 3108,PERCENT_MULTIPLIER
-Increase wage type 9506 by 125%,PERCENT_INCREASE
-Decrease wage type 9506 by 80%,PERCENT_DECREASE
-Multiply wage type 9506 by 1.5,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 5261,PERCENT_INCREASE
-Set wage type 5261 to 70%,PERCENT_DECREASE
-Double wage type 5261,PERCENT_MULTIPLIER
-Increase wage type 5839 by 150%,PERCENT_INCREASE
-Apply 90% rate to wage type 5839,PERCENT_DECREASE
-Triple wage type 5839,PERCENT_MULTIPLIER
-Calculate overtime at 130% for wage type 1022,PERCENT_INCREASE
-Decrease wage type 1022 by 80%,PERCENT_DECREASE
-Multiply wage type 1022 by 2,PERCENT_MULTIPLIER
-Increase wage type 9383 by 130%,PERCENT_INCREASE
-Set wage type 9383 to 80%,PERCENT_DECREASE
-Apply 4x to wage type 9383,PERCENT_MULTIPLIER
-Set wage type 3468 to 175% rate,PERCENT_INCREASE
-Decrease wage type 3468 by 75%,PERCENT_DECREASE
-Apply 4x to wage type 3468,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 1050,PERCENT_INCREASE
-Lower wage type 1050 by 90 percent,PERCENT_DECREASE
-Triple wage type 1050,PERCENT_MULTIPLIER
-Calculate overtime at 120% for wage type 4941,PERCENT_INCREASE
-Reduce wage type 4941 to 90%,PERCENT_DECREASE
-Scale wage type 4941 by 4,PERCENT_MULTIPLIER
-Make wage type 3978 125 percent,PERCENT_INCREASE
-Set wage type 3978 to 90%,PERCENT_DECREASE
-Double wage type 3978,PERCENT_MULTIPLIER
-Make wage type 8758 125 percent,PERCENT_INCREASE
-Set wage type 8758 to 75%,PERCENT_DECREASE
-Scale wage type 8758 by 1.5,PERCENT_MULTIPLIER
-Set wage type 5677 to 125% rate,PERCENT_INCREASE
-Decrease wage type 5677 by 75%,PERCENT_DECREASE
-Double wage type 5677,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 5248,PERCENT_INCREASE
-Apply 75% rate to wage type 5248,PERCENT_DECREASE
-Double wage type 5248,PERCENT_MULTIPLIER
-Make wage type 8887 125 percent,PERCENT_INCREASE
-Decrease wage type 8887 by 70%,PERCENT_DECREASE
-Multiply wage type 8887 by 1.5,PERCENT_MULTIPLIER
-Set wage type 8214 to 200% rate,PERCENT_INCREASE
-Lower wage type 8214 by 85 percent,PERCENT_DECREASE
-Triple wage type 8214,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 9522,PERCENT_INCREASE
-Set wage type 9522 to 80%,PERCENT_DECREASE
-Scale wage type 9522 by 4,PERCENT_MULTIPLIER
-Make wage type 5108 150 percent,PERCENT_INCREASE
-Decrease wage type 5108 by 90%,PERCENT_DECREASE
-Triple wage type 5108,PERCENT_MULTIPLIER
-Make wage type 8901 110 percent,PERCENT_INCREASE
-Set wage type 8901 to 75%,PERCENT_DECREASE
-Multiply wage type 8901 by 4,PERCENT_MULTIPLIER
-Make wage type 8139 110 percent,PERCENT_INCREASE
-Decrease wage type 8139 by 80%,PERCENT_DECREASE
-Multiply wage type 8139 by 3,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 9403,PERCENT_INCREASE
-Decrease wage type 9403 by 80%,PERCENT_DECREASE
-Apply 2x to wage type 9403,PERCENT_MULTIPLIER
-Increase wage type 5975 by 130%,PERCENT_INCREASE
-Decrease wage type 5975 by 80%,PERCENT_DECREASE
-Scale wage type 5975 by 1.5,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 9254,PERCENT_INCREASE
-Apply 85% rate to wage type 9254,PERCENT_DECREASE
-Double wage type 9254,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 6097,PERCENT_INCREASE
-Apply 70% rate to wage type 6097,PERCENT_DECREASE
-Multiply wage type 6097 by 1.5,PERCENT_MULTIPLIER
-Set wage type 8638 to 125% rate,PERCENT_INCREASE
-Reduce wage type 8638 to 75%,PERCENT_DECREASE
-Scale wage type 8638 by 1.5,PERCENT_MULTIPLIER
-Increase wage type 1006 by 175%,PERCENT_INCREASE
-Reduce wage type 1006 to 90%,PERCENT_DECREASE
-Multiply wage type 1006 by 4,PERCENT_MULTIPLIER
-Set wage type 5506 to 125% rate,PERCENT_INCREASE
-Lower wage type 5506 by 90 percent,PERCENT_DECREASE
-Scale wage type 5506 by 2,PERCENT_MULTIPLIER
-Make wage type 9632 200 percent,PERCENT_INCREASE
-Lower wage type 9632 by 90 percent,PERCENT_DECREASE
-Multiply wage type 9632 by 2,PERCENT_MULTIPLIER
-Make wage type 6685 150 percent,PERCENT_INCREASE
-Lower wage type 6685 by 85 percent,PERCENT_DECREASE
-Double wage type 6685,PERCENT_MULTIPLIER
-Set wage type 2030 to 110% rate,PERCENT_INCREASE
-Lower wage type 2030 by 90 percent,PERCENT_DECREASE
-Multiply wage type 2030 by 2,PERCENT_MULTIPLIER
-Increase wage type 5472 by 125%,PERCENT_INCREASE
-Set wage type 5472 to 85%,PERCENT_DECREASE
-Multiply wage type 5472 by 4,PERCENT_MULTIPLIER
-Make wage type 8596 200 percent,PERCENT_INCREASE
-Apply 90% rate to wage type 8596,PERCENT_DECREASE
-Triple wage type 8596,PERCENT_MULTIPLIER
-Increase wage type 3944 by 150%,PERCENT_INCREASE
-Set wage type 3944 to 85%,PERCENT_DECREASE
-Triple wage type 3944,PERCENT_MULTIPLIER
-Increase wage type 7116 by 120%,PERCENT_INCREASE
-Lower wage type 7116 by 80 percent,PERCENT_DECREASE
-Triple wage type 7116,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 6021,PERCENT_INCREASE
-Reduce wage type 6021 to 75%,PERCENT_DECREASE
-Scale wage type 6021 by 1.5,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 5746,PERCENT_INCREASE
-Lower wage type 5746 by 80 percent,PERCENT_DECREASE
-Apply 1.5x to wage type 5746,PERCENT_MULTIPLIER
-Increase wage type 3493 by 200%,PERCENT_INCREASE
-Lower wage type 3493 by 90 percent,PERCENT_DECREASE
-Triple wage type 3493,PERCENT_MULTIPLIER
-Set wage type 8210 to 200% rate,PERCENT_INCREASE
-Apply 70% rate to wage type 8210,PERCENT_DECREASE
-Apply 3x to wage type 8210,PERCENT_MULTIPLIER
-Set wage type 9052 to 120% rate,PERCENT_INCREASE
-Apply 75% rate to wage type 9052,PERCENT_DECREASE
-Multiply wage type 9052 by 4,PERCENT_MULTIPLIER
-Apply 110% premium to wage type 1235,PERCENT_INCREASE
-Set wage type 1235 to 80%,PERCENT_DECREASE
-Triple wage type 1235,PERCENT_MULTIPLIER
-Increase wage type 2502 by 125%,PERCENT_INCREASE
-Lower wage type 2502 by 80 percent,PERCENT_DECREASE
-Apply 3x to wage type 2502,PERCENT_MULTIPLIER
-Set wage type 2711 to 120% rate,PERCENT_INCREASE
-Lower wage type 2711 by 85 percent,PERCENT_DECREASE
-Multiply wage type 2711 by 1.5,PERCENT_MULTIPLIER
-Set wage type 7203 to 150% rate,PERCENT_INCREASE
-Decrease wage type 7203 by 70%,PERCENT_DECREASE
-Double wage type 7203,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 7660,PERCENT_INCREASE
-Apply 90% rate to wage type 7660,PERCENT_DECREASE
-Apply 3x to wage type 7660,PERCENT_MULTIPLIER
-Make wage type 4907 130 percent,PERCENT_INCREASE
-Lower wage type 4907 by 90 percent,PERCENT_DECREASE
-Apply 4x to wage type 4907,PERCENT_MULTIPLIER
-Calculate overtime at 175% for wage type 7963,PERCENT_INCREASE
-Apply 90% rate to wage type 7963,PERCENT_DECREASE
-Multiply wage type 7963 by 2,PERCENT_MULTIPLIER
-Make wage type 3053 120 percent,PERCENT_INCREASE
-Lower wage type 3053 by 80 percent,PERCENT_DECREASE
-Apply 4x to wage type 3053,PERCENT_MULTIPLIER
-Calculate overtime at 130% for wage type 6525,PERCENT_INCREASE
-Apply 85% rate to wage type 6525,PERCENT_DECREASE
-Double wage type 6525,PERCENT_MULTIPLIER
-Set wage type 2908 to 110% rate,PERCENT_INCREASE
-Set wage type 2908 to 70%,PERCENT_DECREASE
-Triple wage type 2908,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 7271,PERCENT_INCREASE
-Apply 80% rate to wage type 7271,PERCENT_DECREASE
-Double wage type 7271,PERCENT_MULTIPLIER
-Make wage type 5922 200 percent,PERCENT_INCREASE
-Reduce wage type 5922 to 70%,PERCENT_DECREASE
-Multiply wage type 5922 by 4,PERCENT_MULTIPLIER
-Increase wage type 1693 by 175%,PERCENT_INCREASE
-Reduce wage type 1693 to 85%,PERCENT_DECREASE
-Double wage type 1693,PERCENT_MULTIPLIER
-Calculate overtime at 200% for wage type 1872,PERCENT_INCREASE
-Lower wage type 1872 by 90 percent,PERCENT_DECREASE
-Multiply wage type 1872 by 4,PERCENT_MULTIPLIER
-Apply 110% premium to wage type 1338,PERCENT_INCREASE
-Reduce wage type 1338 to 75%,PERCENT_DECREASE
-Double wage type 1338,PERCENT_MULTIPLIER
-Set wage type 4122 to 130% rate,PERCENT_INCREASE
-Apply 75% rate to wage type 4122,PERCENT_DECREASE
-Apply 1.5x to wage type 4122,PERCENT_MULTIPLIER
-Set wage type 3419 to 125% rate,PERCENT_INCREASE
-Apply 70% rate to wage type 3419,PERCENT_DECREASE
-Apply 2x to wage type 3419,PERCENT_MULTIPLIER
-Increase wage type 2533 by 120%,PERCENT_INCREASE
-Apply 70% rate to wage type 2533,PERCENT_DECREASE
-Apply 4x to wage type 2533,PERCENT_MULTIPLIER
-Increase wage type 5327 by 120%,PERCENT_INCREASE
-Apply 80% rate to wage type 5327,PERCENT_DECREASE
-Triple wage type 5327,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 4198,PERCENT_INCREASE
-Decrease wage type 4198 by 90%,PERCENT_DECREASE
-Triple wage type 4198,PERCENT_MULTIPLIER
-Make wage type 6003 130 percent,PERCENT_INCREASE
-Apply 80% rate to wage type 6003,PERCENT_DECREASE
-Triple wage type 6003,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 9844,PERCENT_INCREASE
-Lower wage type 9844 by 70 percent,PERCENT_DECREASE
-Apply 3x to wage type 9844,PERCENT_MULTIPLIER
-Apply 200% premium to wage type 9711,PERCENT_INCREASE
-Set wage type 9711 to 90%,PERCENT_DECREASE
-Scale wage type 9711 by 3,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 6071,PERCENT_INCREASE
-Set wage type 6071 to 80%,PERCENT_DECREASE
-Triple wage type 6071,PERCENT_MULTIPLIER
-Increase wage type 9788 by 125%,PERCENT_INCREASE
-Reduce wage type 9788 to 75%,PERCENT_DECREASE
-Multiply wage type 9788 by 4,PERCENT_MULTIPLIER
-Make wage type 9249 125 percent,PERCENT_INCREASE
-Reduce wage type 9249 to 80%,PERCENT_DECREASE
-Scale wage type 9249 by 2,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 4188,PERCENT_INCREASE
-Apply 90% rate to wage type 4188,PERCENT_DECREASE
-Triple wage type 4188,PERCENT_MULTIPLIER
-Set wage type 5174 to 125% rate,PERCENT_INCREASE
-Reduce wage type 5174 to 85%,PERCENT_DECREASE
-Triple wage type 5174,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 4271,PERCENT_INCREASE
-Set wage type 4271 to 85%,PERCENT_DECREASE
-Double wage type 4271,PERCENT_MULTIPLIER
-Set wage type 6510 to 175% rate,PERCENT_INCREASE
-Decrease wage type 6510 by 90%,PERCENT_DECREASE
-Multiply wage type 6510 by 2,PERCENT_MULTIPLIER
-Set wage type 3366 to 175% rate,PERCENT_INCREASE
-Reduce wage type 3366 to 85%,PERCENT_DECREASE
-Multiply wage type 3366 by 4,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 1438,PERCENT_INCREASE
-Apply 90% rate to wage type 1438,PERCENT_DECREASE
-Multiply wage type 1438 by 4,PERCENT_MULTIPLIER
-Set wage type 1117 to 110% rate,PERCENT_INCREASE
-Reduce wage type 1117 to 85%,PERCENT_DECREASE
-Multiply wage type 1117 by 1.5,PERCENT_MULTIPLIER
-Calculate overtime at 120% for wage type 2985,PERCENT_INCREASE
-Reduce wage type 2985 to 90%,PERCENT_DECREASE
-Double wage type 2985,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 8577,PERCENT_INCREASE
-Decrease wage type 8577 by 75%,PERCENT_DECREASE
-Double wage type 8577,PERCENT_MULTIPLIER
-Increase wage type 3550 by 110%,PERCENT_INCREASE
-Lower wage type 3550 by 75 percent,PERCENT_DECREASE
-Double wage type 3550,PERCENT_MULTIPLIER
-Make wage type 3293 200 percent,PERCENT_INCREASE
-Reduce wage type 3293 to 90%,PERCENT_DECREASE
-Multiply wage type 3293 by 1.5,PERCENT_MULTIPLIER
-Set wage type 7303 to 120% rate,PERCENT_INCREASE
-Apply 90% rate to wage type 7303,PERCENT_DECREASE
-Double wage type 7303,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 3065,PERCENT_INCREASE
-Decrease wage type 3065 by 85%,PERCENT_DECREASE
-Double wage type 3065,PERCENT_MULTIPLIER
-Set wage type 4077 to 175% rate,PERCENT_INCREASE
-Reduce wage type 4077 to 80%,PERCENT_DECREASE
-Apply 4x to wage type 4077,PERCENT_MULTIPLIER
-Make wage type 2408 175 percent,PERCENT_INCREASE
-Set wage type 2408 to 75%,PERCENT_DECREASE
-Multiply wage type 2408 by 4,PERCENT_MULTIPLIER
-Set wage type 1549 to 110% rate,PERCENT_INCREASE
-Apply 85% rate to wage type 1549,PERCENT_DECREASE
-Multiply wage type 1549 by 1.5,PERCENT_MULTIPLIER
-Increase wage type 6053 by 150%,PERCENT_INCREASE
-Apply 75% rate to wage type 6053,PERCENT_DECREASE
-Apply 2x to wage type 6053,PERCENT_MULTIPLIER
-Apply 130% premium to wage type 3991,PERCENT_INCREASE
-Reduce wage type 3991 to 80%,PERCENT_DECREASE
-Apply 1.5x to wage type 3991,PERCENT_MULTIPLIER
-Make wage type 8855 110 percent,PERCENT_INCREASE
-Decrease wage type 8855 by 85%,PERCENT_DECREASE
-Double wage type 8855,PERCENT_MULTIPLIER
-Apply 110% premium to wage type 6906,PERCENT_INCREASE
-Apply 85% rate to wage type 6906,PERCENT_DECREASE
-Apply 4x to wage type 6906,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 4566,PERCENT_INCREASE
-Set wage type 4566 to 90%,PERCENT_DECREASE
-Multiply wage type 4566 by 2,PERCENT_MULTIPLIER
-Increase wage type 1473 by 130%,PERCENT_INCREASE
-Apply 75% rate to wage type 1473,PERCENT_DECREASE
-Double wage type 1473,PERCENT_MULTIPLIER
-Increase wage type 2851 by 110%,PERCENT_INCREASE
-Reduce wage type 2851 to 90%,PERCENT_DECREASE
-Apply 2x to wage type 2851,PERCENT_MULTIPLIER
-Set wage type 9144 to 175% rate,PERCENT_INCREASE
-Lower wage type 9144 by 80 percent,PERCENT_DECREASE
-Scale wage type 9144 by 4,PERCENT_MULTIPLIER
-Make wage type 1587 200 percent,PERCENT_INCREASE
-Reduce wage type 1587 to 70%,PERCENT_DECREASE
-Double wage type 1587,PERCENT_MULTIPLIER
-Increase wage type 9083 by 120%,PERCENT_INCREASE
-Set wage type 9083 to 70%,PERCENT_DECREASE
-Scale wage type 9083 by 3,PERCENT_MULTIPLIER
-Apply 125% premium to wage type 2851,PERCENT_INCREASE
-Reduce wage type 2851 to 90%,PERCENT_DECREASE
-Apply 2x to wage type 2851,PERCENT_MULTIPLIER
-Increase wage type 5671 by 150%,PERCENT_INCREASE
-Apply 80% rate to wage type 5671,PERCENT_DECREASE
-Triple wage type 5671,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 6730,PERCENT_INCREASE
-Apply 70% rate to wage type 6730,PERCENT_DECREASE
-Scale wage type 6730 by 4,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 3936,PERCENT_INCREASE
-Set wage type 3936 to 75%,PERCENT_DECREASE
-Apply 2x to wage type 3936,PERCENT_MULTIPLIER
-Set wage type 7000 to 150% rate,PERCENT_INCREASE
-Reduce wage type 7000 to 75%,PERCENT_DECREASE
-Triple wage type 7000,PERCENT_MULTIPLIER
-Increase wage type 9513 by 150%,PERCENT_INCREASE
-Set wage type 9513 to 85%,PERCENT_DECREASE
-Apply 3x to wage type 9513,PERCENT_MULTIPLIER
-Set wage type 2749 to 175% rate,PERCENT_INCREASE
-Decrease wage type 2749 by 70%,PERCENT_DECREASE
-Apply 4x to wage type 2749,PERCENT_MULTIPLIER
-Make wage type 8897 125 percent,PERCENT_INCREASE
-Decrease wage type 8897 by 85%,PERCENT_DECREASE
-Double wage type 8897,PERCENT_MULTIPLIER
-Increase wage type 1965 by 125%,PERCENT_INCREASE
-Lower wage type 1965 by 75 percent,PERCENT_DECREASE
-Apply 3x to wage type 1965,PERCENT_MULTIPLIER
-Make wage type 2154 200 percent,PERCENT_INCREASE
-Lower wage type 2154 by 75 percent,PERCENT_DECREASE
-Apply 4x to wage type 2154,PERCENT_MULTIPLIER
-Make wage type 3537 200 percent,PERCENT_INCREASE
-Lower wage type 3537 by 70 percent,PERCENT_DECREASE
-Apply 4x to wage type 3537,PERCENT_MULTIPLIER
-Increase wage type 7818 by 125%,PERCENT_INCREASE
-Reduce wage type 7818 to 80%,PERCENT_DECREASE
-Multiply wage type 7818 by 3,PERCENT_MULTIPLIER
-Apply 200% premium to wage type 7715,PERCENT_INCREASE
-Apply 75% rate to wage type 7715,PERCENT_DECREASE
-Scale wage type 7715 by 3,PERCENT_MULTIPLIER
-Set wage type 8581 to 200% rate,PERCENT_INCREASE
-Set wage type 8581 to 75%,PERCENT_DECREASE
-Apply 2x to wage type 8581,PERCENT_MULTIPLIER
-Increase wage type 5996 by 110%,PERCENT_INCREASE
-Reduce wage type 5996 to 75%,PERCENT_DECREASE
-Scale wage type 5996 by 2,PERCENT_MULTIPLIER
-Make wage type 2084 120 percent,PERCENT_INCREASE
-Set wage type 2084 to 70%,PERCENT_DECREASE
-Scale wage type 2084 by 1.5,PERCENT_MULTIPLIER
-Increase wage type 2801 by 150%,PERCENT_INCREASE
-Apply 85% rate to wage type 2801,PERCENT_DECREASE
-Triple wage type 2801,PERCENT_MULTIPLIER
-Calculate overtime at 120% for wage type 3292,PERCENT_INCREASE
-Lower wage type 3292 by 70 percent,PERCENT_DECREASE
-Scale wage type 3292 by 3,PERCENT_MULTIPLIER
-Apply 200% premium to wage type 8638,PERCENT_INCREASE
-Reduce wage type 8638 to 75%,PERCENT_DECREASE
-Double wage type 8638,PERCENT_MULTIPLIER
-Increase wage type 8110 by 120%,PERCENT_INCREASE
-Reduce wage type 8110 to 75%,PERCENT_DECREASE
-Apply 1.5x to wage type 8110,PERCENT_MULTIPLIER
-Make wage type 7097 110 percent,PERCENT_INCREASE
-Reduce wage type 7097 to 85%,PERCENT_DECREASE
-Triple wage type 7097,PERCENT_MULTIPLIER
-Make wage type 7702 150 percent,PERCENT_INCREASE
-Lower wage type 7702 by 80 percent,PERCENT_DECREASE
-Multiply wage type 7702 by 1.5,PERCENT_MULTIPLIER
-Make wage type 2570 120 percent,PERCENT_INCREASE
-Apply 85% rate to wage type 2570,PERCENT_DECREASE
-Multiply wage type 2570 by 3,PERCENT_MULTIPLIER
-Set wage type 9047 to 130% rate,PERCENT_INCREASE
-Apply 80% rate to wage type 9047,PERCENT_DECREASE
-Double wage type 9047,PERCENT_MULTIPLIER
-Set wage type 2886 to 175% rate,PERCENT_INCREASE
-Apply 70% rate to wage type 2886,PERCENT_DECREASE
-Double wage type 2886,PERCENT_MULTIPLIER
-Increase wage type 3534 by 110%,PERCENT_INCREASE
-Reduce wage type 3534 to 80%,PERCENT_DECREASE
-Scale wage type 3534 by 3,PERCENT_MULTIPLIER
-Increase wage type 2526 by 175%,PERCENT_INCREASE
-Apply 70% rate to wage type 2526,PERCENT_DECREASE
-Multiply wage type 2526 by 3,PERCENT_MULTIPLIER
-Make wage type 9063 150 percent,PERCENT_INCREASE
-Set wage type 9063 to 75%,PERCENT_DECREASE
-Multiply wage type 9063 by 4,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 5055,PERCENT_INCREASE
-Apply 90% rate to wage type 5055,PERCENT_DECREASE
-Triple wage type 5055,PERCENT_MULTIPLIER
-Set wage type 6625 to 110% rate,PERCENT_INCREASE
-Apply 90% rate to wage type 6625,PERCENT_DECREASE
-Apply 4x to wage type 6625,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 7900,PERCENT_INCREASE
-Lower wage type 7900 by 85 percent,PERCENT_DECREASE
-Double wage type 7900,PERCENT_MULTIPLIER
-Set wage type 9993 to 130% rate,PERCENT_INCREASE
-Decrease wage type 9993 by 70%,PERCENT_DECREASE
-Triple wage type 9993,PERCENT_MULTIPLIER
-Set wage type 7224 to 175% rate,PERCENT_INCREASE
-Reduce wage type 7224 to 70%,PERCENT_DECREASE
-Apply 3x to wage type 7224,PERCENT_MULTIPLIER
-Increase wage type 8240 by 200%,PERCENT_INCREASE
-Set wage type 8240 to 90%,PERCENT_DECREASE
-Apply 4x to wage type 8240,PERCENT_MULTIPLIER
-Make wage type 4591 130 percent,PERCENT_INCREASE
-Apply 70% rate to wage type 4591,PERCENT_DECREASE
-Double wage type 4591,PERCENT_MULTIPLIER
-Set wage type 8296 to 175% rate,PERCENT_INCREASE
-Lower wage type 8296 by 90 percent,PERCENT_DECREASE
-Double wage type 8296,PERCENT_MULTIPLIER
-Set wage type 3057 to 110% rate,PERCENT_INCREASE
-Lower wage type 3057 by 80 percent,PERCENT_DECREASE
-Multiply wage type 3057 by 4,PERCENT_MULTIPLIER
-Make wage type 6909 175 percent,PERCENT_INCREASE
-Set wage type 6909 to 85%,PERCENT_DECREASE
-Double wage type 6909,PERCENT_MULTIPLIER
-Apply 175% premium to wage type 6903,PERCENT_INCREASE
-Set wage type 6903 to 80%,PERCENT_DECREASE
-Double wage type 6903,PERCENT_MULTIPLIER
-Set wage type 8295 to 150% rate,PERCENT_INCREASE
-Set wage type 8295 to 85%,PERCENT_DECREASE
-Double wage type 8295,PERCENT_MULTIPLIER
-Apply 125% premium to wage type 5914,PERCENT_INCREASE
-Set wage type 5914 to 80%,PERCENT_DECREASE
-Double wage type 5914,PERCENT_MULTIPLIER
-Increase wage type 5307 by 120%,PERCENT_INCREASE
-Lower wage type 5307 by 85 percent,PERCENT_DECREASE
-Multiply wage type 5307 by 1.5,PERCENT_MULTIPLIER
-Increase wage type 3624 by 200%,PERCENT_INCREASE
-Apply 90% rate to wage type 3624,PERCENT_DECREASE
-Multiply wage type 3624 by 2,PERCENT_MULTIPLIER
-Increase wage type 4861 by 120%,PERCENT_INCREASE
-Lower wage type 4861 by 90 percent,PERCENT_DECREASE
-Apply 2x to wage type 4861,PERCENT_MULTIPLIER
-Make wage type 8764 130 percent,PERCENT_INCREASE
-Lower wage type 8764 by 90 percent,PERCENT_DECREASE
-Double wage type 8764,PERCENT_MULTIPLIER
-Set wage type 5123 to 200% rate,PERCENT_INCREASE
-Decrease wage type 5123 by 75%,PERCENT_DECREASE
-Triple wage type 5123,PERCENT_MULTIPLIER
-Increase wage type 2570 by 110%,PERCENT_INCREASE
-Lower wage type 2570 by 80 percent,PERCENT_DECREASE
-Triple wage type 2570,PERCENT_MULTIPLIER
-Calculate overtime at 110% for wage type 5975,PERCENT_INCREASE
-Decrease wage type 5975 by 90%,PERCENT_DECREASE
-Apply 3x to wage type 5975,PERCENT_MULTIPLIER
-Make wage type 3674 110 percent,PERCENT_INCREASE
-Set wage type 3674 to 80%,PERCENT_DECREASE
-Triple wage type 3674,PERCENT_MULTIPLIER
-Set wage type 4358 to 150% rate,PERCENT_INCREASE
-Set wage type 4358 to 80%,PERCENT_DECREASE
-Multiply wage type 4358 by 1.5,PERCENT_MULTIPLIER
-Set wage type 8147 to 200% rate,PERCENT_INCREASE
-Reduce wage type 8147 to 70%,PERCENT_DECREASE
-Scale wage type 8147 by 2,PERCENT_MULTIPLIER
-Make wage type 1482 120 percent,PERCENT_INCREASE
-Lower wage type 1482 by 70 percent,PERCENT_DECREASE
-Double wage type 1482,PERCENT_MULTIPLIER
-Make wage type 1793 125 percent,PERCENT_INCREASE
-Apply 85% rate to wage type 1793,PERCENT_DECREASE
-Scale wage type 1793 by 1.5,PERCENT_MULTIPLIER
-Make wage type 7467 130 percent,PERCENT_INCREASE
-Lower wage type 7467 by 70 percent,PERCENT_DECREASE
-Scale wage type 7467 by 2,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 6111,PERCENT_INCREASE
-Set wage type 6111 to 80%,PERCENT_DECREASE
-Triple wage type 6111,PERCENT_MULTIPLIER
-Calculate overtime at 200% for wage type 8002,PERCENT_INCREASE
-Set wage type 8002 to 85%,PERCENT_DECREASE
-Multiply wage type 8002 by 1.5,PERCENT_MULTIPLIER
-Make wage type 2757 125 percent,PERCENT_INCREASE
-Reduce wage type 2757 to 85%,PERCENT_DECREASE
-Multiply wage type 2757 by 3,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 9061,PERCENT_INCREASE
-Apply 90% rate to wage type 9061,PERCENT_DECREASE
-Multiply wage type 9061 by 1.5,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 5912,PERCENT_INCREASE
-Apply 70% rate to wage type 5912,PERCENT_DECREASE
-Apply 4x to wage type 5912,PERCENT_MULTIPLIER
-Apply 130% premium to wage type 1295,PERCENT_INCREASE
-Apply 90% rate to wage type 1295,PERCENT_DECREASE
-Double wage type 1295,PERCENT_MULTIPLIER
-Set wage type 6273 to 200% rate,PERCENT_INCREASE
-Lower wage type 6273 by 85 percent,PERCENT_DECREASE
-Multiply wage type 6273 by 4,PERCENT_MULTIPLIER
-Calculate overtime at 130% for wage type 9722,PERCENT_INCREASE
-Set wage type 9722 to 80%,PERCENT_DECREASE
-Double wage type 9722,PERCENT_MULTIPLIER
-Set wage type 3887 to 120% rate,PERCENT_INCREASE
-Reduce wage type 3887 to 70%,PERCENT_DECREASE
-Multiply wage type 3887 by 1.5,PERCENT_MULTIPLIER
-Make wage type 5057 125 percent,PERCENT_INCREASE
-Lower wage type 5057 by 75 percent,PERCENT_DECREASE
-Multiply wage type 5057 by 1.5,PERCENT_MULTIPLIER
-Calculate overtime at 200% for wage type 7003,PERCENT_INCREASE
-Decrease wage type 7003 by 80%,PERCENT_DECREASE
-Triple wage type 7003,PERCENT_MULTIPLIER
-Increase wage type 3944 by 120%,PERCENT_INCREASE
-Apply 75% rate to wage type 3944,PERCENT_DECREASE
-Triple wage type 3944,PERCENT_MULTIPLIER
-Make wage type 8786 130 percent,PERCENT_INCREASE
-Set wage type 8786 to 80%,PERCENT_DECREASE
-Multiply wage type 8786 by 4,PERCENT_MULTIPLIER
-Make wage type 9826 120 percent,PERCENT_INCREASE
-Apply 75% rate to wage type 9826,PERCENT_DECREASE
-Apply 3x to wage type 9826,PERCENT_MULTIPLIER
-Set wage type 3307 to 175% rate,PERCENT_INCREASE
-Set wage type 3307 to 90%,PERCENT_DECREASE
-Triple wage type 3307,PERCENT_MULTIPLIER
-Make wage type 9959 175 percent,PERCENT_INCREASE
-Lower wage type 9959 by 75 percent,PERCENT_DECREASE
-Apply 4x to wage type 9959,PERCENT_MULTIPLIER
-Calculate overtime at 130% for wage type 7257,PERCENT_INCREASE
-Lower wage type 7257 by 80 percent,PERCENT_DECREASE
-Scale wage type 7257 by 2,PERCENT_MULTIPLIER
-Make wage type 6877 200 percent,PERCENT_INCREASE
-Apply 75% rate to wage type 6877,PERCENT_DECREASE
-Triple wage type 6877,PERCENT_MULTIPLIER
-Make wage type 3335 130 percent,PERCENT_INCREASE
-Set wage type 3335 to 75%,PERCENT_DECREASE
-Multiply wage type 3335 by 2,PERCENT_MULTIPLIER
-Make wage type 9770 110 percent,PERCENT_INCREASE
-Lower wage type 9770 by 90 percent,PERCENT_DECREASE
-Double wage type 9770,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 9641,PERCENT_INCREASE
-Set wage type 9641 to 70%,PERCENT_DECREASE
-Scale wage type 9641 by 1.5,PERCENT_MULTIPLIER
-Set wage type 8580 to 175% rate,PERCENT_INCREASE
-Reduce wage type 8580 to 70%,PERCENT_DECREASE
-Triple wage type 8580,PERCENT_MULTIPLIER
-Apply 130% premium to wage type 6677,PERCENT_INCREASE
-Apply 75% rate to wage type 6677,PERCENT_DECREASE
-Double wage type 6677,PERCENT_MULTIPLIER
-Set wage type 7603 to 175% rate,PERCENT_INCREASE
-Lower wage type 7603 by 85 percent,PERCENT_DECREASE
-Double wage type 7603,PERCENT_MULTIPLIER
-Apply 110% premium to wage type 2100,PERCENT_INCREASE
-Apply 90% rate to wage type 2100,PERCENT_DECREASE
-Apply 2x to wage type 2100,PERCENT_MULTIPLIER
-Increase wage type 8239 by 200%,PERCENT_INCREASE
-Decrease wage type 8239 by 70%,PERCENT_DECREASE
-Triple wage type 8239,PERCENT_MULTIPLIER
-Make wage type 5737 120 percent,PERCENT_INCREASE
-Set wage type 5737 to 90%,PERCENT_DECREASE
-Triple wage type 5737,PERCENT_MULTIPLIER
-Set wage type 2567 to 130% rate,PERCENT_INCREASE
-Reduce wage type 2567 to 90%,PERCENT_DECREASE
-Scale wage type 2567 by 2,PERCENT_MULTIPLIER
-Increase wage type 1691 by 125%,PERCENT_INCREASE
-Apply 90% rate to wage type 1691,PERCENT_DECREASE
-Double wage type 1691,PERCENT_MULTIPLIER
-Make wage type 2895 130 percent,PERCENT_INCREASE
-Decrease wage type 2895 by 85%,PERCENT_DECREASE
-Double wage type 2895,PERCENT_MULTIPLIER
-Make wage type 1170 150 percent,PERCENT_INCREASE
-Decrease wage type 1170 by 70%,PERCENT_DECREASE
-Double wage type 1170,PERCENT_MULTIPLIER
-Calculate overtime at 200% for wage type 7007,PERCENT_INCREASE
-Reduce wage type 7007 to 85%,PERCENT_DECREASE
-Multiply wage type 7007 by 3,PERCENT_MULTIPLIER
-Set wage type 8973 to 200% rate,PERCENT_INCREASE
-Lower wage type 8973 by 75 percent,PERCENT_DECREASE
-Scale wage type 8973 by 1.5,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 9601,PERCENT_INCREASE
-Lower wage type 9601 by 80 percent,PERCENT_DECREASE
-Triple wage type 9601,PERCENT_MULTIPLIER
-Increase wage type 3749 by 125%,PERCENT_INCREASE
-Set wage type 3749 to 80%,PERCENT_DECREASE
-Multiply wage type 3749 by 4,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 9789,PERCENT_INCREASE
-Apply 90% rate to wage type 9789,PERCENT_DECREASE
-Multiply wage type 9789 by 4,PERCENT_MULTIPLIER
-Increase wage type 8904 by 130%,PERCENT_INCREASE
-Reduce wage type 8904 to 80%,PERCENT_DECREASE
-Scale wage type 8904 by 4,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 8741,PERCENT_INCREASE
-Set wage type 8741 to 90%,PERCENT_DECREASE
-Multiply wage type 8741 by 1.5,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 8069,PERCENT_INCREASE
-Lower wage type 8069 by 70 percent,PERCENT_DECREASE
-Multiply wage type 8069 by 4,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 5407,PERCENT_INCREASE
-Reduce wage type 5407 to 75%,PERCENT_DECREASE
-Apply 4x to wage type 5407,PERCENT_MULTIPLIER
-Make wage type 9437 110 percent,PERCENT_INCREASE
-Reduce wage type 9437 to 90%,PERCENT_DECREASE
-Apply 2x to wage type 9437,PERCENT_MULTIPLIER
-Make wage type 2503 120 percent,PERCENT_INCREASE
-Apply 70% rate to wage type 2503,PERCENT_DECREASE
-Apply 1.5x to wage type 2503,PERCENT_MULTIPLIER
-Make wage type 1943 200 percent,PERCENT_INCREASE
-Set wage type 1943 to 75%,PERCENT_DECREASE
-Apply 2x to wage type 1943,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 8216,PERCENT_INCREASE
-Reduce wage type 8216 to 80%,PERCENT_DECREASE
-Apply 3x to wage type 8216,PERCENT_MULTIPLIER
-Make wage type 1247 175 percent,PERCENT_INCREASE
-Apply 80% rate to wage type 1247,PERCENT_DECREASE
-Double wage type 1247,PERCENT_MULTIPLIER
-Calculate overtime at 175% for wage type 7811,PERCENT_INCREASE
-Set wage type 7811 to 75%,PERCENT_DECREASE
-Apply 3x to wage type 7811,PERCENT_MULTIPLIER
-Make wage type 2038 120 percent,PERCENT_INCREASE
-Lower wage type 2038 by 75 percent,PERCENT_DECREASE
-Multiply wage type 2038 by 3,PERCENT_MULTIPLIER
-Apply 130% premium to wage type 3645,PERCENT_INCREASE
-Apply 85% rate to wage type 3645,PERCENT_DECREASE
-Multiply wage type 3645 by 1.5,PERCENT_MULTIPLIER
-Set wage type 9991 to 125% rate,PERCENT_INCREASE
-Set wage type 9991 to 70%,PERCENT_DECREASE
-Scale wage type 9991 by 2,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 8853,PERCENT_INCREASE
-Lower wage type 8853 by 75 percent,PERCENT_DECREASE
-Triple wage type 8853,PERCENT_MULTIPLIER
-Set wage type 4850 to 125% rate,PERCENT_INCREASE
-Lower wage type 4850 by 85 percent,PERCENT_DECREASE
-Scale wage type 4850 by 2,PERCENT_MULTIPLIER
-Increase wage type 5844 by 125%,PERCENT_INCREASE
-Apply 90% rate to wage type 5844,PERCENT_DECREASE
-Multiply wage type 5844 by 1.5,PERCENT_MULTIPLIER
-Calculate overtime at 125% for wage type 6131,PERCENT_INCREASE
-Decrease wage type 6131 by 75%,PERCENT_DECREASE
-Triple wage type 6131,PERCENT_MULTIPLIER
-Calculate overtime at 150% for wage type 6764,PERCENT_INCREASE
-Reduce wage type 6764 to 85%,PERCENT_DECREASE
-Scale wage type 6764 by 4,PERCENT_MULTIPLIER
-Increase wage type 1312 by 200%,PERCENT_INCREASE
-Decrease wage type 1312 by 70%,PERCENT_DECREASE
-Double wage type 1312,PERCENT_MULTIPLIER
-Calculate overtime at 175% for wage type 8010,PERCENT_INCREASE
-Reduce wage type 8010 to 70%,PERCENT_DECREASE
-Double wage type 8010,PERCENT_MULTIPLIER
-Increase wage type 6106 by 125%,PERCENT_INCREASE
-Decrease wage type 6106 by 75%,PERCENT_DECREASE
-Scale wage type 6106 by 1.5,PERCENT_MULTIPLIER
-Calculate overtime at 130% for wage type 9255,PERCENT_INCREASE
-Decrease wage type 9255 by 75%,PERCENT_DECREASE
-Multiply wage type 9255 by 3,PERCENT_MULTIPLIER
-Apply 200% premium to wage type 5997,PERCENT_INCREASE
-Lower wage type 5997 by 80 percent,PERCENT_DECREASE
-Apply 4x to wage type 5997,PERCENT_MULTIPLIER
-Make wage type 4261 200 percent,PERCENT_INCREASE
-Set wage type 4261 to 80%,PERCENT_DECREASE
-Triple wage type 4261,PERCENT_MULTIPLIER
-Apply 200% premium to wage type 4778,PERCENT_INCREASE
-Set wage type 4778 to 75%,PERCENT_DECREASE
-Apply 2x to wage type 4778,PERCENT_MULTIPLIER
-Calculate overtime at 120% for wage type 5949,PERCENT_INCREASE
-Decrease wage type 5949 by 90%,PERCENT_DECREASE
-Triple wage type 5949,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 7186,PERCENT_INCREASE
-Apply 80% rate to wage type 7186,PERCENT_DECREASE
-Triple wage type 7186,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 2886,PERCENT_INCREASE
-Set wage type 2886 to 80%,PERCENT_DECREASE
-Scale wage type 2886 by 4,PERCENT_MULTIPLIER
-Apply 125% premium to wage type 1491,PERCENT_INCREASE
-Lower wage type 1491 by 85 percent,PERCENT_DECREASE
-Apply 4x to wage type 1491,PERCENT_MULTIPLIER
-Increase wage type 8720 by 125%,PERCENT_INCREASE
-Set wage type 8720 to 75%,PERCENT_DECREASE
-Double wage type 8720,PERCENT_MULTIPLIER
-Increase wage type 4262 by 125%,PERCENT_INCREASE
-Apply 75% rate to wage type 4262,PERCENT_DECREASE
-Multiply wage type 4262 by 1.5,PERCENT_MULTIPLIER
-Make wage type 7167 125 percent,PERCENT_INCREASE
-Lower wage type 7167 by 90 percent,PERCENT_DECREASE
-Apply 1.5x to wage type 7167,PERCENT_MULTIPLIER
-Apply 200% premium to wage type 1434,PERCENT_INCREASE
-Reduce wage type 1434 to 80%,PERCENT_DECREASE
-Double wage type 1434,PERCENT_MULTIPLIER
-Set wage type 8228 to 120% rate,PERCENT_INCREASE
-Set wage type 8228 to 70%,PERCENT_DECREASE
-Apply 4x to wage type 8228,PERCENT_MULTIPLIER
-Set wage type 6872 to 200% rate,PERCENT_INCREASE
-Apply 80% rate to wage type 6872,PERCENT_DECREASE
-Triple wage type 6872,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 2585,PERCENT_INCREASE
-Lower wage type 2585 by 70 percent,PERCENT_DECREASE
-Multiply wage type 2585 by 3,PERCENT_MULTIPLIER
-Apply 120% premium to wage type 8491,PERCENT_INCREASE
-Reduce wage type 8491 to 90%,PERCENT_DECREASE
-Triple wage type 8491,PERCENT_MULTIPLIER
-Increase wage type 7970 by 175%,PERCENT_INCREASE
-Decrease wage type 7970 by 70%,PERCENT_DECREASE
-Double wage type 7970,PERCENT_MULTIPLIER
-Increase wage type 3887 by 130%,PERCENT_INCREASE
-Lower wage type 3887 by 85 percent,PERCENT_DECREASE
-Multiply wage type 3887 by 2,PERCENT_MULTIPLIER
-Make wage type 5279 130 percent,PERCENT_INCREASE
-Reduce wage type 5279 to 90%,PERCENT_DECREASE
-Double wage type 5279,PERCENT_MULTIPLIER
-Apply 150% premium to wage type 6690,PERCENT_INCREASE
-Decrease wage type 6690 by 70%,PERCENT_DECREASE
-Apply 1.5x to wage type 6690,PERCENT_MULTIPLIER
-Set wage type 4545 to 120% rate,PERCENT_INCREASE
-Reduce wage type 4545 to 85%,PERCENT_DECREASE
-Multiply wage type 4545 by 4,PERCENT_MULTIPLIER
+"Child allowance in 1111, output to 4441",ALLOWANCE
+Calculate unpaid absence deduction from base pay 6661 using hours 8992,ABSENCE
+"Add fixed amount 200 to wage type 9991, store in 1000",FIXED_ADD
+"Meal allowance of 130% of base pay 4774, store in 9991",ALLOWANCE
+"Pay 120% for overtime hours when employee exceeds 180h, wage type 6883",OVERTIME
+"Meal allowance of 250% of base pay 6217, store in 3664",ALLOWANCE
+Nullify wage type 9325 in output,RESET_SUPPRESS
+"Multiply rate from wage type 3220 by hours from 5995, store result in 6661",RATE_HOURS
+Zero out wage type 7771,RESET_SUPPRESS
+Replicate wage type 1333 as 5329,COPY_WT
+Copy base salary from 5884 to output wage type 6772,COPY_WT
+Move result of 2221 to wage type 8437,COPY_WT
+Reduce 5773 by 1000,FIXED_SUB
+Overtime pay at 130% for anything over 173 hours from WT 8770,OVERTIME
+Multiply hourly rate in 9103 by actual hours in 6883 into 1999,RATE_HOURS
+"If hours in wage type 7660 are greater than 180, pay 150% of base 2887 into 8215",OVERTIME
+"Increase wage type 3886 by 125%, store in 3775",PERCENT_INCREASE
+"Pay = rate 4219 × hours 1777, output wage type 9436",RATE_HOURS
+Withhold 15% tax from wage type 2221,TAX_DEDUCTION
+Process 8881 only when 7438 amount is above 4,THRESHOLD
+Rate from 9436 times hours from 8881 gives result in 4885,RATE_HOURS
+Combine wage types 7327 and 5995 into result 8992,ACCUMULATE
+Combine wage types 6328 and 8326 into result 9547,ACCUMULATE
+"Aggregate amounts from 8215 and 8437, store in 6772",ACCUMULATE
+Deduct 28% as national insurance from 7438 into 8104,TAX_DEDUCTION
+Apply night shift premium of 130% to 5884,PERCENT_INCREASE
+Minus 1000 from wage type 1777 output to 4552,FIXED_SUB
+"Two times wage type 4552, output to 1222",PERCENT_MULTI
+Calculate overtime at 200% for wage type 5662,PERCENT_INCREASE
+Subtract 100 from wage type 5218,FIXED_SUB
+"If hours in wage type 1222 are greater than 6, pay 250% of base 2221 into 1555",OVERTIME
+Calculate tax amount at 30% from wage type 9547,TAX_DEDUCTION
+"Add fixed amount 250 to wage type 3775, store in 3442",FIXED_ADD
+"Same value as 8437, store in 4552",COPY_WT
+"Increase wage type 7549 by 140%, store in 1444",PERCENT_INCREASE
+"Calculate pay using rate in 6328 and hours worked in 7993, output to 3664",RATE_HOURS
+Zero the amount in wage type 3331,RESET_SUPPRESS
+Night shift allowance 225% of 2887 into 6439,ALLOWANCE
+Nullify wage type 7438 in output,RESET_SUPPRESS
+Apply 12% PAYE deduction to gross pay 6328,TAX_DEDUCTION
+"If amount in 6217 exceeds 12, apply 200% and store in 4108",THRESHOLD
+Night shift allowance 140% of 7549 into 3220,ALLOWANCE
+Take amount in 9103 and place it in 9658 unchanged,COPY_WT
+Calculate overtime premium for hours above 40 from wage type 1222 at 125%,OVERTIME
+Subtract 1000 from wage type 1999,FIXED_SUB
+"Multiply rate from wage type 8548 by hours from 8992, store result in 8881",RATE_HOURS
+Pay only 95% of wage type 6772 due to partial month,PERCENT_DECREASE
+"Pay 200% for overtime hours when employee exceeds 180h, wage type 3775",OVERTIME
+Set wage type 7327 to 115% rate,PERCENT_INCREASE
+Set wage type 8881 to 175% rate,PERCENT_INCREASE
+Apply 7% PAYE deduction to gross pay 2110,TAX_DEDUCTION
+Deduct fixed penalty of 200 from 9436,FIXED_SUB
+"Increase wage type 4663 by 250%, store in 3664",PERCENT_INCREASE
+Proportional pay at 50% of 1000,PERCENT_DECREASE
+"Total of wage types 1000 plus 1222 plus 1888, output to 9769",ACCUMULATE
+Conditional: if 9880 > 160 then apply premium 140% into 7105,THRESHOLD
+Suppress output of wage type 7882,RESET_SUPPRESS
+"Overtime calculation: hours in 5773 above 160 threshold, 140% premium, output to 1333",OVERTIME
+"Aggregate amounts from 9214 and 6106, store in 5218",ACCUMULATE
+"Multiply rate from wage type 2221 by hours from 6661, store result in 4552",RATE_HOURS
+Plus 250 on top of wage type 5773,FIXED_ADD
+"If amount in 2554 exceeds 173, apply 130% and store in 9325",THRESHOLD
+Multiply hourly rate in 6772 by actual hours in 9103 into 5107,RATE_HOURS
+Zero the amount in wage type 6550,RESET_SUPPRESS
+"RTE from 6328 multiplied by NUM from 1999, ADDWT 7438",RATE_HOURS
+"Calculate gross pay from rate in WT 1888 and time in WT 8215, result in WT 9991",RATE_HOURS
+"Pay overtime premium of 115% when hours in 4552 exceed 40, result in 7438",OVERTIME
+"Calculate 5% income tax on gross pay wage type 7327, store in 2554",TAX_DEDUCTION
+"Apply 75% reduction to wage type 9325, store in 4330",PERCENT_DECREASE
+Apply 120% bonus only when base pay 5884 is above 6,THRESHOLD
+"Increase wage type 1444 by 225%, store in 6106",PERCENT_INCREASE
+Scale 9214 by 4 and store in 5662,PERCENT_MULTI
+"If amount in 1777 exceeds 7, apply 250% and store in 2110",THRESHOLD
+"If hours from 9103 are less than 10, suppress output",THRESHOLD
+Minus 250 from wage type 7882 output to 7438,FIXED_SUB
+Clear all registers after processing 1111,RESET_SUPPRESS
+Calculate tax amount at 30% from wage type 1111,TAX_DEDUCTION
+"Calculate gross pay from rate in WT 5773 and time in WT 2221, result in WT 2554",RATE_HOURS
+"Calculate 5% income tax on gross pay wage type 1666, store in 9991",TAX_DEDUCTION
+"If amount in 6550 exceeds 6, apply 125% and store in 1555",THRESHOLD
+Calculate absence deduction for wage type 4330 based on hours in 6661,ABSENCE
+"Sum wage types 8437, 3442 and 3553 into 3886",ACCUMULATE
+Overtime pay at 140% for anything over 4 hours from WT 5884,OVERTIME
+"Accumulate 5551, 7771 and 6661 into total 6328",ACCUMULATE
+"Multiply rate from wage type 4885 by hours from 3109, store result in 2443",RATE_HOURS
+Increase 6439 by a fixed 100 units,FIXED_ADD
+Add 200 to the amount in 6217,FIXED_ADD
+Decrease wage type 8548 by 70%,PERCENT_DECREASE
+Pay only 75% of wage type 9547 due to partial month,PERCENT_DECREASE
+"Weekend allowance at 175% of wage type 1444, store in 6772",PERCENT_INCREASE
+Process 7438 only when 1666 amount is above 40,THRESHOLD
+Plus 100 on top of wage type 8104,FIXED_ADD
+Multiply wage type 5551 by 2,PERCENT_MULTI
+"Pay overtime premium of 110% when hours in 7105 exceed 4, result in 4885",OVERTIME
+Apply 4x to wage type 9325,PERCENT_MULTI
+Merge wage types 8437 and 1999 into 4219,ACCUMULATE
+"If amount in 7993 exceeds 173, apply 175% and store in 8992",THRESHOLD
+"RTE from 4552 multiplied by NUM from 4441, ADDWT 9880",RATE_HOURS
+Calculate unpaid absence deduction from base pay 6106 using hours 8215,ABSENCE
+Multiply 1888 by factor 2 into 1000,PERCENT_MULTI
+Add 750 to the amount in 5329,FIXED_ADD
+Rate from 1888 times hours from 5107 gives result in 1777,RATE_HOURS
+Make wage type 1555 120 percent,PERCENT_INCREASE
+Deduct fixed penalty of 100 from 8659,FIXED_SUB
+Scale 1666 by 4 and store in 9769,PERCENT_MULTI
+Multiply 4330 by factor 3 into 1333,PERCENT_MULTI
+Calculate overtime at 175% for wage type 8659,PERCENT_INCREASE
+Suppress output of wage type 9547,RESET_SUPPRESS
+"Hours absent in 2332, deduct proportional amount from base 9769, store in 5551",ABSENCE
+Set wage type 4441 to 150% rate,PERCENT_INCREASE
+"Accumulate 5440, 7549 and 9325 into total 6439",ACCUMULATE
+"Compute earnings: hourly rate 4996 multiplied by hours 7993, store in 4441",RATE_HOURS
+Conditional: if 5329 > 40 then apply premium 150% into 7327,THRESHOLD
+"Add fixed amount 200 to wage type 9214, store in 1777",FIXED_ADD
+"Double pay for hours exceeding 40 in 3664, output to 4663",OVERTIME
+Zero the amount in wage type 2554,RESET_SUPPRESS
+Calculate unpaid absence deduction from base pay 3664 using hours 6661,ABSENCE
+Proportional pay at 85% of 6550,PERCENT_DECREASE
+Apply 2x to wage type 2332,PERCENT_MULTI
+Take amount in 9880 and place it in 1222 unchanged,COPY_WT
+Combine wage types 1444 and 5662 into result 7660,ACCUMULATE
+Calculate absence deduction for wage type 9991 based on hours in 9103,ABSENCE
+"Multiply rate from wage type 8548 by hours from 8104, store result in 1222",RATE_HOURS
+Take amount in 7549 and place it in 8881 unchanged,COPY_WT
+Add supplement wage type 9325 to pay,ALLOWANCE
+"Calculate 25% provident fund contribution on 5773, output to 3886",TAX_DEDUCTION
+Deduct fixed penalty of 200 from 7105,FIXED_SUB
+Pay only 70% of wage type 7993 due to partial month,PERCENT_DECREASE
+Add housing allowance from wage type 3553 to 7216,ALLOWANCE
+"Total of wage types 5440 plus 5329 plus 9103, output to 2332",ACCUMULATE
+"Pro-rate wage type 7993 for partial month worked, result in 8659",ABSENCE
+Withhold 25% tax from wage type 3553,TAX_DEDUCTION
+Apply 85% factor to reduce wage type 8770,PERCENT_DECREASE
+Reduce wage type 8992 to 50%,PERCENT_DECREASE
+"Calculate gross pay from rate in WT 7438 and time in WT 8104, result in WT 2221",RATE_HOURS
+Double wage type 6106,PERCENT_MULTI
+Eliminate wage type 1777 from results,RESET_SUPPRESS
+Calculate absence deduction for wage type 2443 based on hours in 8437,ABSENCE
+"Apply absence factor to wage type 2110, store deduction in 7105",ABSENCE
+Add together 5440 and 9547 and store in 2554,ACCUMULATE
+Calculate unpaid absence deduction from base pay 5773 using hours 6772,ABSENCE
+Set wage type 2221 to 110% rate,PERCENT_INCREASE
+"If hours in wage type 9436 are greater than 6, pay 150% of base 9547 into 6550",OVERTIME
+"Accumulate 8104, 8881 and 4996 into total 9658",ACCUMULATE
+Overtime pay at 200% for anything over 160 hours from WT 7216,OVERTIME
+Minus 250 from wage type 7438 output to 4663,FIXED_SUB
+"Pro-rate wage type 1000 for partial month worked, result in 7660",ABSENCE
+Take 80% of wage type 4219 as partial payment,PERCENT_DECREASE
+Multiply wage type 2554 by 2,PERCENT_MULTI
+"Overtime calculation: hours in 7327 above 40 threshold, 120% premium, output to 4885",OVERTIME
+"Overtime calculation: hours in 2776 above 160 threshold, 200% premium, output to 8548",OVERTIME
+Health insurance contribution: 20% of 2776 stored in 3886,TAX_DEDUCTION
+"Transport allowance wage type 4108, output to 8659",ALLOWANCE
+Shift differential of 150% applied to 9991,PERCENT_INCREASE
+Supplement wage type 5995 with fixed addition of 500,FIXED_ADD
+Reduce wage type 9880 to 75%,PERCENT_DECREASE
+Add together 1999 and 6772 and store in 5662,ACCUMULATE
+Multiply wage type 9658 by 2,PERCENT_MULTI
+Calculate absence deduction for wage type 3331 based on hours in 3109,ABSENCE
+Subtract 200 from wage type 7216,FIXED_SUB
+Employee contribution 28% on base salary 5107 into WT 3220,TAX_DEDUCTION
+Do not output wage type 2221,RESET_SUPPRESS
+"Sum wage types 6328, 5551 and 3553 into 7771",ACCUMULATE
+Add housing allowance from wage type 1777 to 3331,ALLOWANCE
+Deduct 22% pension contribution from 5995 into 7105,TAX_DEDUCTION
+Add allowance of 100 to 1111,FIXED_ADD
+"Apply 115% overtime rate when 1111 exceeds 7 hours, store in 7216",OVERTIME
+Supplement wage type 6994 with fixed addition of 750,FIXED_ADD
+"Pay = rate 7993 × hours 8881, output wage type 2221",RATE_HOURS
+Take 85% of wage type 8881 as partial payment,PERCENT_DECREASE
+"Pay 130% for overtime hours when employee exceeds 7h, wage type 9436",OVERTIME
+"Same value as 3442, store in 5329",COPY_WT
+Merge wage types 1222 and 3331 into 6661,ACCUMULATE
+"Sum wage types 2998, 4552 and 1888 into 8437",ACCUMULATE
+"Weekend allowance at 175% of wage type 5107, store in 7327",PERCENT_INCREASE
+Deduct fixed penalty of 200 from 4885,FIXED_SUB
+Threshold check: 5218 must exceed 8 before outputting to 1777,THRESHOLD
+Double wage type 6550,PERCENT_MULTI
+"Transport allowance wage type 9325, output to 8104",ALLOWANCE
+Zero the amount in wage type 2110,RESET_SUPPRESS
+Combine wage types 3553 and 6661 into result 2110,ACCUMULATE
+Branch when NUM in 4441 exceeds 4 hours,THRESHOLD
+"Accumulate 3775, 7438 and 6106 into total 5884",ACCUMULATE
+"If hours in wage type 5662 are greater than 8, pay 110% of base 8659 into 8770",OVERTIME
+Combine wage types 7216 and 4330 into result 6772,ACCUMULATE
+"Meal allowance of 175% of base pay 2332, store in 7216",ALLOWANCE
+Multiply 3775 by factor 2 into 2665,PERCENT_MULTI
+"Add 150% surcharge on top of wage type 3442, result in 9658",PERCENT_INCREASE
+"Total of wage types 7660 plus 7771 plus 8992, output to 8659",ACCUMULATE
+"Aggregate amounts from 9436 and 7771, store in 2221",ACCUMULATE
+Multiply wage type 3775 by 4,PERCENT_MULTI
+Combine wage types 8659 and 1444 into result 4663,ACCUMULATE
+Minus 100 from wage type 9658 output to 4996,FIXED_SUB
+"Uplift wage type 3331 by 110%, output to 8104",PERCENT_INCREASE
+Clear all registers after processing 2554,RESET_SUPPRESS
+"Sum wage types 1222, 8437 and 9103 into 6883",ACCUMULATE
+"Total of wage types 6217 plus 9214 plus 1222, output to 9658",ACCUMULATE
+"Pro-rate wage type 9769 for partial month worked, result in 6550",ABSENCE
+"Hours absent in 3553, deduct proportional amount from base 7771, store in 6883",ABSENCE
+"If hours in wage type 8326 are greater than 180, pay 150% of base 3109 into 3664",OVERTIME
+Deduct fixed penalty of 200 from 9325,FIXED_SUB
+Replicate wage type 7438 as 7105,COPY_WT
+"Calculate 5% provident fund contribution on 4330, output to 1111",TAX_DEDUCTION
+"Double pay for hours exceeding 8 in 1000, output to 2665",OVERTIME
+Plus 500 on top of wage type 9547,FIXED_ADD
+Night shift allowance 125% of 9991 into 7660,ALLOWANCE
+"RTE from 2776 multiplied by NUM from 8770, ADDWT 7105",RATE_HOURS
+Deduct 30% as national insurance from 8881 into 2554,TAX_DEDUCTION
+"Double pay for hours exceeding 8 in 9214, output to 7993",OVERTIME
+Take 90% of wage type 3664 as partial payment,PERCENT_DECREASE
+Proportional pay at 95% of 8104,PERCENT_DECREASE
+"150% overtime for any hours above planned working time in 4552, store result in 9769",OVERTIME
+Decrease wage type 3220 by 70%,PERCENT_DECREASE
+Apply 3x to wage type 7438,PERCENT_MULTI
+Process 3886 only when 5107 amount is above 7,THRESHOLD
+Calculate overtime at 115% for wage type 5440,PERCENT_INCREASE
+Apply 50% factor to reduce wage type 2443,PERCENT_DECREASE
+Multiply hourly rate in 2887 by actual hours in 3109 into 3664,RATE_HOURS
+Calculate overtime at 120% for hours above 40 in wage type 6439,OVERTIME
+"Two times wage type 6550, output to 1111",PERCENT_MULTI
+Multiply hourly rate in 2998 by actual hours in 8881 into 9103,RATE_HOURS
+Add allowance of 100 to 5884,FIXED_ADD
+Apply 4x to wage type 7549,PERCENT_MULTI
+Reduce wage type 6883 to 75%,PERCENT_DECREASE
+Process 3775 only when 6217 amount is above 8,THRESHOLD
+Add fixed bonus in 2443 to result 4885,ALLOWANCE
+Lower wage type 7993 by 90 percent,PERCENT_DECREASE
+Calculate overtime premium for hours above 160 from wage type 3553 at 250%,OVERTIME
+Calculate unpaid absence deduction from base pay 7771 using hours 5218,ABSENCE
+Increase 9547 by a fixed 250 units,FIXED_ADD
+Multiply 4996 by factor 3 into 6550,PERCENT_MULTI
+"If hours from 1111 are less than 4, suppress output",THRESHOLD
+Employee contribution 22% on base salary 1333 into WT 5107,TAX_DEDUCTION
+Add 1000 to the amount in 7105,FIXED_ADD
+Only process if wage type 1000 is greater than 180,THRESHOLD
+Calculate unpaid absence deduction from base pay 5662 using hours 5551,ABSENCE
+Shift differential of 200% applied to 2443,PERCENT_INCREASE
+"Multiply rate from wage type 6217 by hours from 8881, store result in 9547",RATE_HOURS
+Scale 5995 by 3 and store in 4663,PERCENT_MULTI
+"Aggregate amounts from 1111 and 5773, store in 4663",ACCUMULATE
+Take amount in 4885 and place it in 5551 unchanged,COPY_WT
+Suppress output of wage type 9214,RESET_SUPPRESS
+Subtract 200 from wage type 1333,FIXED_SUB
+Plus 200 on top of wage type 9991,FIXED_ADD
+Plus 750 on top of wage type 1777,FIXED_ADD
+"Calculate 12% income tax on gross pay wage type 8770, store in 3220",TAX_DEDUCTION
+Transfer amount from wage type 7216 into 8992,COPY_WT
+Scale 7549 by 4 and store in 8215,PERCENT_MULTI
+Deduct 18% pension contribution from 7105 into 7771,TAX_DEDUCTION
+Calculate unpaid absence deduction from base pay 1111 using hours 3553,ABSENCE
+Add fixed bonus in 8659 to result 7993,ALLOWANCE
+Scale 5329 by 4 and store in 3109,PERCENT_MULTI
+Apply 25% PAYE deduction to gross pay 1888,TAX_DEDUCTION
+Add fixed bonus in 3442 to result 8659,ALLOWANCE
+"Deduct fixed amount 750 from 6550, store in 2221",FIXED_SUB
+"Special allowance: take 4663, apply 150% factor, store in 1999",ALLOWANCE
+"Apply absence factor to wage type 7993, store deduction in 1000",ABSENCE
+Decrease wage type 4552 by 85%,PERCENT_DECREASE
+Threshold check: 9214 must exceed 7 before outputting to 5218,THRESHOLD
+Reset wage type 2887 to zero and suppress,RESET_SUPPRESS
+Carry forward 2332 into 5884,COPY_WT
+Copy wage type 1666 to 4885,COPY_WT
+Zero out wage type 3775,RESET_SUPPRESS
+"Aggregate amounts from 9103 and 3775, store in 7327",ACCUMULATE
+"Same value as 9103, store in 8770",COPY_WT
+Reduce 7882 by 750,FIXED_SUB
+Add fixed bonus in 4552 to result 3886,ALLOWANCE
+Combine wage types 7327 and 9658 into result 3997,ACCUMULATE
+Decrease wage type 8992 by 95%,PERCENT_DECREASE
+"Aggregate amounts from 6328 and 5107, store in 1000",ACCUMULATE
+"Two times wage type 2110, output to 3886",PERCENT_MULTI
+Add 500 to the amount in 6883,FIXED_ADD
+Add constant 750 to wage type 1333 and output to 9880,FIXED_ADD
+"Apply 75% reduction to wage type 7660, store in 8992",PERCENT_DECREASE
+"Pro-rate wage type 6994 for partial month worked, result in 6328",ABSENCE
+Deduct fixed penalty of 1000 from 6328,FIXED_SUB
+"Transport allowance wage type 4885, output to 6772",ALLOWANCE
+Branch when NUM in 4330 exceeds 6 hours,THRESHOLD
+"Pay = rate 3442 × hours 2221, output wage type 8215",RATE_HOURS
+"Aggregate amounts from 2998 and 3886, store in 9991",ACCUMULATE
+"Compute earnings: hourly rate 4552 multiplied by hours 1111, store in 3997",RATE_HOURS
+Combine wage types 5995 and 6661 into result 1000,ACCUMULATE
+Add allowance of 100 to 3109,FIXED_ADD
+Eliminate wage type 8215 from results,RESET_SUPPRESS
+Do not output wage type 2887,RESET_SUPPRESS
+Apply 150% premium to wage type 6217,PERCENT_INCREASE
+Calculate overtime at 150% for wage type 2554,PERCENT_INCREASE
+Clear all registers after processing 6883,RESET_SUPPRESS
+Apply 3x to wage type 6661,PERCENT_MULTI
+"Meal allowance of 120% of base pay 5884, store in 6550",ALLOWANCE
+Copy base salary from 2332 to output wage type 9658,COPY_WT
+Deduct absence hours from pay in wage type 2998,ABSENCE
+Only process if wage type 4108 is greater than 7,THRESHOLD
+Reduce 4996 proportionally for 225% absence,ABSENCE
+Do not output wage type 8770,RESET_SUPPRESS
+Lower wage type 3109 by 60 percent,PERCENT_DECREASE
+Add fixed bonus in 2665 to result 5995,ALLOWANCE
+Minus 750 from wage type 9436 output to 6550,FIXED_SUB
+Decrease wage type 6439 by 50%,PERCENT_DECREASE
+Mirror wage type 9769 into 8881,COPY_WT
+Scale wage type 4663 by 4,PERCENT_MULTI
+Take 50% of wage type 8326 as partial payment,PERCENT_DECREASE
+Deduct fixed penalty of 1000 from 8659,FIXED_SUB
+Add fixed bonus in 5218 to result 1000,ALLOWANCE
+"If amount in 4330 exceeds 10, apply 150% and store in 7216",THRESHOLD
+Zero out wage type 7882,RESET_SUPPRESS
+Conditional: if 7438 > 160 then apply premium 115% into 9436,THRESHOLD
+Calculate overtime premium for hours above 180 from wage type 9547 at 120%,OVERTIME
+Scale wage type 7882 by 4,PERCENT_MULTI
+"Hours absent in 3664, deduct proportional amount from base 7327, store in 9436",ABSENCE
+Calculate overtime at 130% for hours above 173 in wage type 7549,OVERTIME
+"Total of wage types 4552 plus 5107 plus 2998, output to 3220",ACCUMULATE
+Make wage type 2554 225 percent,PERCENT_INCREASE
+Double wage type 3109,PERCENT_MULTI
+"Calculate 22% provident fund contribution on 6439, output to 2110",TAX_DEDUCTION
+"Pay 150% for overtime hours when employee exceeds 7h, wage type 6883",OVERTIME
+"Aggregate amounts from 5107 and 8215, store in 2554",ACCUMULATE
+"Calculate 25% provident fund contribution on 9769, output to 8104",TAX_DEDUCTION
+Calculate overtime premium for hours above 12 from wage type 2998 at 130%,OVERTIME
+Replicate wage type 7327 as 2554,COPY_WT
+Add allowance of 500 to 4774,FIXED_ADD
+Add constant 1000 to wage type 2887 and output to 3553,FIXED_ADD
+Threshold check: 3886 must exceed 180 before outputting to 4552,THRESHOLD
+Mirror wage type 3664 into 5218,COPY_WT
+Reduce 1555 proportionally for 140% absence,ABSENCE
+"Add fixed amount 1000 to wage type 2332, store in 4441",FIXED_ADD
+Pass wage type 6994 directly to 2554 without changes,COPY_WT
+Decrease wage type 7105 by 50%,PERCENT_DECREASE
+"Sum wage types 8215, 7993 and 7216 into 5551",ACCUMULATE
+Supplement wage type 1111 with fixed addition of 500,FIXED_ADD
+Calculate tax amount at 20% from wage type 6883,TAX_DEDUCTION
+Increase 9103 by a fixed 1000 units,FIXED_ADD
+Add fixed bonus in 6106 to result 1666,ALLOWANCE
+Conditional: if 7327 > 40 then apply premium 175% into 3997,THRESHOLD
+Suppress output of wage type 2443,RESET_SUPPRESS
+Minus 250 from wage type 2776 output to 9325,FIXED_SUB
+Pay only 85% of wage type 4441 due to partial month,PERCENT_DECREASE
+"Special allowance: take 1888, apply 115% factor, store in 6550",ALLOWANCE
+"Same value as 4330, store in 2110",COPY_WT
+Add together 2554 and 4330 and store in 5107,ACCUMULATE
+"Pay 140% for overtime hours when employee exceeds 40h, wage type 7771",OVERTIME
+"Calculate gross pay from rate in WT 5884 and time in WT 7327, result in WT 3442",RATE_HOURS
+Plus 500 on top of wage type 7105,FIXED_ADD
+Apply 120% bonus only when base pay 1888 is above 4,THRESHOLD
+Scale wage type 1111 by 4,PERCENT_MULTI
+Plus 100 on top of wage type 8326,FIXED_ADD
+Reduce 1666 proportionally for 200% absence,ABSENCE
+"Overtime calculation: hours in 6106 above 8 threshold, 200% premium, output to 8659",OVERTIME
+Multiply 4996 by factor 2 into 2776,PERCENT_MULTI
+Clear all registers after processing 4996,RESET_SUPPRESS
+"Increase wage type 5995 by 225%, store in 1111",PERCENT_INCREASE
+Zero the amount in wage type 2332,RESET_SUPPRESS
+Apply 75% factor to reduce wage type 8659,PERCENT_DECREASE
+Nullify wage type 9991 in output,RESET_SUPPRESS
+Night shift allowance 115% of 5440 into 2110,ALLOWANCE
+Reset wage type 7771 to zero and suppress,RESET_SUPPRESS
+Take 95% of wage type 1222 as partial payment,PERCENT_DECREASE
+"150% overtime for any hours above planned working time in 6661, store result in 8770",OVERTIME
+Social insurance deduction of 25% on 6772,TAX_DEDUCTION
+"RTE from 3553 multiplied by NUM from 3220, ADDWT 9991",RATE_HOURS
+Scale 7216 by 4 and store in 8659,PERCENT_MULTI
+Minus 100 from wage type 2665 output to 4330,FIXED_SUB
+"Apply 90% reduction to wage type 4219, store in 4885",PERCENT_DECREASE
+"Calculate 20% income tax on gross pay wage type 8104, store in 1444",TAX_DEDUCTION
+"If hours from 4885 are less than 40, suppress output",THRESHOLD
+Decrease wage type 3331 by 85%,PERCENT_DECREASE
+"Aggregate amounts from 3664 and 2998, store in 8326",ACCUMULATE
+"Apply absence factor to wage type 7216, store deduction in 5440",ABSENCE
+Calculate tax amount at 10% from wage type 9880,TAX_DEDUCTION
+Increase 2887 by 150 percent and store in 6994,PERCENT_INCREASE
+Deduct 12% as national insurance from 9103 into 9880,TAX_DEDUCTION
+Minus 500 from wage type 2665 output to 3775,FIXED_SUB
+"Aggregate amounts from 3220 and 3886, store in 2110",ACCUMULATE
+"RTE from 1222 multiplied by NUM from 7549, ADDWT 4885",RATE_HOURS
+"Deduct fixed amount 250 from 2332, store in 3220",FIXED_SUB
+"Unpaid leave deduction: divide 1666 by planned hours 3886, multiply by absent hours 2221",ABSENCE
+Supplement wage type 9547 with fixed addition of 250,FIXED_ADD
+"Uplift wage type 3775 by 200%, output to 8215",PERCENT_INCREASE
+Increase 9325 by a fixed 1000 units,FIXED_ADD
+"Accumulate 7327, 1888 and 2221 into total 9658",ACCUMULATE
+Reduce wage type 2998 to 95%,PERCENT_DECREASE
+"Special allowance: take 7660, apply 130% factor, store in 7993",ALLOWANCE
+Multiply wage type 6883 by 2,PERCENT_MULTI
+Lower wage type 7993 by 60 percent,PERCENT_DECREASE
+"Hours absent in 3442, deduct proportional amount from base 8881, store in 2443",ABSENCE
+Add fixed bonus in 3886 to result 3664,ALLOWANCE
+"Two times wage type 6328, output to 4996",PERCENT_MULTI
+Reduce 9103 by 750,FIXED_SUB
+Clear all registers after processing 2554,RESET_SUPPRESS
+Process 6550 only when 2221 amount is above 173,THRESHOLD
+Subtract 1000 from wage type 8437,FIXED_SUB
+Reduce wage type 2221 to 85%,PERCENT_DECREASE
+Calculate overtime at 115% for wage type 5662,PERCENT_INCREASE
+Conditional: if 9325 > 7 then apply premium 250% into 7993,THRESHOLD
+"Pro-rate wage type 9436 for partial month worked, result in 5995",ABSENCE
+Reset wage type 6550 to zero and suppress,RESET_SUPPRESS
+Scale wage type 1444 by 4,PERCENT_MULTI
+Take 60% of wage type 3775 as partial payment,PERCENT_DECREASE
+"Pro-rate wage type 3220 for partial month worked, result in 9436",ABSENCE
+Lower wage type 3886 by 85 percent,PERCENT_DECREASE
+"Pay = rate 2332 × hours 1999, output wage type 1888",RATE_HOURS
+Rate from 9769 times hours from 3442 gives result in 2665,RATE_HOURS
+"Add fixed amount 750 to wage type 7771, store in 7216",FIXED_ADD
+Increase 3664 by a fixed 500 units,FIXED_ADD
+130% holiday premium on wage type 3331 into 2665,PERCENT_INCREASE
+Mirror wage type 6883 into 9991,COPY_WT
+Subtract 500 from wage type 8548,FIXED_SUB
+"Apply 140% overtime rate when 3331 exceeds 180 hours, store in 6106",OVERTIME
+"Unpaid leave deduction: divide 4552 by planned hours 4441, multiply by absent hours 3220",ABSENCE
+Reset wage type 9547 to zero and suppress,RESET_SUPPRESS
+Calculate overtime at 115% for hours above 10 in wage type 6550,OVERTIME
+Pay only 60% of wage type 8992 due to partial month,PERCENT_DECREASE
+Multiply hourly rate in 6550 by actual hours in 3775 into 9325,RATE_HOURS
+Lower wage type 4552 by 70 percent,PERCENT_DECREASE
+Increase 9325 by 120 percent and store in 1000,PERCENT_INCREASE
+"Unpaid leave deduction: divide 7438 by planned hours 6328, multiply by absent hours 5218",ABSENCE
+"Deduct fixed amount 1000 from 1666, store in 6661",FIXED_SUB
+Proportional pay at 50% of 7105,PERCENT_DECREASE
+Minus 500 from wage type 4774 output to 5329,FIXED_SUB
+"Special allowance: take 1111, apply 125% factor, store in 7993",ALLOWANCE
+"Sum wage types 7438, 5551 and 7549 into 8992",ACCUMULATE
+Apply 2x to wage type 6550,PERCENT_MULTI
+Add allowance of 250 to 8215,FIXED_ADD
+"Deduct fixed amount 100 from 8326, store in 6883",FIXED_SUB
+"Transport allowance wage type 9880, output to 9436",ALLOWANCE
+"Uplift wage type 3997 by 115%, output to 8992",PERCENT_INCREASE
+"If hours in wage type 2554 are greater than 10, pay 250% of base 5662 into 3997",OVERTIME
+Pass wage type 3664 directly to 9436 without changes,COPY_WT
+Scale 9769 by 4 and store in 2443,PERCENT_MULTI
+Apply 50% factor to reduce wage type 5884,PERCENT_DECREASE
+"Deduct fixed amount 250 from 7660, store in 4108",FIXED_SUB
+"Hours absent in 2554, deduct proportional amount from base 3109, store in 1777",ABSENCE
+"Child allowance in 5218, output to 3886",ALLOWANCE
+Add constant 200 to wage type 3997 and output to 7771,FIXED_ADD
+"Meal allowance of 250% of base pay 8659, store in 4885",ALLOWANCE
+"Calculate gross pay from rate in WT 1888 and time in WT 6106, result in WT 9769",RATE_HOURS
+Add housing allowance from wage type 2443 to 5662,ALLOWANCE
+"Transport allowance wage type 8215, output to 7216",ALLOWANCE
+Take amount in 2110 and place it in 1999 unchanged,COPY_WT
+Subtract 250 from wage type 7438,FIXED_SUB
+"Child allowance in 6106, output to 6994",ALLOWANCE
+Mirror wage type 3664 into 2998,COPY_WT
+"150% overtime for any hours above planned working time in 4441, store result in 5218",OVERTIME
+"Pay overtime premium of 125% when hours in 1666 exceed 40, result in 2221",OVERTIME
+Social insurance deduction of 10% on 1444,TAX_DEDUCTION
+"Same value as 1888, store in 9436",COPY_WT
+"Pro-rate wage type 1666 for partial month worked, result in 9880",ABSENCE
+Apply 115% premium to wage type 4663,PERCENT_INCREASE
+Replicate wage type 9325 as 7993,COPY_WT
+"If hours from 8326 are less than 173, suppress output",THRESHOLD
+Increase 3331 by a fixed 100 units,FIXED_ADD
+Suppress output of wage type 6550,RESET_SUPPRESS
+Carry forward 8326 into 6550,COPY_WT
+Lower wage type 7660 by 90 percent,PERCENT_DECREASE
+Apply 3x to wage type 7216,PERCENT_MULTI
+Calculate absence deduction for wage type 2998 based on hours in 4663,ABSENCE
+Shift differential of 130% applied to 8881,PERCENT_INCREASE
+Transfer amount from wage type 6550 into 6883,COPY_WT
+Add constant 1000 to wage type 6883 and output to 8437,FIXED_ADD
+Rate from 8104 times hours from 8548 gives result in 2443,RATE_HOURS
+Decrease wage type 8659 by 90%,PERCENT_DECREASE
+Calculate overtime premium for hours above 8 from wage type 1888 at 140%,OVERTIME
+Shift differential of 225% applied to 4663,PERCENT_INCREASE
+Add housing allowance from wage type 6439 to 4330,ALLOWANCE
+"Apply 90% reduction to wage type 2887, store in 8770",PERCENT_DECREASE
+Add allowance of 100 to 8326,FIXED_ADD
+"Meal allowance of 120% of base pay 4885, store in 2332",ALLOWANCE
+"Same value as 7771, store in 4552",COPY_WT
+Multiply hourly rate in 4774 by actual hours in 8326 into 4996,RATE_HOURS
+Employee contribution 12% on base salary 7549 into WT 2443,TAX_DEDUCTION
+Lower wage type 9991 by 85 percent,PERCENT_DECREASE
+Minus 200 from wage type 4885 output to 2110,FIXED_SUB
+Merge wage types 1444 and 5218 into 4108,ACCUMULATE
+Increase 8326 by a fixed 250 units,FIXED_ADD
+Process 7660 only when 9769 amount is above 7,THRESHOLD
+Health insurance contribution: 20% of 7327 stored in 9880,TAX_DEDUCTION
+Night shift allowance 120% of 8104 into 1999,ALLOWANCE
+Pass wage type 1555 directly to 8659 without changes,COPY_WT
+Reduce wage type 3997 to 60%,PERCENT_DECREASE
+"If amount in 9658 exceeds 6, apply 120% and store in 5773",THRESHOLD
+"Calculate 18% income tax on gross pay wage type 8104, store in 5329",TAX_DEDUCTION
+Add 500 to the amount in 7993,FIXED_ADD
+Suppress output of wage type 1000,RESET_SUPPRESS
+"Overtime calculation: hours in 7882 above 4 threshold, 125% premium, output to 2554",OVERTIME
+Add allowance of 250 to 5551,FIXED_ADD
+Subtract 200 from wage type 5218,FIXED_SUB
+"Total of wage types 7105 plus 6550 plus 6328, output to 5884",ACCUMULATE
+Supplement wage type 2665 with fixed addition of 750,FIXED_ADD
+"Compute earnings: hourly rate 8326 multiplied by hours 4330, store in 5551",RATE_HOURS
+"Increase wage type 8215 by 150%, store in 4108",PERCENT_INCREASE
+Do not output wage type 9880,RESET_SUPPRESS
+Apply 20% PAYE deduction to gross pay 9991,TAX_DEDUCTION
+Apply 130% premium to wage type 9658,PERCENT_INCREASE
+Take amount in 7771 and place it in 5551 unchanged,COPY_WT
+Employee contribution 20% on base salary 8104 into WT 9991,TAX_DEDUCTION
+Subtract 100 from wage type 8548,FIXED_SUB
+"Apply absence factor to wage type 3664, store deduction in 7327",ABSENCE
+"Apply absence factor to wage type 3664, store deduction in 4552",ABSENCE
+Mirror wage type 3331 into 9769,COPY_WT
+Eliminate wage type 8659 from results,RESET_SUPPRESS
+Increase 6772 by 110 percent and store in 3997,PERCENT_INCREASE
+Reduce 1999 proportionally for 175% absence,ABSENCE
+Reduce wage type 8659 to 70%,PERCENT_DECREASE
+Supplement wage type 2998 with fixed addition of 250,FIXED_ADD
+Zero the amount in wage type 3220,RESET_SUPPRESS
+Deduct 18% pension contribution from 8770 into 8881,TAX_DEDUCTION
+"Add 110% surcharge on top of wage type 2665, result in 9769",PERCENT_INCREASE
+Take amount in 7216 and place it in 7660 unchanged,COPY_WT
+Add fixed bonus in 9436 to result 8104,ALLOWANCE
+"Hours absent in 5218, deduct proportional amount from base 6883, store in 1777",ABSENCE
+"Hours absent in 6661, deduct proportional amount from base 3220, store in 4219",ABSENCE
+"If hours from 7993 are less than 6, suppress output",THRESHOLD
+Deduct 30% as national insurance from 4441 into 3331,TAX_DEDUCTION
+Minus 500 from wage type 6994 output to 1333,FIXED_SUB
+Add 250 to the amount in 9325,FIXED_ADD
+"Aggregate amounts from 2665 and 9658, store in 5107",ACCUMULATE
+Calculate overtime at 125% for wage type 1777,PERCENT_INCREASE
+Increase 7882 by a fixed 100 units,FIXED_ADD
+Calculate overtime at 175% for hours above 6 in wage type 3886,OVERTIME
+Remove 100 from wage type 4996,FIXED_SUB
+Scale 3220 by 3 and store in 2776,PERCENT_MULTI
+Apply 3x to wage type 4996,PERCENT_MULTI
+"Accumulate 3553, 9880 and 7216 into total 6328",ACCUMULATE
+Threshold check: 2665 must exceed 10 before outputting to 9214,THRESHOLD
+Only process if wage type 9769 is greater than 160,THRESHOLD
+Zero out wage type 6550,RESET_SUPPRESS
+Apply 120% bonus only when base pay 2554 is above 12,THRESHOLD
+Do not output wage type 3553,RESET_SUPPRESS
+"Meal allowance of 120% of base pay 5218, store in 5884",ALLOWANCE
+Double wage type 2887,PERCENT_MULTI
+"Calculate gross pay from rate in WT 2776 and time in WT 7993, result in WT 3442",RATE_HOURS
+Add housing allowance from wage type 4108 to 6217,ALLOWANCE
+Do not output wage type 8437,RESET_SUPPRESS
+"If amount in 5884 exceeds 6, apply 110% and store in 3331",THRESHOLD
+"Pro-rate wage type 3664 for partial month worked, result in 5884",ABSENCE
+Add together 7549 and 8437 and store in 7105,ACCUMULATE
+"If hours from 5218 are less than 180, suppress output",THRESHOLD
+Pay only 70% of wage type 2443 due to partial month,PERCENT_DECREASE
+Apply 250% premium to wage type 9769,PERCENT_INCREASE
+Lower wage type 7438 by 90 percent,PERCENT_DECREASE
+Multiply wage type 2221 by 4,PERCENT_MULTI
+"Deduct fixed amount 750 from 1222, store in 7993",FIXED_SUB
+"Special allowance: take 2221, apply 150% factor, store in 5884",ALLOWANCE
+"Meal allowance of 110% of base pay 8770, store in 6217",ALLOWANCE
+Copy base salary from 1111 to output wage type 9325,COPY_WT
+Scale 5107 by 2 and store in 1111,PERCENT_MULTI
+Replicate wage type 4663 as 1333,COPY_WT
+Apply 120% bonus only when base pay 8770 is above 6,THRESHOLD
+Remove 200 from wage type 5773,FIXED_SUB
+Apply 115% bonus only when base pay 3553 is above 12,THRESHOLD
+Multiply hourly rate in 4774 by actual hours in 2776 into 3886,RATE_HOURS
+Suppress output of wage type 2443,RESET_SUPPRESS
+"Calculate pay using rate in 9991 and hours worked in 9214, output to 7660",RATE_HOURS
+Plus 750 on top of wage type 8881,FIXED_ADD
+Scale wage type 2665 by 2,PERCENT_MULTI
+"If hours in wage type 1000 are greater than 12, pay 225% of base 1888 into 4108",OVERTIME
+"Add fixed amount 1000 to wage type 2443, store in 5551",FIXED_ADD
+Night shift allowance 110% of 4996 into 1777,ALLOWANCE
+"Unpaid leave deduction: divide 5662 by planned hours 9547, multiply by absent hours 7771",ABSENCE
+"Pay overtime premium of 130% when hours in 7105 exceed 173, result in 8770",OVERTIME
+"Calculate 20% income tax on gross pay wage type 3775, store in 4330",TAX_DEDUCTION
+Apply 5% PAYE deduction to gross pay 6994,TAX_DEDUCTION
+Scale wage type 7438 by 3,PERCENT_MULTI
+"Double pay for hours exceeding 7 in 5662, output to 5884",OVERTIME
+Apply night shift premium of 250% to 2443,PERCENT_INCREASE
+"If hours in wage type 6883 are greater than 180, pay 250% of base 5884 into 3664",OVERTIME
+"Calculate pay using rate in 3664 and hours worked in 4330, output to 6439",RATE_HOURS
+"Calculate 18% provident fund contribution on 9769, output to 7438",TAX_DEDUCTION
+"Same value as 3553, store in 7549",COPY_WT
+Calculate absence deduction for wage type 9547 based on hours in 9325,ABSENCE
+Night shift allowance 125% of 8659 into 9547,ALLOWANCE
+Supplement wage type 5884 with fixed addition of 100,FIXED_ADD
+Transfer amount from wage type 3997 into 2998,COPY_WT
+Deduct 28% pension contribution from 3331 into 7882,TAX_DEDUCTION
+Add 200 to the amount in 2332,FIXED_ADD
+Multiply wage type 6550 by 2,PERCENT_MULTI
+"Same value as 2665, store in 2554",COPY_WT
+"Pay = rate 2554 × hours 9214, output wage type 8215",RATE_HOURS
+Apply 2x to wage type 3664,PERCENT_MULTI
+"Overtime calculation: hours in 3664 above 7 threshold, 110% premium, output to 9436",OVERTIME
+Triple wage type 9991,PERCENT_MULTI
+Conditional: if 7771 > 4 then apply premium 130% into 6772,THRESHOLD
+Decrease wage type 7771 by 80%,PERCENT_DECREASE
+Add together 5773 and 7438 and store in 4885,ACCUMULATE
+Merge wage types 2332 and 8104 into 7660,ACCUMULATE
+Suppress output of wage type 2332,RESET_SUPPRESS
+Withhold 5% tax from wage type 4441,TAX_DEDUCTION
+Zero the amount in wage type 2776,RESET_SUPPRESS
+Conditional: if 7216 > 6 then apply premium 110% into 2110,THRESHOLD
+Increase 4108 by a fixed 200 units,FIXED_ADD
+Apply night shift premium of 150% to 4219,PERCENT_INCREASE
+"Special allowance: take 1000, apply 110% factor, store in 9991",ALLOWANCE
+Eliminate wage type 7327 from results,RESET_SUPPRESS
+"If hours from 2776 are less than 4, suppress output",THRESHOLD
+Transfer amount from wage type 5995 into 3331,COPY_WT
+Take amount in 4441 and place it in 1888 unchanged,COPY_WT
+Rate from 3664 times hours from 5995 gives result in 1666,RATE_HOURS
+Lower wage type 1999 by 95 percent,PERCENT_DECREASE
+Copy base salary from 1444 to output wage type 5551,COPY_WT
+Night shift allowance 130% of 4108 into 5551,ALLOWANCE
+"Add fixed amount 100 to wage type 3997, store in 8659",FIXED_ADD
+Double wage type 9325,PERCENT_MULTI
+"Pro-rate wage type 6328 for partial month worked, result in 3220",ABSENCE
+"If hours from 4330 are less than 173, suppress output",THRESHOLD
+Calculate absence deduction for wage type 6106 based on hours in 8326,ABSENCE
+Night shift allowance 130% of 7882 into 7660,ALLOWANCE
+Transfer amount from wage type 2776 into 8992,COPY_WT
+Calculate absence deduction for wage type 2110 based on hours in 1111,ABSENCE
+"Accumulate 7216, 1888 and 9103 into total 8548",ACCUMULATE
+"Increase wage type 6994 by 125%, store in 8215",PERCENT_INCREASE
+"Calculate 20% provident fund contribution on 4774, output to 1000",TAX_DEDUCTION
+Multiply 8104 by factor 3 into 9325,PERCENT_MULTI
+Calculate absence deduction for wage type 2776 based on hours in 3997,ABSENCE
+"Compute earnings: hourly rate 1888 multiplied by hours 7660, store in 8437",RATE_HOURS
+Add 200 to the amount in 5440,FIXED_ADD
+"Add fixed amount 500 to wage type 3331, store in 6772",FIXED_ADD
+Night shift allowance 200% of 4774 into 4108,ALLOWANCE
+"Total of wage types 2554 plus 8437 plus 9880, output to 2443",ACCUMULATE
+"Weekend allowance at 120% of wage type 6661, store in 5440",PERCENT_INCREASE
+Set wage type 2221 to 130% rate,PERCENT_INCREASE
+Calculate overtime premium for hours above 180 from wage type 3886 at 140%,OVERTIME
+Supplement wage type 4330 with fixed addition of 500,FIXED_ADD
+"Transport allowance wage type 3664, output to 8992",ALLOWANCE
+Threshold check: 2887 must exceed 8 before outputting to 9880,THRESHOLD
+"Add fixed amount 250 to wage type 4330, store in 2554",FIXED_ADD
+Calculate overtime at 250% for wage type 4108,PERCENT_INCREASE
+Proportional pay at 50% of 1333,PERCENT_DECREASE
+Branch when NUM in 1000 exceeds 4 hours,THRESHOLD
+"Calculate gross pay from rate in WT 6328 and time in WT 2110, result in WT 9547",RATE_HOURS
+"Uplift wage type 3664 by 250%, output to 9103",PERCENT_INCREASE
+"Apply absence factor to wage type 7771, store deduction in 6106",ABSENCE
+"If hours from 4330 are less than 6, suppress output",THRESHOLD
+Minus 500 from wage type 6550 output to 9214,FIXED_SUB
+Eliminate wage type 9880 from results,RESET_SUPPRESS
+Calculate overtime premium for hours above 7 from wage type 6772 at 120%,OVERTIME
+Calculate overtime premium for hours above 173 from wage type 6550 at 110%,OVERTIME
+"Calculate 30% provident fund contribution on 7327, output to 2776",TAX_DEDUCTION
+Add housing allowance from wage type 3553 to 6661,ALLOWANCE
+Add housing allowance from wage type 8437 to 8770,ALLOWANCE
+"Add fixed amount 750 to wage type 3109, store in 4885",FIXED_ADD
+Suppress output of wage type 2443,RESET_SUPPRESS
+Zero the amount in wage type 4552,RESET_SUPPRESS
+"Compute earnings: hourly rate 3664 multiplied by hours 1888, store in 5329",RATE_HOURS
+Set wage type 9214 to 225% rate,PERCENT_INCREASE
+Scale wage type 1444 by 4,PERCENT_MULTI
+"Overtime calculation: hours in 3886 above 6 threshold, 130% premium, output to 8881",OVERTIME
+Multiply wage type 9103 by 4,PERCENT_MULTI
+Nullify wage type 6328 in output,RESET_SUPPRESS
+"Calculate pay using rate in 5551 and hours worked in 5218, output to 4663",RATE_HOURS
+Scale 5995 by 3 and store in 7549,PERCENT_MULTI
+Suppress output of wage type 6661,RESET_SUPPRESS
+"Total of wage types 3109 plus 1333 plus 6106, output to 7438",ACCUMULATE
+"Weekend allowance at 125% of wage type 3220, store in 4330",PERCENT_INCREASE
+"Uplift wage type 2554 by 125%, output to 9103",PERCENT_INCREASE
+"Unpaid leave deduction: divide 4885 by planned hours 9325, multiply by absent hours 5329",ABSENCE
+Add together 8770 and 1777 and store in 2443,ACCUMULATE
+Remove 250 from wage type 2110,FIXED_SUB
+Deduct 18% as national insurance from 4885 into 5329,TAX_DEDUCTION
+Health insurance contribution: 28% of 1222 stored in 2887,TAX_DEDUCTION
+Multiply wage type 8659 by 2,PERCENT_MULTI
+Pass wage type 5884 directly to 2998 without changes,COPY_WT
+Multiply wage type 8326 by 3,PERCENT_MULTI
+Deduct 5% pension contribution from 1666 into 6439,TAX_DEDUCTION
+Plus 1000 on top of wage type 5440,FIXED_ADD
+Suppress output of wage type 6661,RESET_SUPPRESS
+175% holiday premium on wage type 3664 into 7105,PERCENT_INCREASE
+"Hours absent in 8326, deduct proportional amount from base 3775, store in 8881",ABSENCE
+Clear all registers after processing 8437,RESET_SUPPRESS
+Night shift allowance 140% of 9214 into 9769,ALLOWANCE
+"If hours in wage type 1555 are greater than 173, pay 200% of base 2332 into 7771",OVERTIME
+Add constant 1000 to wage type 9658 and output to 3886,FIXED_ADD
+"Pay overtime premium of 200% when hours in 8548 exceed 173, result in 7549",OVERTIME
+"Weekend allowance at 125% of wage type 7327, store in 5773",PERCENT_INCREASE
+"Compute earnings: hourly rate 5995 multiplied by hours 5662, store in 4552",RATE_HOURS
+Reduce 2332 proportionally for 250% absence,ABSENCE
+"150% overtime for any hours above planned working time in 1666, store result in 7216",OVERTIME
+Health insurance contribution: 5% of 1777 stored in 8770,TAX_DEDUCTION
+"Calculate gross pay from rate in WT 8326 and time in WT 4108, result in WT 8215",RATE_HOURS
+Remove 1000 from wage type 6439,FIXED_SUB
+Eliminate wage type 4663 from results,RESET_SUPPRESS
+Plus 1000 on top of wage type 7216,FIXED_ADD
+Nullify wage type 6772 in output,RESET_SUPPRESS
+"Pro-rate wage type 2998 for partial month worked, result in 7105",ABSENCE
+Apply 4x to wage type 6550,PERCENT_MULTI
+"Accumulate 3553, 7660 and 1666 into total 9880",ACCUMULATE
+Calculate overtime at 150% for wage type 4996,PERCENT_INCREASE
+Conditional: if 8437 > 180 then apply premium 110% into 3109,THRESHOLD
+Calculate unpaid absence deduction from base pay 3775 using hours 1000,ABSENCE
+Supplement wage type 1555 with fixed addition of 500,FIXED_ADD
+"Two times wage type 4996, output to 5551",PERCENT_MULTI
+Scale wage type 6439 by 2,PERCENT_MULTI
+Multiply hourly rate in 1000 by actual hours in 5218 into 4108,RATE_HOURS
+Multiply 5440 by factor 3 into 5218,PERCENT_MULTI
+Pass wage type 3331 directly to 6328 without changes,COPY_WT
+Multiply wage type 6883 by 3,PERCENT_MULTI
+"Same value as 2665, store in 7327",COPY_WT
+Calculate overtime at 125% for wage type 6328,PERCENT_INCREASE
+Multiply hourly rate in 1222 by actual hours in 1777 into 9991,RATE_HOURS
+Reset wage type 2665 to zero and suppress,RESET_SUPPRESS
+Add fixed bonus in 6661 to result 5329,ALLOWANCE
+Add allowance of 250 to 3220,FIXED_ADD
+Do not output wage type 7105,RESET_SUPPRESS
+Do not output wage type 4663,RESET_SUPPRESS
+Add constant 200 to wage type 3331 and output to 7216,FIXED_ADD
+Calculate absence deduction for wage type 6106 based on hours in 8548,ABSENCE
+Add together 9436 and 7549 and store in 3553,ACCUMULATE
+Minus 500 from wage type 1222 output to 8326,FIXED_SUB
+"Total of wage types 8770 plus 3775 plus 4885, output to 4441",ACCUMULATE
+Add allowance of 200 to 6994,FIXED_ADD
+Calculate absence deduction for wage type 5107 based on hours in 6439,ABSENCE
+Subtract 100 from wage type 3442,FIXED_SUB
+Take 90% of wage type 1555 as partial payment,PERCENT_DECREASE
+"Unpaid leave deduction: divide 3442 by planned hours 7216, multiply by absent hours 4996",ABSENCE
+Move result of 1888 to wage type 3220,COPY_WT
+Eliminate wage type 7771 from results,RESET_SUPPRESS
+Conditional: if 5440 > 40 then apply premium 125% into 8659,THRESHOLD
+Apply night shift premium of 130% to 1999,PERCENT_INCREASE
+"150% overtime for any hours above planned working time in 6439, store result in 1444",OVERTIME
+"Apply 70% reduction to wage type 1888, store in 7216",PERCENT_DECREASE
+"Deduct fixed amount 200 from 7105, store in 8770",FIXED_SUB
+Multiply wage type 6994 by 2,PERCENT_MULTI
+Merge wage types 9325 and 2221 into 1999,ACCUMULATE
+Increase 4774 by a fixed 500 units,FIXED_ADD
+"Multiply rate from wage type 1777 by hours from 4774, store result in 7216",RATE_HOURS
+Employee contribution 25% on base salary 3775 into WT 6550,TAX_DEDUCTION
+Deduct fixed penalty of 750 from 2332,FIXED_SUB
+Double wage type 1555,PERCENT_MULTI
+"Apply 60% reduction to wage type 8992, store in 2110",PERCENT_DECREASE
+"Calculate gross pay from rate in WT 8326 and time in WT 2665, result in WT 1222",RATE_HOURS
+"150% overtime for any hours above planned working time in 8215, store result in 3664",OVERTIME
+Branch when NUM in 5107 exceeds 7 hours,THRESHOLD
+Reduce 4885 by 250,FIXED_SUB
+Reduce 1222 by 500,FIXED_SUB
+Lower wage type 8770 by 95 percent,PERCENT_DECREASE
+Apply 115% bonus only when base pay 8104 is above 8,THRESHOLD
+"Calculate gross pay from rate in WT 2665 and time in WT 5551, result in WT 9214",RATE_HOURS
+Calculate absence deduction for wage type 2221 based on hours in 1999,ABSENCE
+Nullify wage type 6328 in output,RESET_SUPPRESS
+Carry forward 5107 into 9880,COPY_WT
+Copy wage type 4441 to 9769,COPY_WT
+Triple wage type 2998,PERCENT_MULTI
+Proportional pay at 50% of 4996,PERCENT_DECREASE
+Suppress output of wage type 4108,RESET_SUPPRESS
+Zero out wage type 5440,RESET_SUPPRESS
+Health insurance contribution: 25% of 5218 stored in 2332,TAX_DEDUCTION
+"Overtime calculation: hours in 2332 above 40 threshold, 250% premium, output to 4885",OVERTIME
+Reduce 1444 by 1000,FIXED_SUB
+Scale wage type 6106 by 3,PERCENT_MULTI
+Reset wage type 4885 to zero and suppress,RESET_SUPPRESS
+Process 1000 only when 4108 amount is above 8,THRESHOLD
+"Calculate 12% provident fund contribution on 1222, output to 7660",TAX_DEDUCTION
+Night shift allowance 125% of 2665 into 4996,ALLOWANCE
+Conditional: if 7771 > 10 then apply premium 250% into 8326,THRESHOLD
+Transfer amount from wage type 2332 into 1888,COPY_WT
+Process 7216 only when 1444 amount is above 180,THRESHOLD
+Employee contribution 5% on base salary 4885 into WT 6883,TAX_DEDUCTION
+"Weekend allowance at 150% of wage type 3553, store in 3775",PERCENT_INCREASE
+"Aggregate amounts from 8881 and 3553, store in 1000",ACCUMULATE
+"Transport allowance wage type 4219, output to 3553",ALLOWANCE
+"RTE from 3775 multiplied by NUM from 1000, ADDWT 8437",RATE_HOURS
+"If hours from 7882 are less than 12, suppress output",THRESHOLD
+"Apply 150% overtime rate when 6439 exceeds 160 hours, store in 8548",OVERTIME
+Calculate absence deduction for wage type 4219 based on hours in 9547,ABSENCE
+"Calculate 25% provident fund contribution on 1777, output to 5329",TAX_DEDUCTION
+Proportional pay at 80% of 2887,PERCENT_DECREASE
+Add constant 750 to wage type 4330 and output to 2221,FIXED_ADD
+Apply 150% bonus only when base pay 9436 is above 173,THRESHOLD
+Add together 8215 and 9991 and store in 3775,ACCUMULATE
+Clear all registers after processing 6994,RESET_SUPPRESS
+Copy wage type 3886 to 7549,COPY_WT
+Night shift allowance 110% of 7327 into 6328,ALLOWANCE
+"If hours from 1555 are less than 173, suppress output",THRESHOLD
+Replicate wage type 8104 as 1111,COPY_WT
+Lower wage type 9547 by 95 percent,PERCENT_DECREASE
+Pass wage type 5218 directly to 5329 without changes,COPY_WT
+Reduce 1777 by 1000,FIXED_SUB
+"Double pay for hours exceeding 173 in 2998, output to 3331",OVERTIME
+"Apply absence factor to wage type 6439, store deduction in 8770",ABSENCE
+Decrease wage type 3775 by 60%,PERCENT_DECREASE
+Mirror wage type 8326 into 1666,COPY_WT
+Minus 250 from wage type 8104 output to 4885,FIXED_SUB
+Deduct fixed penalty of 100 from 2776,FIXED_SUB
+Calculate overtime at 150% for hours above 10 in wage type 7882,OVERTIME
+Apply 30% PAYE deduction to gross pay 4663,TAX_DEDUCTION
+Subtract 750 from wage type 6106,FIXED_SUB
+"Apply 175% overtime rate when 2443 exceeds 8 hours, store in 1222",OVERTIME
+"Meal allowance of 115% of base pay 1000, store in 7882",ALLOWANCE
+Set wage type 7216 to 225% rate,PERCENT_INCREASE
+Subtract 200 from wage type 2665,FIXED_SUB
+Add supplement wage type 8326 to pay,ALLOWANCE
+"Pay 110% for overtime hours when employee exceeds 4h, wage type 1999",OVERTIME
+Health insurance contribution: 18% of 9769 stored in 2554,TAX_DEDUCTION
+Add fixed bonus in 9991 to result 2665,ALLOWANCE
+Do not output wage type 6883,RESET_SUPPRESS
+Employee contribution 12% on base salary 5107 into WT 6439,TAX_DEDUCTION
+Take amount in 2665 and place it in 9214 unchanged,COPY_WT
+Make wage type 4552 200 percent,PERCENT_INCREASE
+Branch when NUM in 2110 exceeds 7 hours,THRESHOLD
+Add fixed bonus in 2887 to result 4108,ALLOWANCE
+Minus 100 from wage type 4441 output to 2998,FIXED_SUB
+"Double pay for hours exceeding 180 in 6883, output to 7660",OVERTIME
+Remove 250 from wage type 8437,FIXED_SUB
+"Sum wage types 5995, 6217 and 8215 into 1999",ACCUMULATE
+Branch when NUM in 7660 exceeds 10 hours,THRESHOLD
+Add allowance of 250 to 8437,FIXED_ADD
+"If hours from 2110 are less than 6, suppress output",THRESHOLD
+Employee contribution 10% on base salary 5662 into WT 7549,TAX_DEDUCTION
+"If amount in 3553 exceeds 7, apply 175% and store in 7105",THRESHOLD
+Multiply 7438 by factor 2 into 6328,PERCENT_MULTI
+Suppress output of wage type 3886,RESET_SUPPRESS
+"If hours in wage type 7993 are greater than 40, pay 250% of base 9547 into 7660",OVERTIME
+Reset wage type 2665 to zero and suppress,RESET_SUPPRESS
+Calculate overtime at 175% for hours above 10 in wage type 4330,OVERTIME
+Social insurance deduction of 30% on 1111,TAX_DEDUCTION
+Zero out wage type 9325,RESET_SUPPRESS
+Calculate overtime premium for hours above 7 from wage type 3664 at 115%,OVERTIME
+Replicate wage type 9547 as 5662,COPY_WT
+Only process if wage type 5107 is greater than 4,THRESHOLD
+"Accumulate 9103, 9547 and 8770 into total 5662",ACCUMULATE
+Add fixed bonus in 9103 to result 8548,ALLOWANCE
+"Pay 200% for overtime hours when employee exceeds 10h, wage type 5551",OVERTIME
+"Add fixed amount 750 to wage type 7993, store in 6106",FIXED_ADD
+"Transport allowance wage type 5218, output to 2665",ALLOWANCE
+"Sum wage types 3442, 4885 and 8548 into 4441",ACCUMULATE
+Carry forward 5995 into 4441,COPY_WT
+"Calculate pay using rate in 4552 and hours worked in 7438, output to 5218",RATE_HOURS
+Eliminate wage type 2554 from results,RESET_SUPPRESS
+Subtract 250 from wage type 7771,FIXED_SUB
+Reduce 7993 by 750,FIXED_SUB
+"Add 250% surcharge on top of wage type 2332, result in 1000",PERCENT_INCREASE
+Add allowance of 1000 to 4885,FIXED_ADD
+"Calculate 10% provident fund contribution on 9658, output to 5662",TAX_DEDUCTION
+Lower wage type 3220 by 50 percent,PERCENT_DECREASE
+"Multiply rate from wage type 5662 by hours from 3886, store result in 3331",RATE_HOURS
+Zero out wage type 9214,RESET_SUPPRESS
+Calculate overtime at 120% for wage type 9214,PERCENT_INCREASE
+Mirror wage type 5551 into 6106,COPY_WT
+Add fixed bonus in 9325 to result 1555,ALLOWANCE
+Add supplement wage type 2998 to pay,ALLOWANCE
+Apply 175% bonus only when base pay 2332 is above 173,THRESHOLD
+"Apply 80% reduction to wage type 3331, store in 6661",PERCENT_DECREASE
+Conditional: if 5884 > 173 then apply premium 150% into 4330,THRESHOLD
+Deduct 20% as national insurance from 8659 into 1777,TAX_DEDUCTION
+Deduct fixed penalty of 500 from 7438,FIXED_SUB
+Add 750 to the amount in 9658,FIXED_ADD
+Decrease wage type 1888 by 85%,PERCENT_DECREASE
+Social insurance deduction of 25% on 5884,TAX_DEDUCTION
+"Apply absence factor to wage type 3775, store deduction in 1999",ABSENCE
+Transfer amount from wage type 2110 into 2776,COPY_WT
+Rate from 7216 times hours from 1555 gives result in 4996,RATE_HOURS
+Move result of 5662 to wage type 5440,COPY_WT
+"Accumulate 3664, 8659 and 7882 into total 5995",ACCUMULATE
+Take amount in 6994 and place it in 4996 unchanged,COPY_WT
+Lower wage type 4330 by 80 percent,PERCENT_DECREASE
+Add allowance of 250 to 9991,FIXED_ADD
+Transfer amount from wage type 4663 into 9880,COPY_WT
+Calculate overtime premium for hours above 180 from wage type 8437 at 150%,OVERTIME
+Decrease wage type 7771 by 95%,PERCENT_DECREASE
+Supplement wage type 6217 with fixed addition of 200,FIXED_ADD
+Pay only 60% of wage type 5218 due to partial month,PERCENT_DECREASE
+Calculate unpaid absence deduction from base pay 4774 using hours 6772,ABSENCE
+Reduce 8992 by 200,FIXED_SUB
+Apply 125% premium to wage type 4774,PERCENT_INCREASE
+Apply 70% factor to reduce wage type 8326,PERCENT_DECREASE
+"Uplift wage type 6550 by 140%, output to 4330",PERCENT_INCREASE
+Minus 100 from wage type 4441 output to 3886,FIXED_SUB
+Apply night shift premium of 120% to 5551,PERCENT_INCREASE
+Deduct absence hours from pay in wage type 3220,ABSENCE
+"Hours absent in 6661, deduct proportional amount from base 4108, store in 6106",ABSENCE
+Mirror wage type 5107 into 4219,COPY_WT
+Copy base salary from 6994 to output wage type 4219,COPY_WT
+"Hours absent in 6217, deduct proportional amount from base 1999, store in 5995",ABSENCE
+"If hours in wage type 3775 are greater than 180, pay 115% of base 2554 into 4441",OVERTIME
+"Apply 140% overtime rate when 7327 exceeds 173 hours, store in 1555",OVERTIME
+Eliminate wage type 2332 from results,RESET_SUPPRESS
+"Calculate pay using rate in 5440 and hours worked in 8104, output to 1222",RATE_HOURS
+Deduct fixed penalty of 500 from 4996,FIXED_SUB
+110% holiday premium on wage type 3775 into 4996,PERCENT_INCREASE
+"Uplift wage type 3664 by 115%, output to 7771",PERCENT_INCREASE
+Apply 20% PAYE deduction to gross pay 2332,TAX_DEDUCTION
+Apply 3x to wage type 1222,PERCENT_MULTI
+Reduce 9103 by 500,FIXED_SUB
+"RTE from 6772 multiplied by NUM from 9658, ADDWT 4996",RATE_HOURS
+Combine wage types 4774 and 1222 into result 3220,ACCUMULATE
+Process 9658 only when 6439 amount is above 180,THRESHOLD
+"Compute earnings: hourly rate 7216 multiplied by hours 1777, store in 4330",RATE_HOURS
+Triple wage type 4885,PERCENT_MULTI
+"Hours absent in 7216, deduct proportional amount from base 7771, store in 3220",ABSENCE
+Suppress output of wage type 3886,RESET_SUPPRESS
+"Calculate 22% provident fund contribution on 6217, output to 9103",TAX_DEDUCTION
+Double wage type 9547,PERCENT_MULTI
+Lower wage type 5218 by 80 percent,PERCENT_DECREASE
+Add allowance of 1000 to 2221,FIXED_ADD
+Pass wage type 6106 directly to 4885 without changes,COPY_WT
+Overtime pay at 140% for anything over 6 hours from WT 1888,OVERTIME
+Replicate wage type 8881 as 5773,COPY_WT
+Reduce wage type 9214 to 70%,PERCENT_DECREASE
+"Hours absent in 1666, deduct proportional amount from base 1333, store in 2554",ABSENCE
+Set wage type 4330 to 175% rate,PERCENT_INCREASE
+Lower wage type 1666 by 90 percent,PERCENT_DECREASE
+"When 1000 is above 4, compute 130% and output to 3220",THRESHOLD
+"Calculate gross pay from rate in WT 4663 and time in WT 3331, result in WT 5329",RATE_HOURS
+Increase 4219 by a fixed 750 units,FIXED_ADD
+"Calculate 30% income tax on gross pay wage type 6661, store in 9658",TAX_DEDUCTION
+"If hours from 4441 are less than 12, suppress output",THRESHOLD
+Merge wage types 2221 and 8104 into 2443,ACCUMULATE
+Calculate unpaid absence deduction from base pay 1666 using hours 1111,ABSENCE
+Pay only 80% of wage type 2221 due to partial month,PERCENT_DECREASE
+250% holiday premium on wage type 3664 into 9547,PERCENT_INCREASE
+Shift differential of 125% applied to 6550,PERCENT_INCREASE
+Night shift allowance 175% of 1111 into 7993,ALLOWANCE
+Multiply hourly rate in 1111 by actual hours in 8437 into 9436,RATE_HOURS
+Remove 250 from wage type 1333,FIXED_SUB
+Eliminate wage type 8437 from results,RESET_SUPPRESS
+"Sum wage types 4108, 1888 and 8659 into 1444",ACCUMULATE
+Do not output wage type 1111,RESET_SUPPRESS
+Calculate overtime at 125% for wage type 9214,PERCENT_INCREASE
+Apply 90% factor to reduce wage type 4885,PERCENT_DECREASE
+Minus 750 from wage type 4885 output to 8659,FIXED_SUB
+Increase 1888 by 175 percent and store in 4774,PERCENT_INCREASE
+"Increase wage type 7438 by 120%, store in 9769",PERCENT_INCREASE
+Copy wage type 1777 to 3886,COPY_WT
+Decrease wage type 3886 by 80%,PERCENT_DECREASE
+"Aggregate amounts from 9769 and 6661, store in 8326",ACCUMULATE
+Plus 1000 on top of wage type 3553,FIXED_ADD
+Conditional: if 6550 > 40 then apply premium 150% into 6328,THRESHOLD
+Multiply wage type 6661 by 3,PERCENT_MULTI
+"Pay = rate 7549 × hours 6106, output wage type 9880",RATE_HOURS
+"Sum wage types 9436, 6661 and 2998 into 7105",ACCUMULATE
+"Aggregate amounts from 2776 and 5662, store in 8215",ACCUMULATE
+"Transport allowance wage type 2443, output to 9436",ALLOWANCE
+Add constant 500 to wage type 2776 and output to 9658,FIXED_ADD
+Remove 200 from wage type 8992,FIXED_SUB
+"Add 225% surcharge on top of wage type 2665, result in 6328",PERCENT_INCREASE
+Shift differential of 140% applied to 9880,PERCENT_INCREASE
+"Same value as 3553, store in 9658",COPY_WT
+Scale wage type 1888 by 3,PERCENT_MULTI
+Employee contribution 5% on base salary 7549 into WT 8104,TAX_DEDUCTION
+Remove 750 from wage type 6994,FIXED_SUB
+"Meal allowance of 140% of base pay 1666, store in 8548",ALLOWANCE
+Add 500 to the amount in 4663,FIXED_ADD
+Replicate wage type 5107 as 7882,COPY_WT
+Eliminate wage type 7105 from results,RESET_SUPPRESS
+Branch when NUM in 5440 exceeds 6 hours,THRESHOLD
+"Calculate gross pay from rate in WT 8437 and time in WT 1666, result in WT 8881",RATE_HOURS
+Deduct fixed penalty of 100 from 2887,FIXED_SUB
+"If hours from 7882 are less than 40, suppress output",THRESHOLD
+Calculate unpaid absence deduction from base pay 1000 using hours 4108,ABSENCE
+Pay only 50% of wage type 2443 due to partial month,PERCENT_DECREASE
+Threshold check: 9991 must exceed 180 before outputting to 1333,THRESHOLD
+Add 750 to the amount in 4663,FIXED_ADD
+"Double pay for hours exceeding 10 in 6550, output to 1666",OVERTIME
+Threshold check: 7105 must exceed 10 before outputting to 9991,THRESHOLD
+Add 100 to the amount in 8659,FIXED_ADD
+Add supplement wage type 2776 to pay,ALLOWANCE
+Calculate overtime premium for hours above 7 from wage type 5995 at 175%,OVERTIME
+Nullify wage type 9880 in output,RESET_SUPPRESS
+Branch when NUM in 4441 exceeds 180 hours,THRESHOLD
+Overtime pay at 110% for anything over 4 hours from WT 2221,OVERTIME
+Pay only 75% of wage type 8770 due to partial month,PERCENT_DECREASE
+Combine wage types 9325 and 4663 into result 5884,ACCUMULATE
+"Add 225% surcharge on top of wage type 9991, result in 5551",PERCENT_INCREASE
+Withhold 10% tax from wage type 7105,TAX_DEDUCTION
+"Overtime calculation: hours in 8881 above 10 threshold, 115% premium, output to 6994",OVERTIME
+"Accumulate 9880, 9325 and 6994 into total 3664",ACCUMULATE
+Only process if wage type 2776 is greater than 160,THRESHOLD
+Apply 28% PAYE deduction to gross pay 9991,TAX_DEDUCTION
+"Apply absence factor to wage type 8992, store deduction in 9547",ABSENCE
+Reduce 8215 proportionally for 115% absence,ABSENCE
+"Accumulate 4885, 1333 and 6106 into total 2998",ACCUMULATE
+Remove 1000 from wage type 2554,FIXED_SUB
+Clear all registers after processing 3997,RESET_SUPPRESS
+"Meal allowance of 140% of base pay 7105, store in 5662",ALLOWANCE
+"Pay = rate 7327 × hours 8659, output wage type 1333",RATE_HOURS
+Reduce 3109 by 500,FIXED_SUB
+"Weekend allowance at 120% of wage type 7438, store in 5551",PERCENT_INCREASE
+Employee contribution 22% on base salary 6661 into WT 6772,TAX_DEDUCTION
+"Two times wage type 3553, output to 1000",PERCENT_MULTI
+Deduct 30% pension contribution from 6550 into 3553,TAX_DEDUCTION
+Combine wage types 5884 and 4996 into result 8659,ACCUMULATE
+"Calculate pay using rate in 4663 and hours worked in 6883, output to 1888",RATE_HOURS
+Apply 225% premium to wage type 4996,PERCENT_INCREASE
+"Pay overtime premium of 110% when hours in 6661 exceed 8, result in 6439",OVERTIME
+"Apply 130% overtime rate when 5662 exceeds 10 hours, store in 6328",OVERTIME
+"Calculate 28% income tax on gross pay wage type 3331, store in 2776",TAX_DEDUCTION
+"If amount in 1777 exceeds 40, apply 225% and store in 3664",THRESHOLD
+Add allowance of 250 to 3109,FIXED_ADD
+Do not output wage type 4108,RESET_SUPPRESS
+Calculate tax amount at 20% from wage type 4108,TAX_DEDUCTION
+Add constant 750 to wage type 1444 and output to 6217,FIXED_ADD
+Increase 2665 by a fixed 1000 units,FIXED_ADD
+Carry forward 2110 into 6550,COPY_WT
+Suppress output of wage type 9436,RESET_SUPPRESS
+Apply 18% PAYE deduction to gross pay 7882,TAX_DEDUCTION
+"Calculate 7% provident fund contribution on 4774, output to 8104",TAX_DEDUCTION
+Apply 2x to wage type 7660,PERCENT_MULTI
+Branch when NUM in 4885 exceeds 173 hours,THRESHOLD
+Combine wage types 6883 and 9214 into result 8548,ACCUMULATE
+Copy wage type 2776 to 2332,COPY_WT
+"Pro-rate wage type 8881 for partial month worked, result in 1999",ABSENCE
+"Hours absent in 5773, deduct proportional amount from base 5551, store in 7771",ABSENCE
+"RTE from 5551 multiplied by NUM from 5107, ADDWT 9991",RATE_HOURS
+"Hours absent in 9436, deduct proportional amount from base 2998, store in 7993",ABSENCE
+"Increase wage type 9325 by 125%, store in 6217",PERCENT_INCREASE
+"RTE from 1000 multiplied by NUM from 7216, ADDWT 4996",RATE_HOURS
+"Unpaid leave deduction: divide 7771 by planned hours 4774, multiply by absent hours 2110",ABSENCE
+Multiply wage type 2221 by 3,PERCENT_MULTI
+Rate from 8659 times hours from 6772 gives result in 7327,RATE_HOURS
+Remove 1000 from wage type 3442,FIXED_SUB
+Combine wage types 9991 and 1222 into result 2332,ACCUMULATE
+Copy base salary from 9325 to output wage type 9658,COPY_WT
+Add supplement wage type 5551 to pay,ALLOWANCE
+"Accumulate 7216, 3109 and 3886 into total 9547",ACCUMULATE
+"Deduct fixed amount 1000 from 7549, store in 4885",FIXED_SUB
+Apply 30% PAYE deduction to gross pay 2221,TAX_DEDUCTION
+Proportional pay at 70% of 3220,PERCENT_DECREASE
+"Overtime calculation: hours in 5107 above 7 threshold, 130% premium, output to 6661",OVERTIME
+"Calculate gross pay from rate in WT 9325 and time in WT 4774, result in WT 7438",RATE_HOURS
+Apply 20% PAYE deduction to gross pay 9436,TAX_DEDUCTION
+Social insurance deduction of 12% on 6328,TAX_DEDUCTION
+"Pay = rate 7993 × hours 5773, output wage type 3886",RATE_HOURS
+Clear all registers after processing 8992,RESET_SUPPRESS
+Multiply wage type 5662 by 2,PERCENT_MULTI
+Add housing allowance from wage type 8770 to 4996,ALLOWANCE
+"Two times wage type 7882, output to 7549",PERCENT_MULTI
+"Deduct fixed amount 200 from 3775, store in 2221",FIXED_SUB
+Deduct 28% as national insurance from 3775 into 4996,TAX_DEDUCTION
+Apply 30% PAYE deduction to gross pay 7105,TAX_DEDUCTION
+Rate from 1555 times hours from 5995 gives result in 4774,RATE_HOURS
+"Calculate pay using rate in 3664 and hours worked in 5662, output to 6439",RATE_HOURS
+Do not output wage type 2998,RESET_SUPPRESS
+Social insurance deduction of 28% on 2443,TAX_DEDUCTION
+"Child allowance in 2887, output to 4441",ALLOWANCE
+Copy wage type 6106 to 5218,COPY_WT
+Add housing allowance from wage type 4552 to 1333,ALLOWANCE
+Apply night shift premium of 225% to 5218,PERCENT_INCREASE
+Proportional pay at 85% of 6328,PERCENT_DECREASE
+Scale 4774 by 3 and store in 6328,PERCENT_MULTI
+"Transport allowance wage type 5440, output to 4552",ALLOWANCE
+Reduce 1000 by 200,FIXED_SUB
+Calculate unpaid absence deduction from base pay 6772 using hours 6661,ABSENCE
+Scale 9547 by 2 and store in 7327,PERCENT_MULTI
+Apply 90% factor to reduce wage type 2998,PERCENT_DECREASE
+"Sum wage types 2554, 6328 and 7660 into 1333",ACCUMULATE
+"RTE from 6883 multiplied by NUM from 2887, ADDWT 6217",RATE_HOURS
+"Apply 200% overtime rate when 9769 exceeds 6 hours, store in 9658",OVERTIME
+Add supplement wage type 7438 to pay,ALLOWANCE
+"Pro-rate wage type 2554 for partial month worked, result in 2887",ABSENCE
+Apply night shift premium of 140% to 8104,PERCENT_INCREASE
+Social insurance deduction of 18% on 4330,TAX_DEDUCTION
+"Calculate gross pay from rate in WT 7438 and time in WT 7549, result in WT 4552",RATE_HOURS
+"Same value as 5107, store in 9103",COPY_WT
+"Calculate 7% provident fund contribution on 9103, output to 3997",TAX_DEDUCTION
+Take 70% of wage type 4996 as partial payment,PERCENT_DECREASE
+Transfer amount from wage type 3997 into 2665,COPY_WT
+Replicate wage type 9436 as 5329,COPY_WT
+Merge wage types 8548 and 8104 into 6772,ACCUMULATE
+Copy wage type 5329 to 2110,COPY_WT
+Deduct fixed penalty of 750 from 5773,FIXED_SUB
+"Multiply rate from wage type 1666 by hours from 7327, store result in 8770",RATE_HOURS
+Multiply hourly rate in 4663 by actual hours in 3331 into 7216,RATE_HOURS
+Calculate tax amount at 18% from wage type 4885,TAX_DEDUCTION
+Rate from 3220 times hours from 6772 gives result in 9769,RATE_HOURS
+"Meal allowance of 120% of base pay 7993, store in 4774",ALLOWANCE
+"If hours from 8437 are less than 8, suppress output",THRESHOLD
+"Unpaid leave deduction: divide 6883 by planned hours 5440, multiply by absent hours 3220",ABSENCE
+Multiply hourly rate in 3220 by actual hours in 7882 into 2110,RATE_HOURS
+Night shift allowance 120% of 7660 into 3997,ALLOWANCE
+Process 3331 only when 8104 amount is above 173,THRESHOLD
+Reset wage type 8659 to zero and suppress,RESET_SUPPRESS
+"Deduct fixed amount 250 from 8881, store in 9880",FIXED_SUB
+Calculate overtime at 130% for hours above 4 in wage type 9325,OVERTIME
+Remove 1000 from wage type 5662,FIXED_SUB
+"Pro-rate wage type 4885 for partial month worked, result in 9436",ABSENCE
+Apply 2x to wage type 3220,PERCENT_MULTI
+Apply 4x to wage type 9880,PERCENT_MULTI
+Withhold 15% tax from wage type 1000,TAX_DEDUCTION
+Add supplement wage type 9880 to pay,ALLOWANCE
+"Two times wage type 4441, output to 7549",PERCENT_MULTI
+"Calculate gross pay from rate in WT 8659 and time in WT 7549, result in WT 8992",RATE_HOURS
+Combine wage types 5107 and 3664 into result 3220,ACCUMULATE
+"Calculate gross pay from rate in WT 4330 and time in WT 8104, result in WT 1555",RATE_HOURS
+"Accumulate 6772, 5884 and 4330 into total 9769",ACCUMULATE
+Take amount in 7882 and place it in 1555 unchanged,COPY_WT
+"Pay overtime premium of 120% when hours in 7993 exceed 7, result in 2998",OVERTIME
+Calculate absence deduction for wage type 2998 based on hours in 9991,ABSENCE
+Replicate wage type 5218 as 6994,COPY_WT
+"Double pay for hours exceeding 173 in 4663, output to 2665",OVERTIME
+"Overtime calculation: hours in 3442 above 12 threshold, 250% premium, output to 1111",OVERTIME
+Shift differential of 110% applied to 4552,PERCENT_INCREASE
+Take amount in 1333 and place it in 9436 unchanged,COPY_WT
+"When 4996 is above 180, compute 200% and output to 1888",THRESHOLD
+Scale wage type 4996 by 3,PERCENT_MULTI
+Multiply wage type 7216 by 4,PERCENT_MULTI
+"RTE from 5884 multiplied by NUM from 1444, ADDWT 7105",RATE_HOURS
+"Hours absent in 6328, deduct proportional amount from base 6439, store in 1555",ABSENCE
+Reduce 4108 by 200,FIXED_SUB
+"Aggregate amounts from 7660 and 7993, store in 9214",ACCUMULATE
+Zero the amount in wage type 1888,RESET_SUPPRESS
+Clear all registers after processing 7216,RESET_SUPPRESS
+Set wage type 7549 to 200% rate,PERCENT_INCREASE
+Lower wage type 9880 by 70 percent,PERCENT_DECREASE
+Calculate unpaid absence deduction from base pay 3664 using hours 1777,ABSENCE
+"Special allowance: take 5551, apply 115% factor, store in 6661",ALLOWANCE
+Scale 9103 by 4 and store in 6328,PERCENT_MULTI
+Add together 9103 and 2554 and store in 6994,ACCUMULATE
+Add fixed bonus in 6550 to result 1111,ALLOWANCE
+Add together 4330 and 3442 and store in 5773,ACCUMULATE
+Conditional: if 7993 > 180 then apply premium 120% into 1111,THRESHOLD
+Clear all registers after processing 9214,RESET_SUPPRESS
+Proportional pay at 70% of 6439,PERCENT_DECREASE
+"Uplift wage type 8326 by 115%, output to 9214",PERCENT_INCREASE
+"Deduct fixed amount 250 from 3331, store in 1666",FIXED_SUB
+Deduct fixed penalty of 100 from 1777,FIXED_SUB
+Deduct fixed penalty of 200 from 2776,FIXED_SUB
+"Transport allowance wage type 7549, output to 3886",ALLOWANCE
+Apply 90% factor to reduce wage type 5995,PERCENT_DECREASE
+Conditional: if 8770 > 160 then apply premium 125% into 1888,THRESHOLD
+Copy wage type 6883 to 8548,COPY_WT
+Supplement wage type 1333 with fixed addition of 200,FIXED_ADD
